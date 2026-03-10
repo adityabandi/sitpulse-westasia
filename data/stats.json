@@ -1,0 +1,38 @@
+{
+  "total_events": 18,
+  "by_source": {
+    "acled": 7,
+    "gdelt": 3,
+    "firms": 3,
+    "usgs": 2,
+    "reliefweb": 3
+  },
+  "by_category": {
+    "conflict": 5,
+    "civilian_harm": 1,
+    "protest": 1,
+    "thermal_anomaly": 3,
+    "earthquake": 2,
+    "humanitarian": 2,
+    "diplomatic": 1,
+    "displacement": 1,
+    "health": 1,
+    "military": 1
+  },
+  "by_country": {
+    "Iraq": 2,
+    "Syria": 3,
+    "Yemen": 2,
+    "Lebanon": 1,
+    "Palestine": 1,
+    "Iran": 2
+  },
+  "last_updated": "2026-03-09T12:00:00Z",
+  "feed_freshness": {
+    "acled": {"count": 7, "fetched_at": "2026-03-09T12:00:00Z"},
+    "gdelt": {"count": 3, "fetched_at": "2026-03-09T12:00:00Z"},
+    "firms": {"count": 3, "fetched_at": "2026-03-09T12:00:00Z"},
+    "usgs": {"count": 2, "fetched_at": "2026-03-09T12:00:00Z"},
+    "reliefweb": {"count": 3, "fetched_at": "2026-03-09T12:00:00Z"}
+  }
+}

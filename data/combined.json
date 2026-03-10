@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-10T00:00:00Z",
+  "total": 22,
+  "events": [
+    {"id":"acled-IRQ-001","source":"acled","category":"conflict","event_type":"Shelling","title":"Artillery strike reported near Mosul, Iraq","country":"Iraq","location":"Mosul","lat":36.34,"lng":43.13,"fatalities":2,"timestamp":"2026-03-10T06:15:00Z","source_name":"Al Mada"},
+    {"id":"acled-SYR-002","source":"acled","category":"conflict","title":"Armed clash in Deir ez-Zor, Syria","country":"Syria","location":"Deir ez-Zor","lat":35.33,"lng":40.14,"fatalities":5,"timestamp":"2026-03-10T04:30:00Z","source_name":"SOHR"},
+    {"id":"acled-YEM-003","source":"acled","category":"conflict","title":"Drone strike on Hodeidah port infrastructure, Yemen","country":"Yemen","location":"Hodeidah","lat":14.80,"lng":42.95,"fatalities":0,"timestamp":"2026-03-10T02:00:00Z","source_name":"Al Masirah"},
+    {"id":"acled-LBN-004","source":"acled","category":"conflict","title":"Cross-border shelling, South Lebanon border area","country":"Lebanon","location":"Khiam","lat":33.36,"lng":35.64,"fatalities":1,"timestamp":"2026-03-09T22:00:00Z","source_name":"NNA"},
+    {"id":"acled-PSE-005","source":"acled","category":"civilian_harm","title":"Attack on civilian infrastructure, Gaza City","country":"Palestine","location":"Gaza City","lat":31.52,"lng":34.44,"fatalities":12,"timestamp":"2026-03-09T18:45:00Z","source_name":"MoH Gaza"},
+    {"id":"acled-PSE-006","source":"acled","category":"civilian_harm","title":"Airstrike on residential block, Rafah","country":"Palestine","location":"Rafah","lat":31.29,"lng":34.24,"fatalities":8,"timestamp":"2026-03-09T14:20:00Z","source_name":"MoH Gaza"},
+    {"id":"acled-IRN-007","source":"acled","category":"protest","title":"Anti-government demonstration, Tehran","country":"Iran","location":"Tehran","lat":35.69,"lng":51.39,"fatalities":0,"timestamp":"2026-03-09T16:00:00Z","source_name":"Social media"},
+    {"id":"acled-SYR-008","source":"acled","category":"military","title":"Territorial change reported, northern Aleppo","country":"Syria","location":"Aleppo","lat":36.20,"lng":37.15,"fatalities":0,"timestamp":"2026-03-09T12:00:00Z","source_name":"Multiple"},
+    {"id":"acled-IRQ-009","source":"acled","category":"conflict","title":"IED detonation on supply route, Anbar Province","country":"Iraq","location":"Anbar","lat":33.45,"lng":42.30,"fatalities":3,"timestamp":"2026-03-09T08:00:00Z","source_name":"Iraqi media"},
+    {"id":"firms-001","source":"firms","category":"thermal_anomaly","title":"High-intensity thermal hotspot detected — South Lebanon","lat":33.52,"lng":35.62,"brightness":445,"frp":85,"intensity":"high","timestamp":"2026-03-10T09:30:00Z"},
+    {"id":"firms-002","source":"firms","category":"thermal_anomaly","title":"Thermal anomaly cluster — Deir ez-Zor environs","lat":35.18,"lng":40.22,"brightness":398,"frp":58,"intensity":"high","timestamp":"2026-03-10T07:15:00Z"},
+    {"id":"firms-003","source":"firms","category":"thermal_anomaly","title":"Medium thermal signature — Hodeidah coastline","lat":14.92,"lng":42.80,"brightness":365,"frp":28,"intensity":"medium","timestamp":"2026-03-10T07:00:00Z"},
+    {"id":"usgs-001","source":"usgs","category":"earthquake","title":"M4.8 — 42 km NE of Bandar Abbas, Iran","magnitude":4.8,"depth_km":8,"severity":"moderate","lat":27.42,"lng":56.47,"timestamp":"2026-03-10T03:22:00Z"},
+    {"id":"usgs-002","source":"usgs","category":"earthquake","title":"M3.4 — Eastern Anatolia, Turkey","magnitude":3.4,"depth_km":12,"severity":"minor","lat":39.12,"lng":43.85,"timestamp":"2026-03-09T14:10:00Z"},
+    {"id":"usgs-003","source":"usgs","category":"earthquake","title":"M5.1 — Northwestern Iran, near Tabriz","magnitude":5.1,"depth_km":15,"severity":"strong","lat":38.08,"lng":46.30,"timestamp":"2026-03-09T08:40:00Z"},
+    {"id":"gdelt-001","source":"gdelt","category":"conflict","title":"Coalition airstrikes reported in eastern Syria — Reuters","source_name":"reuters.com","timestamp":"2026-03-10T10:00:00Z","lat":null,"lng":null},
+    {"id":"gdelt-002","source":"gdelt","category":"diplomatic","title":"Iran-Saudi Arabia talks on Yemen ceasefire framework — Al Jazeera","source_name":"aljazeera.com","timestamp":"2026-03-10T08:30:00Z","lat":null,"lng":null},
+    {"id":"gdelt-003","source":"gdelt","category":"humanitarian","title":"UN Security Council emergency session on Gaza — BBC","source_name":"bbc.com","timestamp":"2026-03-10T07:00:00Z","lat":null,"lng":null},
+    {"id":"gdelt-004","source":"gdelt","category":"military","title":"Houthi maritime drone targets Red Sea shipping lane — AP","source_name":"apnews.com","timestamp":"2026-03-09T20:00:00Z","lat":null,"lng":null},
+    {"id":"reliefweb-001","source":"reliefweb","category":"humanitarian","title":"Syria: Flash Update — Humanitarian situation in northeast Syria deteriorating","country":"Syria","source_name":"OCHA","timestamp":"2026-03-10T06:00:00Z","lat":null,"lng":null},
+    {"id":"reliefweb-002","source":"reliefweb","category":"displacement","title":"Yemen: IOM Displacement Tracking — 180,000 newly displaced in Feb 2026","country":"Yemen","source_name":"IOM","timestamp":"2026-03-09T12:00:00Z","lat":null,"lng":null},
+    {"id":"reliefweb-003","source":"reliefweb","category":"health","title":"Gaza: WHO warns of complete health system collapse — critical","country":"Palestine","source_name":"WHO","timestamp":"2026-03-09T10:00:00Z","lat":null,"lng":null}
+  ]
+}

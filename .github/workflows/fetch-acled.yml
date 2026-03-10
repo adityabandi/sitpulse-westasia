@@ -1,0 +1,37 @@
+name: Fetch ACLED Conflict Events
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours (ACLED updates daily)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-acled:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch and normalize ACLED data
+        env:
+          ACLED_API_KEY: ${{ secrets.ACLED_API_KEY }}
+          ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
+        run: python scripts/normalize-acled.py
+
+      - name: Commit data
+        run: |
+          git config user.name "SitPulse Bot"
+          git config user.email "bot@sitpulse.dev"
+          git add data/
+          git diff --cached --quiet || git commit -m "⚔️ ACLED update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

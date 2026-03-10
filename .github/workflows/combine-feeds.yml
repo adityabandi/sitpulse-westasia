@@ -1,0 +1,38 @@
+name: Combine All Feeds
+
+on:
+  schedule:
+    - cron: '5,35 * * * *'  # Every 30 min, offset from fetchers
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/acled.json'
+      - 'data/gdelt.json'
+      - 'data/firms.json'
+      - 'data/usgs.json'
+      - 'data/reliefweb.json'
+
+permissions:
+  contents: write
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Combine feeds
+        run: python scripts/combine-feeds.py
+
+      - name: Commit combined data
+        run: |
+          git config user.name "SitPulse Bot"
+          git config user.email "bot@sitpulse.dev"
+          git add data/combined.json data/stats.json
+          git diff --cached --quiet || git commit -m "📊 Combined feed update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

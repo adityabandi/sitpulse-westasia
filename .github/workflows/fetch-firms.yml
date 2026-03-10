@@ -1,0 +1,36 @@
+name: Fetch NASA FIRMS Hotspots
+
+on:
+  schedule:
+    - cron: '15 * * * *'  # Every hour at :15
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-firms:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch and normalize FIRMS data
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+        run: python scripts/normalize-firms.py
+
+      - name: Commit data
+        run: |
+          git config user.name "SitPulse Bot"
+          git config user.email "bot@sitpulse.dev"
+          git add data/
+          git diff --cached --quiet || git commit -m "🔥 FIRMS update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

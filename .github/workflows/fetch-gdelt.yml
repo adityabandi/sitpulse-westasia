@@ -1,0 +1,34 @@
+name: Fetch GDELT Events
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-gdelt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch and normalize GDELT data
+        run: python scripts/normalize-gdelt.py
+
+      - name: Commit data
+        run: |
+          git config user.name "SitPulse Bot"
+          git config user.email "bot@sitpulse.dev"
+          git add data/
+          git diff --cached --quiet || git commit -m "📡 GDELT update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
