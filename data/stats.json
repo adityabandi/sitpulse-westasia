@@ -1,26 +1,25 @@
 {
-  "total_events": 53,
+  "total_events": 3,
   "by_source": {
     "acled": 0,
-    "gdelt": 50,
+    "gdelt": 0,
     "firms": 0,
     "usgs": 3,
     "reliefweb": 0
   },
   "by_category": {
-    "conflict": 50,
     "earthquake": 3
   },
   "by_country": {},
-  "last_updated": "2026-03-10T06:52:02.013579Z",
+  "last_updated": "2026-03-10T07:23:49.625766Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": ""
     },
     "gdelt": {
-      "count": 50,
-      "fetched_at": "2026-03-10T06:49:28.816810Z"
+      "count": 0,
+      "fetched_at": "2026-03-10T07:22:59.797768Z"
     },
     "firms": {
       "count": 0,
@@ -32,7 +31,7 @@
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": ""
+      "fetched_at": "2026-03-10T07:14:21.901485Z"
     }
   }
 }
