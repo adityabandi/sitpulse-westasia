@@ -19,7 +19,7 @@
     "Oman": 1,
     "Lebanon": 1
   },
-  "last_updated": "2026-03-10T18:25:36.483912Z",
+  "last_updated": "2026-03-10T18:52:16.524454Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -31,11 +31,11 @@
     },
     "firms": {
       "count": 840,
-      "fetched_at": "2026-03-10T17:33:27.672215Z"
+      "fetched_at": "2026-03-10T18:31:01.319126Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-10T18:24:53.343261Z"
+      "fetched_at": "2026-03-10T18:50:08.428411Z"
     },
     "reliefweb": {
       "count": 0,
