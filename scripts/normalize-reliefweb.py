@@ -10,7 +10,7 @@ from datetime import datetime
 
 RELIEFWEB_API = "https://api.reliefweb.int/v1/reports"
 
-# ReliefWeb country ISO3 codes for our region
+# ReliefWeb country ISO3 codes for our region with centroid lat/lng
 COUNTRIES = {
     "IRQ": "Iraq",
     "SYR": "Syria",
@@ -22,6 +22,13 @@ COUNTRIES = {
     "JOR": "Jordan",
     "SAU": "Saudi Arabia",
     "TUR": "Turkey"
+}
+
+COUNTRY_CENTROIDS = {
+    "Iraq": (33.22, 43.68), "Syria": (34.80, 38.99), "Lebanon": (33.85, 35.86),
+    "Israel": (31.05, 34.85), "Palestine": (31.95, 35.23), "Yemen": (15.55, 48.52),
+    "Iran": (32.43, 53.69), "Jordan": (30.59, 36.24), "Saudi Arabia": (23.89, 45.08),
+    "Turkey": (38.96, 35.24),
 }
 
 
@@ -82,12 +89,16 @@ def fetch_reliefweb():
                 sources = fields.get("source", [])
                 source_name = sources[0].get("shortname", sources[0].get("name", "")) if sources else ""
 
+                # Geocode using country centroid
+                country_name = country_data.get("name", "")
+                centroid = COUNTRY_CENTROIDS.get(country_name, (None, None))
+
                 event = {
                     "id": f"reliefweb-{item.get('id', '')}",
                     "source": "reliefweb",
                     "category": category,
                     "title": fields.get("title", ""),
-                    "country": country_data.get("name", ""),
+                    "country": country_name,
                     "country_iso3": country_data.get("iso3", ""),
                     "source_name": source_name,
                     "url": fields.get("url", ""),
@@ -95,8 +106,8 @@ def fetch_reliefweb():
                     "format": [f.get("name", "") for f in fields.get("format", [])],
                     "themes": themes,
                     "disasters": [d.get("name", "") for d in fields.get("disaster", [])],
-                    "lat": None,
-                    "lng": None
+                    "lat": centroid[0],
+                    "lng": centroid[1]
                 }
                 events.append(event)
 

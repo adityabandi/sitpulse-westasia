@@ -7,6 +7,7 @@ Falls back to GDELT Events API.
 import requests
 import json
 import os
+import re
 from datetime import datetime, timedelta
 
 # West Asia bounding box
@@ -20,12 +21,23 @@ BBOX = {
 # GDELT 2.0 DOC API — free, no key, returns geolocated events from news
 GDELT_DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 
-# Countries in our region
+# Countries in our region with centroid fallback coordinates
 COUNTRIES = [
     "Iraq", "Syria", "Lebanon", "Israel", "Palestine", "Yemen", "Iran",
     "Jordan", "Saudi Arabia", "Turkey", "Kuwait", "Bahrain", "Qatar",
     "United Arab Emirates", "Oman"
 ]
+
+COUNTRY_CENTROIDS = {
+    "Iraq": (33.22, 43.68), "Syria": (34.80, 38.99), "Lebanon": (33.85, 35.86),
+    "Israel": (31.05, 34.85), "Palestine": (31.95, 35.23), "Yemen": (15.55, 48.52),
+    "Iran": (32.43, 53.69), "Jordan": (30.59, 36.24), "Saudi Arabia": (23.89, 45.08),
+    "Turkey": (38.96, 35.24), "Kuwait": (29.31, 47.48), "Bahrain": (26.07, 50.55),
+    "Qatar": (25.35, 51.18), "United Arab Emirates": (23.42, 53.85), "Oman": (21.47, 55.98),
+    "Gaza": (31.42, 34.38), "Tehran": (35.69, 51.39), "Baghdad": (33.31, 44.37),
+    "Damascus": (33.51, 36.29), "Beirut": (33.89, 35.50), "Sanaa": (15.37, 44.19),
+    "Amman": (31.96, 35.95), "Riyadh": (24.71, 46.68),
+}
 
 def fetch_gdelt_events():
     """Fetch recent conflict/security events from GDELT DOC API."""
@@ -61,9 +73,25 @@ def fetch_gdelt_events():
                 articles = data.get("articles", [])
 
                 for article in articles:
-                    # Extract location if available
+                    # Geocode from title — match known country/city names
                     lat = None
                     lng = None
+                    title = article.get("title", "")
+                    matched_country = ""
+                    for name, coords in COUNTRY_CENTROIDS.items():
+                        if re.search(r'\b' + re.escape(name) + r'\b', title, re.IGNORECASE):
+                            lat, lng = coords
+                            matched_country = name
+                            break
+
+                    # Also try the country list for the "country" field
+                    if not lat:
+                        for c in COUNTRIES:
+                            if c.lower() in title.lower():
+                                if c in COUNTRY_CENTROIDS:
+                                    lat, lng = COUNTRY_CENTROIDS[c]
+                                    matched_country = c
+                                break
 
                     # Determine event category from query
                     if "airstrike" in query_terms:
@@ -77,14 +105,25 @@ def fetch_gdelt_events():
                     else:
                         category = "diplomatic"
 
+                    # Convert GDELT seendate (20260310T083000Z) to ISO
+                    raw_date = article.get("seendate", "")
+                    try:
+                        if raw_date and len(raw_date) >= 14:
+                            timestamp = datetime.strptime(raw_date[:14], "%Y%m%d%H%M%S").isoformat() + "Z"
+                        else:
+                            timestamp = raw_date
+                    except Exception:
+                        timestamp = raw_date
+
                     event = {
                         "id": f"gdelt-{hash(article.get('url', '')) & 0xFFFFFFFF}",
                         "source": "gdelt",
                         "category": category,
-                        "title": article.get("title", ""),
+                        "title": title,
+                        "country": matched_country,
                         "url": article.get("url", ""),
                         "source_name": article.get("domain", ""),
-                        "timestamp": article.get("seendate", ""),
+                        "timestamp": timestamp,
                         "language": article.get("language", ""),
                         "image": article.get("socialimage", ""),
                         "lat": lat,

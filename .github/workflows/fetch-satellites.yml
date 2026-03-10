@@ -1,0 +1,37 @@
+name: Fetch Satellite TLE Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC (TLEs update ~daily)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-satellites:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch satellite TLE data
+        run: python scripts/fetch-satellites.py
+
+      - name: Combine all feeds
+        run: python scripts/combine-feeds.py
+
+      - name: Commit data
+        run: |
+          git config user.name "SitPulse Bot"
+          git config user.email "bot@sitpulse.dev"
+          git add data/
+          git diff --cached --quiet || git commit -m "🛰️ Satellite TLE update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

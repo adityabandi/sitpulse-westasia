@@ -1,0 +1,59 @@
+{
+  "source": "usgs",
+  "fetched_at": "2026-03-10T11:17:50.637922Z",
+  "region": "west_asia",
+  "count": 3,
+  "events": [
+    {
+      "id": "usgs-us7000s2q0",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 4.1 - 74 km W of Bandar Abbas, Iran",
+      "place": "74 km W of Bandar Abbas, Iran",
+      "magnitude": 4.1,
+      "depth_km": 10,
+      "severity": "moderate",
+      "lat": 27.1417,
+      "lng": 55.5298,
+      "timestamp": "2026-03-07T03:18:12.799000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2q0",
+      "felt": null,
+      "tsunami": 0,
+      "alert": null
+    },
+    {
+      "id": "usgs-us7000s2ma",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 4.0 - 12 km S of Yasuj, Iran",
+      "place": "12 km S of Yasuj, Iran",
+      "magnitude": 4,
+      "depth_km": 10,
+      "severity": "moderate",
+      "lat": 30.56,
+      "lng": 51.5632,
+      "timestamp": "2026-03-06T17:53:05.714000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2ma",
+      "felt": null,
+      "tsunami": 0,
+      "alert": null
+    },
+    {
+      "id": "usgs-us7000s1my",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 4.4 - 52 km NW of Gerāsh, Iran",
+      "place": "52 km NW of Gerāsh, Iran",
+      "magnitude": 4.4,
+      "depth_km": 10,
+      "severity": "moderate",
+      "lat": 28.0355,
+      "lng": 53.7894,
+      "timestamp": "2026-03-03T06:54:57.248000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1my",
+      "felt": 1,
+      "tsunami": 0,
+      "alert": null
+    }
+  ]
+}

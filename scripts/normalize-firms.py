@@ -61,7 +61,14 @@ def fetch_firms_hotspots():
                         intensity = "low"
 
                     acq_date = row.get("acq_date", "")
-                    acq_time = row.get("acq_time", "0000")
+                    acq_time = row.get("acq_time", "0000").strip()
+
+                    # Build ISO timestamp, handling malformed acq_time
+                    try:
+                        t = acq_time.zfill(4)  # Pad to 4 digits
+                        timestamp = f"{acq_date}T{t[:2]}:{t[2:4]}:00Z"
+                    except Exception:
+                        timestamp = acq_date
 
                     event = {
                         "id": f"firms-{source}-{lat}-{lng}-{acq_date}-{acq_time}",
@@ -75,7 +82,7 @@ def fetch_firms_hotspots():
                         "confidence": confidence,
                         "intensity": intensity,
                         "satellite": source,
-                        "timestamp": f"{acq_date}T{acq_time[:2]}:{acq_time[2:]}:00Z" if len(acq_time) >= 4 else acq_date,
+                        "timestamp": timestamp,
                         "daynight": row.get("daynight", "")
                     }
                     events.append(event)
