@@ -12,7 +12,7 @@
     "earthquake": 3
   },
   "by_country": {},
-  "last_updated": "2026-03-10T15:29:00.765494Z",
+  "last_updated": "2026-03-10T15:53:58.125533Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -20,11 +20,11 @@
     },
     "gdelt": {
       "count": 0,
-      "fetched_at": "2026-03-10T15:26:35.997777Z"
+      "fetched_at": "2026-03-10T15:52:58.043289Z"
     },
     "firms": {
       "count": 840,
-      "fetched_at": "2026-03-10T14:33:38.329568Z"
+      "fetched_at": "2026-03-10T15:39:41.317324Z"
     },
     "usgs": {
       "count": 3,
