@@ -1,37 +1,36 @@
 {
-  "total_events": 374,
+  "total_events": 361,
   "by_source": {
     "acled": 0,
-    "gdelt": 139,
-    "firms": 232,
+    "gdelt": 99,
+    "firms": 259,
     "usgs": 3,
     "reliefweb": 0
   },
   "by_category": {
     "protest": 50,
-    "humanitarian": 48,
-    "diplomatic": 41,
-    "thermal_anomaly": 232,
+    "military": 49,
+    "thermal_anomaly": 259,
     "earthquake": 3
   },
   "by_country": {},
-  "last_updated": "2026-03-10T12:23:58.466530Z",
+  "last_updated": "2026-03-10T12:53:02.352987Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": "2026-03-10T12:15:30.921138Z"
     },
     "gdelt": {
-      "count": 139,
-      "fetched_at": "2026-03-10T12:21:52.399371Z"
+      "count": 99,
+      "fetched_at": "2026-03-10T12:50:26.132132Z"
     },
     "firms": {
-      "count": 232,
-      "fetched_at": "2026-03-10T12:02:26.874578Z"
+      "count": 259,
+      "fetched_at": "2026-03-10T12:29:36.296616Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-10T12:23:19.818559Z"
+      "fetched_at": "2026-03-10T12:50:45.644494Z"
     },
     "reliefweb": {
       "count": 0,
