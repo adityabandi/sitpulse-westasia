@@ -1,8 +1,8 @@
 {
   "source": "firms",
-  "fetched_at": "2026-03-10T09:30:50.781591Z",
+  "fetched_at": "2026-03-10T10:29:00.943107Z",
   "region": "west_asia",
-  "count": 18,
+  "count": 24,
   "events": [
     {
       "id": "firms-VIIRS_NOAA20_NRT-12.11937-36.3979-2026-03-10-1",
@@ -273,6 +273,96 @@
       "satellite": "VIIRS_NOAA20_NRT",
       "timestamp": "2026-03-10",
       "daynight": "N"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-40.82373-62.00935-2026-03-10-756",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 40.82373,
+      "lng": 62.00935,
+      "brightness": 347.8,
+      "frp": 4.28,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-10",
+      "daynight": "D"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-40.82406-62.00853-2026-03-10-756",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (medium intensity)",
+      "lat": 40.82406,
+      "lng": 62.00853,
+      "brightness": 351.66,
+      "frp": 5.26,
+      "confidence": "n",
+      "intensity": "medium",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-10",
+      "daynight": "D"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-41.29432-60.28405-2026-03-10-756",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 41.29432,
+      "lng": 60.28405,
+      "brightness": 332.74,
+      "frp": 10.3,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-10",
+      "daynight": "D"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-41.29595-60.28953-2026-03-10-756",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (medium intensity)",
+      "lat": 41.29595,
+      "lng": 60.28953,
+      "brightness": 355.82,
+      "frp": 15.41,
+      "confidence": "l",
+      "intensity": "medium",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-10",
+      "daynight": "D"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-41.53695-60.89619-2026-03-10-756",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 41.53695,
+      "lng": 60.89619,
+      "brightness": 341.18,
+      "frp": 3.39,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-10",
+      "daynight": "D"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-41.73003-59.38996-2026-03-10-756",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (medium intensity)",
+      "lat": 41.73003,
+      "lng": 59.38996,
+      "brightness": 354.44,
+      "frp": 6.99,
+      "confidence": "n",
+      "intensity": "medium",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-10",
+      "daynight": "D"
     }
   ]
 }
