@@ -1,26 +1,27 @@
 {
-  "total_events": 21,
+  "total_events": 71,
   "by_source": {
     "acled": 0,
-    "gdelt": 0,
+    "gdelt": 50,
     "firms": 18,
     "usgs": 3,
     "reliefweb": 0
   },
   "by_category": {
+    "humanitarian": 50,
     "thermal_anomaly": 18,
     "earthquake": 3
   },
   "by_country": {},
-  "last_updated": "2026-03-10T07:49:22.823614Z",
+  "last_updated": "2026-03-10T08:20:57.103552Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": ""
     },
     "gdelt": {
-      "count": 0,
-      "fetched_at": "2026-03-10T07:47:54.803957Z"
+      "count": 50,
+      "fetched_at": "2026-03-10T08:18:47.220446Z"
     },
     "firms": {
       "count": 18,
@@ -28,11 +29,11 @@
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-10T07:48:03.186351Z"
+      "fetched_at": "2026-03-10T08:20:01.897832Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-10T07:14:21.901485Z"
+      "fetched_at": "2026-03-10T08:07:11.319200Z"
     }
   }
 }
