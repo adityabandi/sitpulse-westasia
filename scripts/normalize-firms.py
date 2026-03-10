@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 # West Asia bounding box
-BBOX = "32,12,63,42"  # west,south,east,north
+BBOX = "34,12,62,42"  # west,south,east,north — excludes Horn of Africa
 
 # FIRMS API endpoints
 FIRMS_API = "https://firms.modaps.eosdis.nasa.gov/api/area/csv"
