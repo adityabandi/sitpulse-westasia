@@ -24,8 +24,8 @@ jobs:
 
       - name: Fetch and normalize ACLED data
         env:
-          ACLED_API_KEY: ${{ secrets.ACLED_API_KEY }}
           ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
+          ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
         run: python scripts/normalize-acled.py
 
       - name: Commit data
