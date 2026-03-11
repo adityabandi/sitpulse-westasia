@@ -8,16 +8,16 @@
     "reliefweb": 0
   },
   "by_category": {
-    "diplomatic": 50,
+    "military": 50,
     "thermal_anomaly": 1031,
     "earthquake": 3
   },
   "by_country": {
-    "Iran": 14,
-    "Lebanon": 1,
-    "Israel": 3
+    "Iran": 20,
+    "Israel": 2,
+    "Lebanon": 1
   },
-  "last_updated": "2026-03-11T17:24:54.975281Z",
+  "last_updated": "2026-03-11T17:51:44.940895Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -25,15 +25,15 @@
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-11T16:51:19.499465Z"
+      "fetched_at": "2026-03-11T17:49:29.493376Z"
     },
     "firms": {
       "count": 1031,
-      "fetched_at": "2026-03-11T16:34:25.435562Z"
+      "fetched_at": "2026-03-11T17:34:48.095959Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T17:24:26.413279Z"
+      "fetched_at": "2026-03-11T17:49:49.594792Z"
     },
     "reliefweb": {
       "count": 0,
