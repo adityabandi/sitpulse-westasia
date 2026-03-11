@@ -1,38 +1,42 @@
 {
-  "total_events": 842,
+  "total_events": 52,
   "by_source": {
     "acled": 0,
-    "gdelt": 0,
-    "firms": 840,
+    "gdelt": 50,
+    "firms": 0,
     "usgs": 2,
     "reliefweb": 0
   },
   "by_category": {
-    "thermal_anomaly": 840,
+    "conflict": 50,
     "earthquake": 2
   },
-  "by_country": {},
-  "last_updated": "2026-03-11T00:45:18.245376Z",
+  "by_country": {
+    "Iran": 9,
+    "Israel": 4,
+    "Lebanon": 3
+  },
+  "last_updated": "2026-03-11T01:40:41.904116Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": "2026-03-11T00:27:25.474709Z"
     },
     "gdelt": {
-      "count": 0,
-      "fetched_at": "2026-03-11T00:40:12.895850Z"
+      "count": 50,
+      "fetched_at": "2026-03-11T01:39:40.992570Z"
     },
     "firms": {
-      "count": 840,
-      "fetched_at": "2026-03-10T23:27:12.359025Z"
+      "count": 0,
+      "fetched_at": "2026-03-11T00:48:46.674525Z"
     },
     "usgs": {
       "count": 2,
-      "fetched_at": "2026-03-11T00:43:48.391741Z"
+      "fetched_at": "2026-03-11T01:40:28.679956Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T00:05:10.186494Z"
+      "fetched_at": "2026-03-11T01:30:40.110139Z"
     }
   }
 }
