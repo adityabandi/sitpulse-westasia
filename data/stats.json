@@ -12,12 +12,11 @@
     "earthquake": 3
   },
   "by_country": {
-    "Lebanon": 1,
-    "Gaza": 1,
-    "Iran": 11,
-    "Israel": 6
+    "Iran": 12,
+    "Israel": 9,
+    "Lebanon": 2
   },
-  "last_updated": "2026-03-11T08:51:17.282700Z",
+  "last_updated": "2026-03-11T09:23:19.141668Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -25,7 +24,7 @@
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-11T08:48:52.589340Z"
+      "fetched_at": "2026-03-11T09:21:16.882411Z"
     },
     "firms": {
       "count": 0,
@@ -33,11 +32,11 @@
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T08:49:13.810772Z"
+      "fetched_at": "2026-03-11T09:22:23.620716Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T08:07:45.604677Z"
+      "fetched_at": "2026-03-11T09:11:33.443473Z"
     }
   }
 }
