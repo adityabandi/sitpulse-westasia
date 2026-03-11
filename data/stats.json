@@ -20,7 +20,7 @@
     "Gaza": 1,
     "Baghdad": 1
   },
-  "last_updated": "2026-03-11T05:51:39.947690Z",
+  "last_updated": "2026-03-11T06:14:15.916373Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -40,7 +40,7 @@
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T05:19:43.474621Z"
+      "fetched_at": "2026-03-11T06:11:52.874553Z"
     }
   }
 }
