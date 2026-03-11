@@ -16,7 +16,7 @@
     "Israel": 5,
     "Tehran": 1
   },
-  "last_updated": "2026-03-11T07:25:18.673073Z",
+  "last_updated": "2026-03-11T07:49:51.439662Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -28,11 +28,11 @@
     },
     "firms": {
       "count": 0,
-      "fetched_at": "2026-03-11T06:33:40.796334Z"
+      "fetched_at": "2026-03-11T07:33:16.583269Z"
     },
     "usgs": {
       "count": 2,
-      "fetched_at": "2026-03-11T07:25:00.218578Z"
+      "fetched_at": "2026-03-11T07:48:34.542439Z"
     },
     "reliefweb": {
       "count": 0,
