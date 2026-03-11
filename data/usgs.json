@@ -1,9 +1,26 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-11T07:48:34.542439Z",
+  "fetched_at": "2026-03-11T08:20:10.693055Z",
   "region": "west_asia",
-  "count": 2,
+  "count": 3,
   "events": [
+    {
+      "id": "usgs-us7000s3ku",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 5.1 - 65 km N of Balkanabat, Turkmenistan",
+      "place": "65 km N of Balkanabat, Turkmenistan",
+      "magnitude": 5.1,
+      "depth_km": 10,
+      "severity": "major",
+      "lat": 40.0936,
+      "lng": 54.2446,
+      "timestamp": "2026-03-11T07:55:18.615000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s3ku",
+      "felt": null,
+      "tsunami": 0,
+      "alert": null
+    },
     {
       "id": "usgs-us7000s2q0",
       "source": "usgs",
