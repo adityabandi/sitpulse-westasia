@@ -25,7 +25,7 @@
     "Lebanon": 3,
     "Iraq": 1
   },
-  "last_updated": "2026-03-11T21:15:22.503004Z",
+  "last_updated": "2026-03-11T21:46:29.042909Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -37,11 +37,11 @@
     },
     "firms": {
       "count": 1031,
-      "fetched_at": "2026-03-11T20:28:22.193378Z"
+      "fetched_at": "2026-03-11T21:27:57.955929Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T21:15:15.452531Z"
+      "fetched_at": "2026-03-11T21:45:40.112157Z"
     },
     "reliefweb": {
       "count": 0,
