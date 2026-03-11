@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-10T23:43:32.395556Z",
-  "total": 843,
+  "generated_at": "2026-03-11T00:45:18.245525Z",
+  "total": 842,
   "events": [
     {
       "id": "firms-VIIRS_NOAA20_NRT-40.47391-34.11623-2026-03-10-1119",
@@ -12633,23 +12633,6 @@
       "timestamp": "2026-03-06T17:53:05.714000Z",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2ma",
       "felt": null,
-      "tsunami": 0,
-      "alert": null
-    },
-    {
-      "id": "usgs-us7000s1my",
-      "source": "usgs",
-      "category": "earthquake",
-      "title": "M 4.4 - 52 km NW of Gerāsh, Iran",
-      "place": "52 km NW of Gerāsh, Iran",
-      "magnitude": 4.4,
-      "depth_km": 10,
-      "severity": "moderate",
-      "lat": 28.0355,
-      "lng": 53.7894,
-      "timestamp": "2026-03-03T06:54:57.248000Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1my",
-      "felt": 1,
       "tsunami": 0,
       "alert": null
     }
