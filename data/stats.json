@@ -1,37 +1,46 @@
 {
-  "total_events": 2,
+  "total_events": 98,
   "by_source": {
     "acled": 0,
-    "gdelt": 0,
+    "gdelt": 96,
     "firms": 0,
     "usgs": 2,
     "reliefweb": 0
   },
   "by_category": {
+    "conflict": 50,
+    "humanitarian": 46,
     "earthquake": 2
   },
-  "by_country": {},
-  "last_updated": "2026-03-11T04:17:21.098738Z",
+  "by_country": {
+    "Iraq": 2,
+    "Israel": 12,
+    "Lebanon": 10,
+    "Iran": 19,
+    "Gaza": 1,
+    "Baghdad": 1
+  },
+  "last_updated": "2026-03-11T05:01:40.253662Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": "2026-03-11T00:27:25.474709Z"
     },
     "gdelt": {
-      "count": 0,
-      "fetched_at": "2026-03-11T04:16:54.670137Z"
+      "count": 96,
+      "fetched_at": "2026-03-11T05:00:39.375210Z"
     },
     "firms": {
       "count": 0,
-      "fetched_at": "2026-03-11T04:00:34.961526Z"
+      "fetched_at": "2026-03-11T04:53:53.577917Z"
     },
     "usgs": {
       "count": 2,
-      "fetched_at": "2026-03-11T04:17:13.463115Z"
+      "fetched_at": "2026-03-11T05:01:18.371410Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T03:43:45.180308Z"
+      "fetched_at": "2026-03-11T04:30:58.289141Z"
     }
   }
 }
