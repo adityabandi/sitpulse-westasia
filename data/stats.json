@@ -22,7 +22,7 @@
     "Beirut": 1,
     "Qatar": 1
   },
-  "last_updated": "2026-03-11T23:12:29.315937Z",
+  "last_updated": "2026-03-11T23:43:22.878398Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -34,11 +34,11 @@
     },
     "firms": {
       "count": 1031,
-      "fetched_at": "2026-03-11T22:26:53.044746Z"
+      "fetched_at": "2026-03-11T23:26:52.093681Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T23:11:30.900055Z"
+      "fetched_at": "2026-03-11T23:42:07.489232Z"
     },
     "reliefweb": {
       "count": 0,
