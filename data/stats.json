@@ -1,22 +1,22 @@
 {
-  "total_events": 53,
+  "total_events": 314,
   "by_source": {
     "acled": 0,
     "gdelt": 50,
-    "firms": 0,
+    "firms": 261,
     "usgs": 3,
     "reliefweb": 0
   },
   "by_category": {
     "diplomatic": 50,
+    "thermal_anomaly": 261,
     "earthquake": 3
   },
   "by_country": {
-    "Iran": 14,
-    "Israel": 2,
-    "Gaza": 1
+    "Iran": 11,
+    "Israel": 1
   },
-  "last_updated": "2026-03-11T10:50:57.237491Z",
+  "last_updated": "2026-03-11T11:46:40.095312Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -24,19 +24,19 @@
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-11T10:48:27.035118Z"
+      "fetched_at": "2026-03-11T11:17:26.072358Z"
     },
     "firms": {
-      "count": 0,
-      "fetched_at": "2026-03-11T10:28:53.622093Z"
+      "count": 261,
+      "fetched_at": "2026-03-11T11:28:13.499953Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T10:48:45.228567Z"
+      "fetched_at": "2026-03-11T11:45:42.305364Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T10:11:21.874248Z"
+      "fetched_at": "2026-03-11T11:10:34.757015Z"
     }
   }
 }
