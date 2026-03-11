@@ -1,22 +1,21 @@
 {
-  "total_events": 52,
+  "total_events": 53,
   "by_source": {
     "acled": 0,
     "gdelt": 50,
     "firms": 0,
-    "usgs": 2,
+    "usgs": 3,
     "reliefweb": 0
   },
   "by_category": {
-    "humanitarian": 50,
-    "earthquake": 2
+    "protest": 50,
+    "earthquake": 3
   },
   "by_country": {
-    "Iran": 11,
-    "Israel": 5,
-    "Tehran": 1
+    "Iran": 23,
+    "Israel": 2
   },
-  "last_updated": "2026-03-11T07:49:51.439662Z",
+  "last_updated": "2026-03-11T08:20:20.372542Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -24,19 +23,19 @@
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-11T07:24:25.368301Z"
+      "fetched_at": "2026-03-11T08:18:50.245386Z"
     },
     "firms": {
       "count": 0,
       "fetched_at": "2026-03-11T07:33:16.583269Z"
     },
     "usgs": {
-      "count": 2,
-      "fetched_at": "2026-03-11T07:48:34.542439Z"
+      "count": 3,
+      "fetched_at": "2026-03-11T08:20:10.693055Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T07:16:06.275038Z"
+      "fetched_at": "2026-03-11T08:07:45.604677Z"
     }
   }
 }
