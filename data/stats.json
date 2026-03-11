@@ -8,14 +8,16 @@
     "reliefweb": 0
   },
   "by_category": {
-    "protest": 50,
+    "humanitarian": 50,
     "earthquake": 3
   },
   "by_country": {
-    "Iran": 23,
-    "Israel": 2
+    "Lebanon": 1,
+    "Gaza": 1,
+    "Iran": 11,
+    "Israel": 6
   },
-  "last_updated": "2026-03-11T08:20:20.372542Z",
+  "last_updated": "2026-03-11T08:51:17.282700Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -23,15 +25,15 @@
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-11T08:18:50.245386Z"
+      "fetched_at": "2026-03-11T08:48:52.589340Z"
     },
     "firms": {
       "count": 0,
-      "fetched_at": "2026-03-11T07:33:16.583269Z"
+      "fetched_at": "2026-03-11T08:28:51.339228Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T08:20:10.693055Z"
+      "fetched_at": "2026-03-11T08:49:13.810772Z"
     },
     "reliefweb": {
       "count": 0,
