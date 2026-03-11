@@ -16,7 +16,7 @@
     "Israel": 9,
     "Lebanon": 2
   },
-  "last_updated": "2026-03-11T09:51:23.150972Z",
+  "last_updated": "2026-03-11T10:21:24.056577Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -32,11 +32,11 @@
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-11T09:49:08.073506Z"
+      "fetched_at": "2026-03-11T10:21:07.088020Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-11T09:11:33.443473Z"
+      "fetched_at": "2026-03-11T10:11:21.874248Z"
     }
   }
 }
