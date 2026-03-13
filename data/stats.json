@@ -1,18 +1,18 @@
 {
-  "total_events": 558,
+  "total_events": 820,
   "by_source": {
     "acled": 0,
     "gdelt": 0,
-    "firms": 554,
+    "firms": 816,
     "usgs": 4,
     "reliefweb": 0
   },
   "by_category": {
-    "thermal_anomaly": 554,
+    "thermal_anomaly": 816,
     "earthquake": 4
   },
   "by_country": {},
-  "last_updated": "2026-03-13T13:32:58.298782Z",
+  "last_updated": "2026-03-13T13:57:22.744757Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -23,8 +23,8 @@
       "fetched_at": "2026-03-13T13:32:01.242001Z"
     },
     "firms": {
-      "count": 554,
-      "fetched_at": "2026-03-13T12:29:31.822962Z"
+      "count": 816,
+      "fetched_at": "2026-03-13T13:40:54.468448Z"
     },
     "usgs": {
       "count": 4,
