@@ -1,6 +1,6 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-13T01:40:32.159042Z",
+  "fetched_at": "2026-03-13T03:06:36.884840Z",
   "region": "west_asia",
   "count": 4,
   "events": [
@@ -17,7 +17,7 @@
       "lng": 36.7643,
       "timestamp": "2026-03-13T00:35:14.948000Z",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sfyj",
-      "felt": 3,
+      "felt": 6,
       "tsunami": 0,
       "alert": null
     },
