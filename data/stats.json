@@ -13,12 +13,14 @@
     "thermal_anomaly": 8
   },
   "by_country": {
-    "Lebanon": 1,
-    "Iran": 10,
-    "Oman": 1,
-    "Israel": 3
+    "Lebanon": 3,
+    "Iran": 8,
+    "Israel": 4,
+    "Beirut": 1,
+    "Iraq": 1,
+    "Oman": 1
   },
-  "last_updated": "2026-03-13T08:51:04.175213Z",
+  "last_updated": "2026-03-13T09:21:33.879775Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -26,7 +28,7 @@
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-13T08:48:40.480262Z"
+      "fetched_at": "2026-03-13T09:20:13.202873Z"
     },
     "firms": {
       "count": 8,
@@ -34,11 +36,11 @@
     },
     "usgs": {
       "count": 4,
-      "fetched_at": "2026-03-13T08:48:56.152574Z"
+      "fetched_at": "2026-03-13T09:20:27.315713Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-13T08:08:30.567469Z"
+      "fetched_at": "2026-03-13T09:10:52.230293Z"
     }
   }
 }
