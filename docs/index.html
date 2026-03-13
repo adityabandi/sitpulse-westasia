@@ -291,7 +291,7 @@ const SATG = {
   radar:   {color:'#ff3b3b',label:'Radar Cal'},
   resource:{color:'#2b8df8',label:'Earth Obs'},
   stations:{color:'#00cc7a',label:'Stations'},
-  starlink:{color:'#2e4a62',label:'Starlink'}
+  starlink:{color:'#5599bb',label:'Starlink'}
 };
 const SAMPLES=[
   {id:'s1',source:'acled',category:'conflict',title:'Airstrike near Marib, Yemen',lat:15.47,lng:45.33,timestamp:'2025-12-01T08:00:00Z'},
@@ -387,7 +387,7 @@ function addLayers(){
   // Sat ground track
   map.addLayer({id:'track-l',type:'line',source:'track-src',
     layout:{visibility:'none'},
-    paint:{'line-color':'#2b8df8','line-width':1,'line-opacity':0.45,'line-dasharray':[4,3]}
+    paint:{'line-color':'#5eaaff','line-width':2,'line-opacity':0.65,'line-dasharray':[6,3]}
   });
   // Selection ring
   map.addLayer({id:'sel-ring',type:'circle',source:'sel-src',
@@ -420,39 +420,72 @@ function addLayers(){
       'circle-stroke-width':2,'circle-stroke-color':'rgba(155,114,255,0.35)'
     }
   });
-  // Satellites
+  // ── SATELLITES: 3-layer glow system ──
+  map.addLayer({id:'sat-glow',type:'circle',source:'sat-src',
+    paint:{
+      'circle-radius':['case',['get','hi'],22,14],
+      'circle-color':['get','color'],
+      'circle-blur':1,
+      'circle-opacity':['case',['get','hi'],0.2,0.1]
+    }
+  });
+  map.addLayer({id:'sat-mid',type:'circle',source:'sat-src',
+    paint:{
+      'circle-radius':['case',['get','hi'],9,5.5],
+      'circle-color':['get','color'],
+      'circle-blur':0.5,
+      'circle-opacity':['case',['get','hi'],0.45,0.28]
+    }
+  });
   map.addLayer({id:'sat-l',type:'circle',source:'sat-src',
     paint:{
-      'circle-radius':['case',['get','hi'],3.5,2],
-      'circle-color':['get','color'],
-      'circle-opacity':['case',['get','hi'],0.95,0.5]
+      'circle-radius':['case',['get','hi'],3.5,2.5],
+      'circle-color':'#ffffff',
+      'circle-opacity':['case',['get','hi'],1,0.9]
     }
   });
   map.addLayer({id:'sat-lbl',type:'symbol',source:'sat-src',
     filter:['==',['get','hi'],true],
-    layout:{'text-field':['get','name'],'text-size':9,
-      'text-offset':[0,1.3],'text-anchor':'top',
+    layout:{'text-field':['get','name'],'text-size':10,
+      'text-offset':[0,1.6],'text-anchor':'top',
       'text-allow-overlap':false,'text-optional':true},
-    paint:{'text-color':'#4d7a9a','text-halo-color':'#04090f','text-halo-width':1.5}
+    paint:{'text-color':['get','color'],'text-halo-color':'#04090f','text-halo-width':2}
   });
-  // Aircraft triangles
+  // ── AIRCRAFT: glow + dot + heading ──
+  map.addLayer({id:'fl-glow',type:'circle',source:'fl-src',
+    paint:{
+      'circle-radius':14,
+      'circle-color':'#00cc7a',
+      'circle-blur':1,
+      'circle-opacity':0.18
+    }
+  });
+  map.addLayer({id:'fl-dot',type:'circle',source:'fl-src',
+    paint:{
+      'circle-radius':4.5,
+      'circle-color':'#00ff8c',
+      'circle-opacity':0.92,
+      'circle-stroke-width':1,
+      'circle-stroke-color':'rgba(0,204,122,0.3)'
+    }
+  });
   map.addLayer({id:'fl-l',type:'symbol',source:'fl-src',
-    layout:{'text-field':'▲','text-size':13,
+    layout:{'text-field':'▲','text-size':20,
       'text-rotate':['get','hdg'],'text-rotation-alignment':'map',
       'text-allow-overlap':true,'text-ignore-placement':true},
-    paint:{'text-color':'#00cc7a','text-halo-color':'rgba(0,0,0,0.6)','text-halo-width':1}
+    paint:{'text-color':'#00ff8c','text-halo-color':'rgba(0,0,0,0.7)','text-halo-width':2}
   });
-  map.addLayer({id:'fl-lbl',type:'symbol',source:'fl-src',minzoom:6,
-    layout:{'text-field':['get','cs'],'text-size':9,
-      'text-offset':[0,1.2],'text-anchor':'top',
+  map.addLayer({id:'fl-lbl',type:'symbol',source:'fl-src',minzoom:5,
+    layout:{'text-field':['get','cs'],'text-size':10,
+      'text-offset':[0,1.4],'text-anchor':'top',
       'text-allow-overlap':false,'text-optional':true},
-    paint:{'text-color':'#00aa66','text-halo-color':'#04090f','text-halo-width':1.5}
+    paint:{'text-color':'#00ff8c','text-halo-color':'#04090f','text-halo-width':2}
   });
 }
 
 function addInteractions(){
   const tip=document.getElementById('tip');
-  const cls=['ev-l','th-l','se-l','sat-l','fl-l'];
+  const cls=['ev-l','th-l','se-l','sat-l','sat-mid','fl-l','fl-dot'];
   const showTip=(e,txt)=>{
     if(!txt)return;
     tip.textContent=txt;tip.style.display='block';
@@ -479,10 +512,21 @@ function addInteractions(){
 
 function startPulse(){
   const go=()=>{
-    pulsePhase+=0.04;
+    pulsePhase+=0.03;
+    // Selection ring pulse
     if(selLng!==null&&map.getLayer('sel-ring')){
       map.setPaintProperty('sel-ring','circle-radius',13+4*Math.sin(pulsePhase));
       map.setPaintProperty('sel-ring','circle-stroke-opacity',0.5+0.35*Math.sin(pulsePhase));
+    }
+    // Satellite constellation breathing glow
+    if(map.getLayer('sat-glow')){
+      const s=Math.sin(pulsePhase*0.7);
+      map.setPaintProperty('sat-glow','circle-opacity',0.1+0.07*s);
+    }
+    // Aircraft radar-style pulse
+    if(map.getLayer('fl-glow')){
+      const s=Math.sin(pulsePhase*0.9);
+      map.setPaintProperty('fl-glow','circle-opacity',0.15+0.1*s);
     }
     requestAnimationFrame(go);
   };
@@ -572,7 +616,6 @@ function propSats(){
       const geo=satellite.eciToGeodetic(pv.position,gmst);
       const lng=satellite.degreesLong(geo.longitude);
       const lat=satellite.degreesLat(geo.latitude);
-      if(lat<-20||lat>75||lng<-20||lng>110)return;
       const g=SATG[s.group]||SATG.resource;
       fts.push({type:'Feature',geometry:{type:'Point',coordinates:[lng,lat]},
         properties:{id:'sat-'+s.norad_id,name:s.name,norad_id:s.norad_id,
@@ -856,8 +899,12 @@ function applyVis(){
   map.setLayoutProperty('ev-l','visibility',v(layers.events));
   map.setLayoutProperty('th-l','visibility',v(layers.thermal));
   map.setLayoutProperty('se-l','visibility',v(layers.seismic));
+  map.setLayoutProperty('sat-glow','visibility',v(layers.satellites));
+  map.setLayoutProperty('sat-mid','visibility',v(layers.satellites));
   map.setLayoutProperty('sat-l','visibility',v(layers.satellites));
   map.setLayoutProperty('sat-lbl','visibility',v(layers.satellites));
+  map.setLayoutProperty('fl-glow','visibility',v(layers.flights));
+  map.setLayoutProperty('fl-dot','visibility',v(layers.flights));
   map.setLayoutProperty('fl-l','visibility',v(layers.flights));
   map.setLayoutProperty('fl-lbl','visibility',v(layers.flights));
   map.setLayoutProperty('heat-l','visibility',v(layers.heatmap));
