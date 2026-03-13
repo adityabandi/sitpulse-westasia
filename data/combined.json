@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T05:29:44.596749Z",
+  "generated_at": "2026-03-13T05:51:35.933676Z",
   "total": 154,
   "events": [
     {
@@ -2003,7 +2003,7 @@
       "lng": 36.7643,
       "timestamp": "2026-03-13T00:35:14.948000Z",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sfyj",
-      "felt": 6,
+      "felt": 7,
       "tsunami": 0,
       "alert": null
     },

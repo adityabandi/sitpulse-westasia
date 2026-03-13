@@ -20,7 +20,7 @@
     "Iraq": 8,
     "Israel": 10
   },
-  "last_updated": "2026-03-13T05:29:44.596703Z",
+  "last_updated": "2026-03-13T05:51:35.933631Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -32,11 +32,11 @@
     },
     "firms": {
       "count": 8,
-      "fetched_at": "2026-03-13T04:53:25.274060Z"
+      "fetched_at": "2026-03-13T05:36:57.538199Z"
     },
     "usgs": {
       "count": 4,
-      "fetched_at": "2026-03-13T04:18:20.924446Z"
+      "fetched_at": "2026-03-13T05:49:31.969681Z"
     },
     "reliefweb": {
       "count": 0,
