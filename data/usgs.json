@@ -1,9 +1,26 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-13T00:46:17.203434Z",
+  "fetched_at": "2026-03-13T01:40:32.159042Z",
   "region": "west_asia",
-  "count": 3,
+  "count": 4,
   "events": [
+    {
+      "id": "usgs-us6000sfyj",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 5.3 - 16 km E of Erbaa, Turkey",
+      "place": "16 km E of Erbaa, Turkey",
+      "magnitude": 5.3,
+      "depth_km": 10,
+      "severity": "major",
+      "lat": 40.6932,
+      "lng": 36.7643,
+      "timestamp": "2026-03-13T00:35:14.948000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sfyj",
+      "felt": 3,
+      "tsunami": 0,
+      "alert": null
+    },
     {
       "id": "usgs-us7000s3ku",
       "source": "usgs",
