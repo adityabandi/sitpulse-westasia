@@ -321,7 +321,7 @@ const SAMPLES=[
 ];
 
 // ═══════ STATE ═══════
-let map,allEvents=[],satRecs=[],satById={},flightData=[];
+let map,allEvents=[],satRecs=[],satById={},flightData=[],flightFetchT=0;
 let selId=null,selLng=null,selLat=null;
 let layers={events:true,thermal:true,seismic:true,satellites:true,flights:true,heatmap:false};
 let mode='default',query='',pulsePhase=0;
@@ -445,8 +445,7 @@ function addLayers(){
     }
   });
   map.addLayer({id:'sat-lbl',type:'symbol',source:'sat-src',
-    filter:['==',['get','hi'],true],
-    layout:{'text-field':['get','name'],'text-size':10,
+    layout:{'text-field':['get','name'],'text-size':9,
       'text-offset':[0,1.6],'text-anchor':'top',
       'text-allow-overlap':false,'text-optional':true},
     paint:{'text-color':['get','color'],'text-halo-color':'#04090f','text-halo-width':2}
@@ -537,6 +536,8 @@ function startPulse(){
 async function loadData(){
   await Promise.all([loadEvents(),loadSats()]);
   loadFlights();setInterval(loadFlights,15000);
+  // Interpolate aircraft positions every 2s for smooth movement
+  setInterval(()=>{if(flightData.length)pushFlightSrc();},2000);
 }
 
 async function loadEvents(){
@@ -574,6 +575,7 @@ async function loadFlights(){
     if(!r.ok)throw 0;
     const d=await r.json();
     flightData=(d.states||[]).filter(s=>s[5]!=null&&s[6]!=null);
+    flightFetchT=Date.now();
     setLed('fl','live');
     document.getElementById('cnt-fl').textContent=flightData.length;
     document.getElementById('st-fl').textContent=flightData.length;
@@ -628,13 +630,24 @@ function propSats(){
 }
 
 function pushFlightSrc(){
-  const fts=flightData.map(s=>({type:'Feature',
-    geometry:{type:'Point',coordinates:[s[5],s[6]]},
-    properties:{id:'fl-'+(s[0]||'').trim(),icao24:(s[0]||'').trim(),
-      cs:(s[1]||'').trim(),country:s[2]||'',
-      alt:s[7]!=null?Math.round(s[7]):null,vel:s[9]!=null?Math.round(s[9]):null,
-      hdg:s[10]||0,ground:!!s[8],type:'flight'}
-  }));
+  const dt=(Date.now()-flightFetchT)/1000; // seconds since last API fetch
+  const fts=flightData.map(s=>{
+    let lng=s[5],lat=s[6];
+    const vel=s[9],hdg=s[10];
+    // Extrapolate position from velocity+heading between API refreshes
+    if(dt>0&&vel&&hdg!=null&&!s[8]){
+      const r=hdg*Math.PI/180;
+      lat+=vel*Math.cos(r)*dt/111320;
+      lng+=vel*Math.sin(r)*dt/(111320*Math.cos(lat*Math.PI/180));
+    }
+    return {type:'Feature',
+      geometry:{type:'Point',coordinates:[lng,lat]},
+      properties:{id:'fl-'+(s[0]||'').trim(),icao24:(s[0]||'').trim(),
+        cs:(s[1]||'').trim(),country:s[2]||'',
+        alt:s[7]!=null?Math.round(s[7]):null,vel:s[9]!=null?Math.round(s[9]):null,
+        hdg:s[10]||0,ground:!!s[8],type:'flight'}
+    };
+  });
   map.getSource('fl-src').setData({type:'FeatureCollection',features:fts});
 }
 
