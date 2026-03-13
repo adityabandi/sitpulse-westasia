@@ -20,7 +20,7 @@
     "Iraq": 8,
     "Israel": 10
   },
-  "last_updated": "2026-03-13T05:51:35.933631Z",
+  "last_updated": "2026-03-13T06:14:47.170062Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -40,7 +40,7 @@
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-13T05:20:24.064491Z"
+      "fetched_at": "2026-03-13T06:12:24.968598Z"
     }
   }
 }
