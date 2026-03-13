@@ -12,15 +12,15 @@
     "earthquake": 3
   },
   "by_country": {},
-  "last_updated": "2026-03-12T23:43:41.308651Z",
+  "last_updated": "2026-03-13T00:47:33.931751Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
-      "fetched_at": "2026-03-12T18:20:40.680915Z"
+      "fetched_at": "2026-03-13T00:29:54.858804Z"
     },
     "gdelt": {
       "count": 0,
-      "fetched_at": "2026-03-12T23:42:16.259547Z"
+      "fetched_at": "2026-03-13T00:42:38.086406Z"
     },
     "firms": {
       "count": 649,
@@ -28,11 +28,11 @@
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-12T23:42:34.041315Z"
+      "fetched_at": "2026-03-13T00:46:17.203434Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-12T23:04:18.936626Z"
+      "fetched_at": "2026-03-13T00:06:55.381403Z"
     }
   }
 }
