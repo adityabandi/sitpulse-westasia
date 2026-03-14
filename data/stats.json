@@ -12,7 +12,7 @@
     "thermal_anomaly": 89
   },
   "by_country": {},
-  "last_updated": "2026-03-14T08:16:26.470814Z",
+  "last_updated": "2026-03-14T08:49:23.657839Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -20,15 +20,15 @@
     },
     "gdelt": {
       "count": 0,
-      "fetched_at": "2026-03-14T08:14:12.800931Z"
+      "fetched_at": "2026-03-14T08:48:04.692196Z"
     },
     "firms": {
       "count": 89,
-      "fetched_at": "2026-03-14T07:28:54.647077Z"
+      "fetched_at": "2026-03-14T08:28:07.261202Z"
     },
     "usgs": {
       "count": 4,
-      "fetched_at": "2026-03-14T08:15:40.081562Z"
+      "fetched_at": "2026-03-14T08:48:29.401979Z"
     },
     "reliefweb": {
       "count": 0,
