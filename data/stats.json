@@ -12,7 +12,7 @@
     "thermal_anomaly": 89
   },
   "by_country": {},
-  "last_updated": "2026-03-14T05:01:42.027845Z",
+  "last_updated": "2026-03-14T05:27:28.145517Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -32,7 +32,7 @@
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-14T04:30:47.620194Z"
+      "fetched_at": "2026-03-14T05:18:56.755064Z"
     }
   }
 }
