@@ -1,8 +1,8 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-13T23:42:46.738872Z",
+  "fetched_at": "2026-03-14T00:44:36.252671Z",
   "region": "west_asia",
-  "count": 4,
+  "count": 3,
   "events": [
     {
       "id": "usgs-us6000sfyj",
@@ -51,23 +51,6 @@
       "lng": 55.5298,
       "timestamp": "2026-03-07T03:18:12.799000Z",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2q0",
-      "felt": null,
-      "tsunami": 0,
-      "alert": null
-    },
-    {
-      "id": "usgs-us7000s2ma",
-      "source": "usgs",
-      "category": "earthquake",
-      "title": "M 4.0 - 12 km S of Yasuj, Iran",
-      "place": "12 km S of Yasuj, Iran",
-      "magnitude": 4,
-      "depth_km": 10,
-      "severity": "moderate",
-      "lat": 30.56,
-      "lng": 51.5632,
-      "timestamp": "2026-03-06T17:53:05.714000Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2ma",
       "felt": null,
       "tsunami": 0,
       "alert": null
