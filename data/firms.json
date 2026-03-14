@@ -1,8 +1,8 @@
 {
   "source": "firms",
-  "fetched_at": "2026-03-14T09:27:55.215017Z",
+  "fetched_at": "2026-03-14T10:27:10.653531Z",
   "region": "west_asia",
-  "count": 89,
+  "count": 91,
   "events": [
     {
       "id": "firms-VIIRS_SNPP_NRT-34.86346-44.01997-2026-03-14-1",
@@ -1338,6 +1338,36 @@
       "satellite": "VIIRS_NOAA20_NRT",
       "timestamp": "2026-03-14T00:20:00Z",
       "daynight": "N"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-25.35233-61.745-2026-03-14-816",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 25.35233,
+      "lng": 61.745,
+      "brightness": 340.45,
+      "frp": 3.67,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-14T08:16:00Z",
+      "daynight": "D"
+    },
+    {
+      "id": "firms-VIIRS_NOAA20_NRT-41.51842-52.62339-2026-03-14-822",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 41.51842,
+      "lng": 52.62339,
+      "brightness": 330.98,
+      "frp": 3.52,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_NOAA20_NRT",
+      "timestamp": "2026-03-14T08:22:00Z",
+      "daynight": "D"
     }
   ]
 }
