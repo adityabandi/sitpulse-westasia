@@ -1,9 +1,26 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-14T03:05:14.715370Z",
+  "fetched_at": "2026-03-14T04:17:32.875478Z",
   "region": "west_asia",
-  "count": 3,
+  "count": 4,
   "events": [
+    {
+      "id": "usgs-us6000sg7e",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 4.3 - 24 km NNW of Shahrak-e Kūlūrī, Iran",
+      "place": "24 km NNW of Shahrak-e Kūlūrī, Iran",
+      "magnitude": 4.3,
+      "depth_km": 10,
+      "severity": "moderate",
+      "lat": 32.5524,
+      "lng": 48.3657,
+      "timestamp": "2026-03-14T00:54:38.164000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sg7e",
+      "felt": null,
+      "tsunami": 0,
+      "alert": null
+    },
     {
       "id": "usgs-us6000sfyj",
       "source": "usgs",
