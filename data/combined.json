@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-14T23:43:47.105757Z",
-  "total": 871,
+  "generated_at": "2026-03-15T00:55:25.288957Z",
+  "total": 870,
   "events": [
     {
       "id": "firms-VIIRS_NOAA20_NRT-13.64672-34.36942-2026-03-14-1136",
@@ -13054,23 +13054,6 @@
       "lng": 54.2446,
       "timestamp": "2026-03-11T07:55:18.615000Z",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s3ku",
-      "felt": null,
-      "tsunami": 0,
-      "alert": null
-    },
-    {
-      "id": "usgs-us7000s2q0",
-      "source": "usgs",
-      "category": "earthquake",
-      "title": "M 4.1 - 74 km W of Bandar Abbas, Iran",
-      "place": "74 km W of Bandar Abbas, Iran",
-      "magnitude": 4.1,
-      "depth_km": 10,
-      "severity": "moderate",
-      "lat": 27.1417,
-      "lng": 55.5298,
-      "timestamp": "2026-03-07T03:18:12.799000Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2q0",
       "felt": null,
       "tsunami": 0,
       "alert": null
