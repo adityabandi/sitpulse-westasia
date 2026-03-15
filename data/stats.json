@@ -25,7 +25,7 @@
     "Yemen": 1,
     "Palestine": 1
   },
-  "last_updated": "2026-03-15T15:13:47.493147Z",
+  "last_updated": "2026-03-15T15:44:35.415539Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -37,11 +37,11 @@
     },
     "firms": {
       "count": 545,
-      "fetched_at": "2026-03-15T14:27:27.710501Z"
+      "fetched_at": "2026-03-15T15:27:13.395762Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-15T15:13:36.522967Z"
+      "fetched_at": "2026-03-15T15:43:17.168903Z"
     },
     "reliefweb": {
       "count": 0,
