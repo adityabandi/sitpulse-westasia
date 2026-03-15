@@ -1,11 +1,333 @@
 {
   "source": "gdelt",
-  "fetched_at": "2026-03-15T13:24:52.018404Z",
+  "fetched_at": "2026-03-15T13:49:20.590745Z",
   "region": "west_asia",
-  "count": 100,
+  "count": 154,
   "events": [
     {
-      "id": "gdelt-2787516471",
+      "id": "gdelt-2796274441",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "ВС РФ уничтожили американскую и израильскую радиолокационные станции : что произошло в зоне СВО 15 марта | Москва",
+      "country": "",
+      "url": "https://fedpress.ru/news/77/society/3429187",
+      "source_name": "fedpress.ru",
+      "timestamp": "20260315T131500Z",
+      "language": "Russian",
+      "image": "https://img2.fedpress.ru/thumbs/600x360-facebook/2026/03/3125/5efbfcec002ca7263a266cb5e3eba94e.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1859932856",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "İsrail Dışişleri Bakanı Saar , Füze Savunma Mühimmatının Azaldığı İddiasını Yalanladı",
+      "country": "",
+      "url": "https://www.haberler.com/guncel/israil-disisleri-bakani-ndan-baris-gorusmeleri-aciklamasi-19660327-haberi/",
+      "source_name": "haberler.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Turkish",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-74623221",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Φιντάν : « Το Ισραήλ θέλει να δει το Ιράν , ως χώρα και ως έθνος , να εξαφανίζεται » ",
+      "country": "",
+      "url": "https://www.newsbomb.gr/kosmos/story/1722100/fintan-to-israil-thelei-na-dei-to-iran-os-xora-kai-os-ethnos-na-eksafanizetai",
+      "source_name": "newsbomb.gr",
+      "timestamp": "20260315T131500Z",
+      "language": "Greek",
+      "image": "https://img.bbmd.gr/img/1200/630/90/2025/11/03/ap25147408369340-og.jpg?t=askPxAvj-f-u0JQphBsaIA",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2283126632",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "市场资金向政策方向走 ， 国际资本向中国走 _ 中金在线财经号",
+      "country": "",
+      "url": "http://mp.cnfol.com/37236/article/1773572943-142306109",
+      "source_name": "mp.cnfol.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Chinese",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-690091282",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Elevation Point Wealth Partners LLC Purchases 23 , 326 Shares of RTX Corporation $RTX",
+      "country": "",
+      "url": "https://www.themarketsdaily.com/2026/03/15/elevation-point-wealth-partners-llc-purchases-23326-shares-of-rtx-corporation-rtx.html",
+      "source_name": "themarketsdaily.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-165619023",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Трамп се заканува со нови напади врз Харг , додека Иран стрела врз енергетската инфраструктура на земјите од Заливот",
+      "country": "",
+      "url": "https://www.slobodnaevropa.mk/a/33707119.html",
+      "source_name": "slobodnaevropa.mk",
+      "timestamp": "20260315T131500Z",
+      "language": "Macedonian",
+      "image": "https://gdb.rferl.org/9bdb22cc-f1db-405c-b215-5bb1368a3674_w1200_h630.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-439527264",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "意大利罗马民众举行游行 反对美以把世界拖入战争",
+      "country": "",
+      "url": "https://www.163.com/news/article/KO3DGSEK000189FH.html",
+      "source_name": "163.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Chinese",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1235374320",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "伊朗神權政府會不會垮台 ？ 明居正坦言 「 機率不高 」： 現在政權已趨於穩固 | 林子靖 | 新聞",
+      "country": "",
+      "url": "https://www.storm.mg/article/11111056",
+      "source_name": "storm.mg",
+      "timestamp": "20260315T131500Z",
+      "language": "Chinese",
+      "image": "https://images.storm.mg/cloud/387b465b8f7de4e38f1c5db1abe7bf66444b2faf.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2041093%2F20241011-023637_U18448_M994983_6978.JPG&g=sm",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2075363749",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Al menos 15 muertos en bombardeos israelíes en Líbano durante las últimas horas",
+      "country": "Israel",
+      "url": "https://www.elperiodico.com/es/politica/20260315/15-muertos-bombardeos-israelies-libano-127986310",
+      "source_name": "elperiodico.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://estaticos-cdn.prensaiberica.es/clip/1d167ee0-ebb8-4463-8606-4c3539e68483_16-9-discover-aspect-ratio_default_0_x1200y533.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-1809597454",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "לאן נעלמה  כיכר פלסטין  בטהרן , לב ההסתה האיראנית ? ",
+      "country": "",
+      "url": "https://www.ynet.co.il/news/article/hk6nlb4q11x",
+      "source_name": "ynet.co.il",
+      "timestamp": "20260315T131500Z",
+      "language": "Hebrew",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/03/15/SyLkRZNq11x/SyLkRZNq11x_0_0_850_479_0_large.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1257044838",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Al menos 15 muertos en bombardeos israelíes en Líbano durante las últimas horas",
+      "country": "Israel",
+      "url": "https://www.diariodeibiza.es/nacional/2026/03/15/15-muertos-bombardeos-israelies-libano-127986507.html",
+      "source_name": "diariodeibiza.es",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://estaticos-cdn.prensaiberica.es/clip/1d167ee0-ebb8-4463-8606-4c3539e68483_16-9-discover-aspect-ratio_default_0_x1200y533.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-940540340",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Gulf states intercept new missiles , drones as Iran threatens to widen war",
+      "country": "Iran",
+      "url": "https://www.cbc.ca/news/world/gulf-states-iran-war-9.7129322",
+      "source_name": "cbc.ca",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://i.cbc.ca/ais/3746cad6-0f65-4d59-8517-46a6939970ad,1773578252800/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C208%2C4000%2C2250%29%3BResize%3D620",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-3989623795",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Israel approves emergency military funding as Iran war rages",
+      "country": "Israel",
+      "url": "https://www.naharnet.com:443/stories/en/318966-israel-approves-emergency-military-funding-as-iran-war-rages",
+      "source_name": "naharnet.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "http://images1.naharnet.com/images/273681/w140.jpeg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-3443628642",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Pope escalates call for ceasefire in Iran by addressing those responsible for the war",
+      "country": "Iran",
+      "url": "https://www.yahoo.com/news/articles/pope-escalates-call-ceasefire-iran-122352063.html",
+      "source_name": "yahoo.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://s.yimg.com/ny/api/res/1.2/XQ2GZ3qtZ6ECWUF6.h3r9w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/4d3236b30c92a45aca8465c6c10ffe7e",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-3928373304",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Дејвид Сакс , главни Трампов саветник : Ово је добар тренутак да се прогласи победа и оде . Ако се овај рат настави недељама или месецима , Израел би био једноставно уништен и могао размотрити употребу нуклеарног оружја",
+      "country": "",
+      "url": "http://www.nspm.rs/hronika/dejvid-saks-glavni-trampov-savetnik-ovo-je-dobar-trenutak-da-se-proglasi-pobeda-i-ode.-ako-se-ovaj-rat-nastavi-nedeljama-ili-mesecima-izrael-bi-bio-jednostavno-unisten-i-mogao-razmotriti-upotrebu-nuklearnog-oruzja.html",
+      "source_name": "nspm.rs",
+      "timestamp": "20260315T131500Z",
+      "language": "Serbian",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3131334061",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "ANF | İsrailin hava savunma füzeleri tükenme riskiyle karşı karşıya ! ",
+      "country": "",
+      "url": "https://anf-news.com/ortado%C4%9Fu/Israil-in-hava-savunma-fuzeleri-tukenme-riskiyle-karsi-karsiya-226064",
+      "source_name": "anf-news.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Turkish",
+      "image": "https://anf-news.com/uploads/tr/articles/2026/03/20260315-b8debae26e4ad4cfe7c8e3fcb80111fa-webp549103-image.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-363957350",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "El papa pide el cese del fuego en Oriente Medio y reabrir vías de diálogo",
+      "country": "",
+      "url": "https://www.elheraldo.co/mundo/2026/03/15/el-papa-pide-el-cese-del-fuego-en-oriente-medio-y-reabrir-vias-de-dialogo/",
+      "source_name": "elheraldo.co",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://www.elheraldo.co/resizer/v2/E52V4SMNSBE6RCLKCIHOYARZYY.jpg?smart=true&auth=cf99ac064502e2ff47a578109aa98405e076a4f59b29429e4f8e4aa47fe11c7c",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-212326271",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Guerra en Irán | La Guardia Revolucionaria promete  perseguir sin descanso  a Netanyahu",
+      "country": "",
+      "url": "https://www.elimparcial.es/noticia/294530/mundo/guerra-en-iran--la-guardia-revolucionaria-promete-perseguir-sin-descanso-a-netanyahu.html",
+      "source_name": "elimparcial.es",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://www.elimparcial.es/fotos/1/159341_iran-funeral-shamkani.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-954371526",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "España exige a Israel el cese de bombardeos en Líbano",
+      "country": "Israel",
+      "url": "https://www.estrelladigital.es/articulo/noticias-en-la-red/espana-exige-israel-cese-bombardeos-libano/20260315125402442949.html",
+      "source_name": "estrelladigital.es",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://www.estrelladigital.es/media/estrelladigital/images/2026/03/15/2026031512540184501.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-1385288331",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "León XIV , dos semanas después del inicio de la guerra en Oriente Medio :  La violencia no podrá nunca llevar a la justicia , a la estabilidad y la paz que los pueblos esperan  ",
+      "country": "",
+      "url": "https://www.cope.es/religion/hoy-en-dia/vaticano/noticias/leon-xiv-dos-semanas-inicio-guerra-oriente-medio-violencia-no-podra-nunca-llevar-justicia-estabilidad-paz-pueblos-esperan-20260315_3326781.html",
+      "source_name": "cope.es",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://www.cope.es/files/og_thumbnail/uploads/2026/01/25/6975ff1e9f906.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-617626577",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Μέση Ανατολή : Βίντεο - σοκ από τη στιγμή που βλήμα από ιρανικό πύραυλο διασποράς χτυπά σε δρόμο στο Ισραήλ",
+      "country": "",
+      "url": "https://www.inewsgr.com/226/mesi-anatoli-vinteo-sok-apo-ti-stigmi-pou-vlima-apo-iraniko-pyravlo-diasporas-chtypa-se-dromo-sto-israil.htm",
+      "source_name": "inewsgr.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Greek",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3735925910",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "הביקור החשאי של רון דרמר בסעודיה",
+      "country": "",
+      "url": "https://www.ynet.co.il/news/article/h122xge9zx",
+      "source_name": "ynet.co.il",
+      "timestamp": "20260315T131500Z",
+      "language": "Hebrew",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2023/04/30/BJ3Ur3s73/BJ3Ur3s73_794_192_1487_837_0_large.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3081190735",
+      "source": "gdelt",
+      "category": "conflict",
+      "title": "Πόλεμος στη Μέση Ανατολή : Τι λένε στο ΕΤ Ιρανοί που μένουν μόνιμα στην Ελλάδα",
+      "country": "",
+      "url": "https://www.eleftherostypos.gr/ellada/polemos-sti-mesi-anatoli-ti-lene-sto-et-iranoi-pou-menoun-monima-stin-ellada",
+      "source_name": "eleftherostypos.gr",
+      "timestamp": "20260315T131500Z",
+      "language": "Greek",
+      "image": "https://www.eleftherostypos.gr/wp-content/uploads/2026/03/12-13f1-30-platos-1024x683.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1018012887",
       "source": "gdelt",
       "category": "conflict",
       "title": "Israel approves emergency military funding as Iran war rages",
@@ -19,7 +341,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-2404304782",
+      "id": "gdelt-1703293884",
       "source": "gdelt",
       "category": "conflict",
       "title": "Habervitrini . com | İran ın füze İsrail in merkezine düştü Tel Aviv den dumanlar yükseliyor",
@@ -33,7 +355,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2129864871",
+      "id": "gdelt-4034509454",
       "source": "gdelt",
       "category": "conflict",
       "title": "Photo Flash | Residential building of U . S . consul in Israel hit by Iranian missile fragment -- media",
@@ -47,7 +369,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-2244126492",
+      "id": "gdelt-1205398308",
       "source": "gdelt",
       "category": "conflict",
       "title": "U . S . military names six killed in plane crash as Iran war enters third week",
@@ -61,7 +383,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-430270029",
+      "id": "gdelt-3776313790",
       "source": "gdelt",
       "category": "conflict",
       "title": "Gulf states intercept new missiles and drones as Iran threatens to widen war",
@@ -75,7 +397,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-236319902",
+      "id": "gdelt-151251210",
       "source": "gdelt",
       "category": "conflict",
       "title": "Habervitrini . com | İran dan İsrail e füze yağmuru",
@@ -89,7 +411,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-33496281",
+      "id": "gdelt-2118200913",
       "source": "gdelt",
       "category": "conflict",
       "title": "U . S . military names six killed in plane crash as Iran war enters third week",
@@ -103,7 +425,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3770646936",
+      "id": "gdelt-3935304123",
       "source": "gdelt",
       "category": "conflict",
       "title": "Radio Station WHMI 93 . 5 FM Livingston County Michigan News , Weather , Traffic , Sports , School Updates , and the Best Classic Hit",
@@ -117,7 +439,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2553001237",
+      "id": "gdelt-1874914562",
       "source": "gdelt",
       "category": "conflict",
       "title": "Trump says US not ready to agree deal to end Iran war",
@@ -131,7 +453,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2059710401",
+      "id": "gdelt-2732833935",
       "source": "gdelt",
       "category": "conflict",
       "title": "Gulf states intercept new missiles and drones as Iran threatens to widen war",
@@ -145,7 +467,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-4245178798",
+      "id": "gdelt-1407874543",
       "source": "gdelt",
       "category": "conflict",
       "title": "Gulf states face missile threats as Iran accuses US of launching attacks from UAE",
@@ -159,7 +481,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2056579584",
+      "id": "gdelt-2248200922",
       "source": "gdelt",
       "category": "conflict",
       "title": "Lübnanda gece boyu süren İsrail saldırılarında en az 4 ölü : BMden diplomasi çağrısı",
@@ -173,7 +495,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-122246360",
+      "id": "gdelt-1825629903",
       "source": "gdelt",
       "category": "conflict",
       "title": "Ракетный удар по Израилю : зафиксировано падение осколков в нескольких районах | MigNews - Новости Израиля и Мира на русском языке",
@@ -187,7 +509,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1077509141",
+      "id": "gdelt-1708326670",
       "source": "gdelt",
       "category": "conflict",
       "title": "Irão responde à ameaça dos EUA a instalaes petrolíferas com novos ataques a países do Golfo",
@@ -201,7 +523,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3659237130",
+      "id": "gdelt-2259278098",
       "source": "gdelt",
       "category": "conflict",
       "title": "El canciller israelí niega los informes sobre conversaciones inminentes con el Líbano , advirtiendo que Beirut primero debe actuar contra Hezbollah",
@@ -215,7 +537,7 @@
       "lng": 35.5
     },
     {
-      "id": "gdelt-2072157707",
+      "id": "gdelt-929819042",
       "source": "gdelt",
       "category": "conflict",
       "title": "川普籲盟國派軍艦護航霍爾木茲海峽 伊朗揚言報復",
@@ -229,7 +551,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-968513034",
+      "id": "gdelt-4149120418",
       "source": "gdelt",
       "category": "conflict",
       "title": "Israel prepara una posible operación terrestre a gran escala en el sur del Líbano en plena escalada con Hizbulá",
@@ -243,7 +565,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-1718662475",
+      "id": "gdelt-2510973177",
       "source": "gdelt",
       "category": "conflict",
       "title": "Израильские военные опровергли публикацию о критическом дефиците ракет ПВО | MigNews - Новости Израиля и Мира на русском языке",
@@ -257,7 +579,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3304047488",
+      "id": "gdelt-1319461233",
       "source": "gdelt",
       "category": "conflict",
       "title": "Israel anuncia una nueva ola de bombardeos a gran escala en el oeste de Irán",
@@ -271,7 +593,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-3516898116",
+      "id": "gdelt-3824256093",
       "source": "gdelt",
       "category": "conflict",
       "title": "Royal Navy mine - hunting drones may join Trump armada to open Hormuz Strait after his U - turn on united kingdom role in Iran war",
@@ -285,7 +607,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2038324140",
+      "id": "gdelt-3802786505",
       "source": "gdelt",
       "category": "conflict",
       "title": "Bahreyn : İrandan şu ana kadar atılan 125 füze ve 211 İHA engellendi",
@@ -299,7 +621,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2581546401",
+      "id": "gdelt-1464438099",
       "source": "gdelt",
       "category": "conflict",
       "title": "2 Wounded by Iran Strikes in Israel , Saudis Shoot Down 6 Iranian Missiles , Kuwait Destroys 5 Drones",
@@ -313,7 +635,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-1311191664",
+      "id": "gdelt-3092262919",
       "source": "gdelt",
       "category": "conflict",
       "title": "The perfect Easter sun breaks - away from the Middle East conflict",
@@ -327,7 +649,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-4131055504",
+      "id": "gdelt-84965717",
       "source": "gdelt",
       "category": "conflict",
       "title": "Gulf States Intercept New Missiles And Drones As Iran Threatens To Widen War – 710am KURV",
@@ -341,7 +663,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1393577200",
+      "id": "gdelt-586642383",
       "source": "gdelt",
       "category": "conflict",
       "title": "Trump warns of more strikes on Iran Kharg Island , pressures allies to secure oil chokepoint",
@@ -355,7 +677,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1569775772",
+      "id": "gdelt-2006717180",
       "source": "gdelt",
       "category": "conflict",
       "title": "Iran says 223 women , 202 children killed in US - Israeli attacks",
@@ -369,7 +691,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2677192411",
+      "id": "gdelt-275674491",
       "source": "gdelt",
       "category": "conflict",
       "title": "Canlı - İran savaşında 16 . gün : Tahrandan  savaşın kapsamını genişletecek adımlardan kaçının  çağrısı",
@@ -383,329 +705,21 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2611569684",
+      "id": "gdelt-4291567680",
       "source": "gdelt",
-      "category": "conflict",
-      "title": "Newsticker zum Ukraine - Krieg : Trump und Putin telefonieren erstmals in diesem Jahr",
+      "category": "protest",
+      "title": "Khaled Salih : Vattenmelonen och universitetens förlorade heder",
       "country": "",
-      "url": "https://www.derbund.ch/ticker-ukraine-russland-krieg-4-514789244253",
-      "source_name": "derbund.ch",
-      "timestamp": "20260315T124500Z",
-      "language": "German",
-      "image": "https://cdn.unitycms.io/images/6j_MJcH144E91sC6PThcIC.jpg?op=ocroped&val=1200,600,1000,1000,0,0&sum=Ly2qN55Q0x8",
+      "url": "https://www.fokus.se/sticket/vattenmelonen-och-universitetens-forlorade-heder/",
+      "source_name": "fokus.se",
+      "timestamp": "20260315T131500Z",
+      "language": "Swedish",
+      "image": "https://cdn.fokus.se/app/uploads/fokus/2026/03/15104319/sdl8PrRQmWKX9c-nh-2.jpg",
       "lat": null,
       "lng": null
     },
     {
-      "id": "gdelt-1842100380",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "أخبار سوريا - جهينة نيوز - سورية : البيت الأبيض يعلن تدمير أكثر من 65 سفينة للقوات البحرية الإيرانية",
-      "country": "",
-      "url": "https://www.jpnews-sy.com/ar/news.php?id=247412",
-      "source_name": "jpnews-sy.com",
-      "timestamp": "20260315T124500Z",
-      "language": "Arabic",
-      "image": "",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3739650311",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Ισραήλ : Βίντεο από τη στιγμή που εκρήγνυται βόμβα διασποράς στη μέση του δρόμου",
-      "country": "",
-      "url": "https://www.enikos.gr/international/israil-i-stigmi-pou-ekrignytai-vomva-diasporas-sto-tel-aviv/2549296/",
-      "source_name": "enikos.gr",
-      "timestamp": "20260315T124500Z",
-      "language": "Greek",
-      "image": "https://www.enikos.gr/wp-content/uploads/2026/03/israel-4.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-2755993003",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Israeli military launches",
-      "country": "Israel",
-      "url": "http://www.greekherald.com/news/278923290/israeli-military-launches-wide-scale-strikes-on-terror-infrastructure-in-western-iran",
-      "source_name": "greekherald.com",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://image.chitra.live/api/v1/wps/6f8105c/1d351511-75c6-49b6-ad4a-c422f6252c87/0/ANI-20260315092941-600x315.jpg",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-1848351369",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Trump says US not ready to agree deal to end Iran war",
-      "country": "Iran",
-      "url": "https://www.naharnet.com/stories/en/318967-trump-says-us-not-ready-to-agree-deal-to-end-iran-war",
-      "source_name": "naharnet.com",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "http://images1.naharnet.com/images/171700/w140.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-681724333",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Israel approves emergency military funding as Iran war rages",
-      "country": "Israel",
-      "url": "https://www.naharnet.com/stories/en/318966-israel-approves-emergency-military-funding-as-iran-war-rages",
-      "source_name": "naharnet.com",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "http://images1.naharnet.com/images/273681/w140.jpeg",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-879341933",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Israel not planning to hold direct talks with Lebanon",
-      "country": "Lebanon",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-not-planning-hold-direct-talks-lebanon",
-      "source_name": "middleeasteye.net",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2VF9VD.jpg",
-      "lat": 33.85,
-      "lng": 35.86
-    },
-    {
-      "id": "gdelt-2072124962",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "ABD , İsrail - İran savaşının 16 . gününde SON DAKİKA gelişmeler I İran : 54 . dalga saldırı başladı ! Siccil balistik füze ateşlendi ... ",
-      "country": "Iran",
-      "url": "https://www.cnnturk.com/dunya/live-abd-israil-iran-savasinin-16-gununde-son-dakika-gelismeler-i-iran-54-dalga-saldiri-basladi-siccil-balistik-fuze-ateslendi-2406257",
-      "source_name": "cnnturk.com",
-      "timestamp": "20260315T124500Z",
-      "language": "Turkish",
-      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/69b4ef5e6439ca6a0cc70a01.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-251317825",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Milanović : Postoji država koja omogućuje jačanje Srbije . Da nije Izrael ? ",
-      "country": "",
-      "url": "https://www.index.hr/vijesti/clanak/milanovic-postoji-drzava-koja-omogucuje-jacanje-srbije-da-nije-izrael/2771372.aspx?index_tid=955134&index_ref=naslovnica_vijesti_ostalo_d_0",
-      "source_name": "index.hr",
-      "timestamp": "20260315T124500Z",
-      "language": "Croatian",
-      "image": "https://ip.index.hr/remote/bucket.index.hr/b/index/3106b6cf-dd77-40e4-9ffa-dc8b9a38c55e.png?fb_wtrmrk=vijesti.jpg&mode=crop&format=png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3626172263",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Gulf states intercept new missiles and drones as Iran threatens to widen war",
-      "country": "Iran",
-      "url": "https://www.wandsworthguardian.co.uk/news/national/25937601.gulf-states-intercept-new-missiles-drones-iran-threatens-widen-war/",
-      "source_name": "wandsworthguardian.co.uk",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://www.wandsworthguardian.co.uk/resources/images/20660561.jpg?type=og-image",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2644981667",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Gulf states face missile threats as Iran accuses US of launching attacks from UAE",
-      "country": "Iran",
-      "url": "https://www.wusa9.com/article/news/nation-world/attack-on-iran/persian-gulf-arab-states-missile-drone-attack-interception-iran-war-israel-united-states/507-6581d822-a752-4c3a-a06b-b7783af9614d",
-      "source_name": "wusa9.com",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://media.wusa9.com/assets/CCT/images/e1cc5430-6fd9-40ca-a4a5-4903b6e02002/20260315T114817/e1cc5430-6fd9-40ca-a4a5-4903b6e02002_1140x641.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2236156486",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Pope escalates call for ceasefire in Iran by addressing those responsi ... ",
-      "country": "Iran",
-      "url": "https://www.semissourian.com/world/pope-escalates-call-for-ceasefire-in-iran-by-addressing-those-responsible-for-the-war-bb46803e",
-      "source_name": "semissourian.com",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://public-assets-prod.pubgen.ai/brand_a7b06a8b-02b9-4920-9426-9b9be1d4e410/asset_63655018-0b2e-5525-a2c3-5527ad510455.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-3072368715",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Sky News halted for breaking Donald Trump announcement",
-      "country": "",
-      "url": "https://www.express.co.uk/showbiz/tv-radio/2182418/sky-news-halted-breaking-donald-trump-announcement",
-      "source_name": "express.co.uk",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/20/1200x630/6801911.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1437355533",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Irán folytatja az Öböl - államok elleni csapásokat",
-      "country": "",
-      "url": "https://www.bumm.sk/kulfold/2026/03/15/iran-folytatja-az-obol-allamok-elleni-csapasokat",
-      "source_name": "bumm.sk",
-      "timestamp": "20260315T124500Z",
-      "language": "Hungarian",
-      "image": "https://www.bumm.sk/uploads/news/055/292055/iran-folytatja-az-obol-allamok-elleni-csapasokat_292055.jpg?v1773577918",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-4267895522",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Israelul a aprobat un buget „ de urgență  pentru achiziții militare",
-      "country": "Israel",
-      "url": "https://hotnews.ro/israelul-a-aprobat-un-buget-de-urgenta-pentru-achizitii-militare-2194396",
-      "source_name": "hotnews.ro",
-      "timestamp": "20260315T124500Z",
-      "language": "Romanian",
-      "image": "https://hotnews.ro/wp-content/uploads/2026/03/profimedia-1081435208.jpg",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-2472231827",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "İran Füzesinin İsrailde Yarattığı Yangın Büyüyor",
-      "country": "Iran",
-      "url": "https://www.haberaktuel.com/iran-fuzesinin-israil-de-yarattigi-yangin-buyuyor-3424872",
-      "source_name": "haberaktuel.com",
-      "timestamp": "20260315T124500Z",
-      "language": "Turkish",
-      "image": "https://www.haberaktuel.com/wp-content/uploads/ezuqygnscnjntpvr2m1ykd.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2436239341",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Is Abu Dhabi Airport Open Right Now ? Zayed International ( AUH ) Open with Limited Operations",
-      "country": "",
-      "url": "https://www.ibtimes.com.au/abu-dhabi-airport-open-right-now-zayed-international-auh-open-limited-operations-1863321",
-      "source_name": "ibtimes.com.au",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://d.ibtimes.com.au/en/full/1891867/zayed-international-airport-abu-dhabi-international-airport.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3112204317",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "U . S . military names six killed in plane crash as Iran war enters third week",
-      "country": "Iran",
-      "url": "https://www.northernpublicradio.org/2026-03-15/u-s-military-names-six-killed-in-plane-crash-as-iran-war-enters-third-week",
-      "source_name": "northernpublicradio.org",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "http://npr-brightspot.s3.amazonaws.com/93/67/b6693ddb40d1b66a6bef6ebfbc8b/ap26074100353503.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-1169538378",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Japan says bar for sending warships to Strait of Hormuz  extremely high  ",
-      "country": "",
-      "url": "https://www.aa.com.tr/en/asia-pacific/japan-says-bar-for-sending-warships-to-strait-of-hormuz-extremely-high-/3865510",
-      "source_name": "aa.com.tr",
-      "timestamp": "20260315T124500Z",
-      "language": "English",
-      "image": "https://cdnuploads.aa.com.tr/uploads/Contents/2026/03/15/thumbs_b_c_4619a56a1f943d7811e3087de69a4c84.jpg?v=152554",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-842728628",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "أخبار سوريا - جهينة نيوز - سورية : عراقجي : واشنطن طورت مسيرة شبيهة بـ  شاهد  وتستخدمها لضرب أهداف في دول عربية",
-      "country": "",
-      "url": "https://www.jpnews-sy.com/ar/news.php?id=247411",
-      "source_name": "jpnews-sy.com",
-      "timestamp": "20260315T124500Z",
-      "language": "Arabic",
-      "image": "",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1476041425",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Füzeler Tel Aviv semalarında ! Demir Kubbe artık görevini yapamıyor",
-      "country": "",
-      "url": "https://www.yeniakit.com.tr/haber/fuzeler-tel-aviv-semalarinda-demir-kubbe-artik-gorevini-yapamiyor-1989214.html",
-      "source_name": "yeniakit.com.tr",
-      "timestamp": "20260315T124500Z",
-      "language": "Turkish",
-      "image": "https://cdn.yeniakit.com.tr/cdn-cgi/image/format=webp,quality=85/images/news/425/fuzeler-tel-aviv-semalarinda-demir-kubbe-artik-gorevini-yapamiyor-2h1773576033-49a2ea.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-774340638",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "Mantan Komandan Damkar Israel Akui Kehebatan Bom Klaster Iran",
-      "country": "Israel",
-      "url": "https://news.republika.co.id/berita/tbxqw4377/mantan-komandan-damkar-israel-akui-kehebatan-bom-klaster-iran",
-      "source_name": "news.republika.co.id",
-      "timestamp": "20260315T124500Z",
-      "language": "Indonesian",
-      "image": "https://static.republika.co.id/uploads/images/kanal_slide/_260312050518-750.png",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-3259494279",
-      "source": "gdelt",
-      "category": "conflict",
-      "title": "ABD Ordusuna Ait Askeri Tank Konvoyu Görüntüleri Yayınlandı",
-      "country": "",
-      "url": "https://www.haberaktuel.com/abd-ordusuna-ait-askeri-tank-konvoyu-goruntuleri-yayinlandi-3424864",
-      "source_name": "haberaktuel.com",
-      "timestamp": "20260315T124500Z",
-      "language": "Turkish",
-      "image": "https://www.haberaktuel.com/wp-content/uploads/qo8dbgqe7zgrw1vhs0z6o.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-363964633",
+      "id": "gdelt-230756387",
       "source": "gdelt",
       "category": "protest",
       "title": "Laura Whitmore :  If you have any type of platform , or a voice , you really should be asking questions . You should be speaking out  ",
@@ -719,7 +733,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3541635157",
+      "id": "gdelt-938667360",
       "source": "gdelt",
       "category": "protest",
       "title": "Drie Iraanse voetbalspeelsters bedenken zich : ze trekken hun asielaanvraag in Australië in en stappen vliegtuig op",
@@ -733,7 +747,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3846771272",
+      "id": "gdelt-2171451471",
       "source": "gdelt",
       "category": "protest",
       "title": "News1 | רוטמן נגד האופוזיציה :  הצביעות נוזלת מהאוזניים ; אתם בוחרים מה שנוי במחלוקת  ",
@@ -747,7 +761,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1991980856",
+      "id": "gdelt-1453884703",
       "source": "gdelt",
       "category": "protest",
       "title": "צרפתי הרכבי : לחקור התנהלות השוטר מהעימות עם רועי סטאר",
@@ -761,7 +775,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3899915849",
+      "id": "gdelt-1267521468",
       "source": "gdelt",
       "category": "protest",
       "title": "FOR PRINT : King Goes to the Polls with Our New Annual Political Survey – Roar News",
@@ -775,7 +789,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2781889485",
+      "id": "gdelt-3967356765",
       "source": "gdelt",
       "category": "protest",
       "title": "伊朗总统 ， 上街头 ， 表忠心 _ 凤凰网",
@@ -789,7 +803,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2709152540",
+      "id": "gdelt-240057433",
       "source": "gdelt",
       "category": "protest",
       "title": "自由開講 》 重寫秩序的代價 ： 從 「 能力剝奪 」 到重心的不可逆轉",
@@ -803,7 +817,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1402763447",
+      "id": "gdelt-2310117682",
       "source": "gdelt",
       "category": "protest",
       "title": "Milli marş okumayan İranlı futbolculardan  daha ilticadan vazgeçti",
@@ -817,7 +831,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1555684545",
+      "id": "gdelt-1407995938",
       "source": "gdelt",
       "category": "protest",
       "title": "Rizede Gazze İçin Boykot Eylemi Sürüyor :  Tek Silahımız Boykot  ",
@@ -831,7 +845,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3222927147",
+      "id": "gdelt-3392940329",
       "source": "gdelt",
       "category": "protest",
       "title": "Iran : la « troisième voie » face à limpasse de la guerre",
@@ -845,7 +859,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1161631855",
+      "id": "gdelt-221016071",
       "source": "gdelt",
       "category": "protest",
       "title": "Russia e Cina , gli amici da tempo sereno dellIran . Lanalisi di Jean",
@@ -859,7 +873,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2771210016",
+      "id": "gdelt-429670299",
       "source": "gdelt",
       "category": "protest",
       "title": "Семиволос : Стара гвардія Ірану не готова визнати нового аятолу одностайно",
@@ -873,7 +887,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1738952402",
+      "id": "gdelt-3850137923",
       "source": "gdelt",
       "category": "protest",
       "title": " ¿ Está de moda ser un canalla ? ",
@@ -887,7 +901,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-4248504792",
+      "id": "gdelt-1549531389",
       "source": "gdelt",
       "category": "protest",
       "title": " « Это война о пересмотре США самих себя и своего места в мире » ",
@@ -901,7 +915,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1003909624",
+      "id": "gdelt-2762220787",
       "source": "gdelt",
       "category": "protest",
       "title": "Ecco le ragioni del No",
@@ -915,7 +929,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1175150179",
+      "id": "gdelt-3592591743",
       "source": "gdelt",
       "category": "protest",
       "title": "Iran nije ono što vidite na televiziji : Iranac u egzilu otkrio zašto ne podržava napade Amerike i Izraela",
@@ -929,7 +943,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3518949686",
+      "id": "gdelt-670715312",
       "source": "gdelt",
       "category": "protest",
       "title": "Τουρισμός : Όταν οι αγορές … φτερνίζονται",
@@ -943,7 +957,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-705123616",
+      "id": "gdelt-592018683",
       "source": "gdelt",
       "category": "protest",
       "title": "NPR Omits Antisemitism Around Their Man Mamdani , Hammers on GOP  Islamophobia  ",
@@ -957,7 +971,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3562689955",
+      "id": "gdelt-1515377517",
       "source": "gdelt",
       "category": "protest",
       "title": "Haftanın tarihine bakış",
@@ -971,7 +985,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-316577695",
+      "id": "gdelt-352783639",
       "source": "gdelt",
       "category": "protest",
       "title": "Ten Cate en Suriname in wachtkamer over WK play - offs",
@@ -985,7 +999,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3356928057",
+      "id": "gdelt-3576985402",
       "source": "gdelt",
       "category": "protest",
       "title": "Are synagogue shootings a tipping point that will lead to real action ? ",
@@ -999,7 +1013,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3779733624",
+      "id": "gdelt-3560312924",
       "source": "gdelt",
       "category": "protest",
       "title": "Hundreds of people demonstrate against imperialism in Geneva",
@@ -1013,7 +1027,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1315286337",
+      "id": "gdelt-1098336439",
       "source": "gdelt",
       "category": "protest",
       "title": "As other Iran ‑ allied groups are engaging in the Mideast war , Yemen Houthis hold back – Winnipeg Free Press",
@@ -1027,7 +1041,7 @@
       "lng": 48.52
     },
     {
-      "id": "gdelt-1236723078",
+      "id": "gdelt-3557274328",
       "source": "gdelt",
       "category": "protest",
       "title": "Banksy identity claims emerge after decades of mystery over street artist",
@@ -1041,7 +1055,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-299538023",
+      "id": "gdelt-1346881650",
       "source": "gdelt",
       "category": "protest",
       "title": "哈贝马斯 ： 从天才的门徒 ， 到天才的对手 新京报",
@@ -1055,7 +1069,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1275205570",
+      "id": "gdelt-2139092303",
       "source": "gdelt",
       "category": "protest",
       "title": "Canada : 4 , 500 gathered in Toronto to show support for Palestine in Quds Day – Shafaqna English",
@@ -1069,7 +1083,7 @@
       "lng": 35.23
     },
     {
-      "id": "gdelt-895257467",
+      "id": "gdelt-2762083318",
       "source": "gdelt",
       "category": "protest",
       "title": "Το αντιπολεμικό κίνημα αντεπιτίθεται",
@@ -1083,7 +1097,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1534068269",
+      "id": "gdelt-3937554252",
       "source": "gdelt",
       "category": "protest",
       "title": "Τουρισμός : Φρένο στις κρατήσεις λόγω Μέσης Ανατολής , έρχονται ακριβότερα αεροπορικά εισιτήρια",
@@ -1097,7 +1111,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3469721709",
+      "id": "gdelt-4231432838",
       "source": "gdelt",
       "category": "protest",
       "title": "Haftanın tarihine bakış",
@@ -1111,7 +1125,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3013815353",
+      "id": "gdelt-3613177404",
       "source": "gdelt",
       "category": "protest",
       "title": "Banksy identity claims emerge after decades of mystery over street artist",
@@ -1125,7 +1139,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-644515719",
+      "id": "gdelt-846319666",
       "source": "gdelt",
       "category": "protest",
       "title": "今天 ， 我们为什么还要阅读哈贝马斯 ？ 新京报",
@@ -1139,7 +1153,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-388139596",
+      "id": "gdelt-3615447937",
       "source": "gdelt",
       "category": "protest",
       "title": "哈贝马斯 ： 纵然承受恶意 ， 也绝不沦为犬儒｜逝者 新京报",
@@ -1153,7 +1167,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-691747500",
+      "id": "gdelt-4222038647",
       "source": "gdelt",
       "category": "protest",
       "title": "Haftanın tarihine bakış",
@@ -1167,7 +1181,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1254531460",
+      "id": "gdelt-3339114638",
       "source": "gdelt",
       "category": "protest",
       "title": "US - israelische Angriffe auf Iran : Wer wird den Krieg gewinnen ? ",
@@ -1181,7 +1195,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1761781006",
+      "id": "gdelt-460195877",
       "source": "gdelt",
       "category": "protest",
       "title": "סרטון סוער מברזיל : מכות בין ישראלים לפרו - פלסטינים",
@@ -1195,7 +1209,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1391697182",
+      "id": "gdelt-2267882065",
       "source": "gdelt",
       "category": "protest",
       "title": "War on Iran : How Algeria and Morocco manoeuvre the fallout",
@@ -1209,7 +1223,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2664715164",
+      "id": "gdelt-2365183341",
       "source": "gdelt",
       "category": "protest",
       "title": "Opinión Montiel | Torrente en acción",
@@ -1223,7 +1237,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3539378952",
+      "id": "gdelt-1329896328",
       "source": "gdelt",
       "category": "protest",
       "title": "From atrocity to accountability , Syria path runs through Geneva",
@@ -1237,7 +1251,7 @@
       "lng": 38.99
     },
     {
-      "id": "gdelt-2632421971",
+      "id": "gdelt-3661267163",
       "source": "gdelt",
       "category": "protest",
       "title": "அழுத்தத்துக்கு அடிபணிந்தால் விஜய் சூனியமாகி விடுவார் : திருமாவளவன் / If Vijay bow to pressure he will become a void Thirumavalavan",
@@ -1251,7 +1265,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-4004716595",
+      "id": "gdelt-1590132887",
       "source": "gdelt",
       "category": "protest",
       "title": "How does China view the US - Israeli war on its ally Iran ? ",
@@ -1265,7 +1279,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2772961663",
+      "id": "gdelt-3105923292",
       "source": "gdelt",
       "category": "protest",
       "title": "লাদাখের বিখ্যাত অধিকারকর্মী ওয়াংচুক ৬ মাস পর কারামুক্ত",
@@ -1279,7 +1293,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1513081342",
+      "id": "gdelt-853486155",
       "source": "gdelt",
       "category": "protest",
       "title": "Нетаньяху погиб , а его видеообращение это фейк : слухи и теории вокруг смерти премьера Израиля",
@@ -1293,7 +1307,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1929548950",
+      "id": "gdelt-3606718637",
       "source": "gdelt",
       "category": "protest",
       "title": "Artimųjų Rytų lūžio taškas : Irano „ stebuklingos  raketos ir JAV kantrybės išbandymas",
@@ -1307,7 +1321,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3149232013",
+      "id": "gdelt-998907585",
       "source": "gdelt",
       "category": "protest",
       "title": "ASEAN Roundup อาเซียนเลิกใช้กลไกปล่อยตามราคาตลาด หันใช้มาตรการ  คลัง - ภาษี - กฎหมาย  รับมือวิกฤติพลังงาน",
@@ -1321,7 +1335,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-686502233",
+      "id": "gdelt-3607018600",
       "source": "gdelt",
       "category": "protest",
       "title": "حرب إيران تتجه إلى الاستنزاف .. فشل أمريكي إسرائيلي في حسم المعركة حتى الآن",
@@ -1335,7 +1349,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2101703638",
+      "id": "gdelt-2819801316",
       "source": "gdelt",
       "category": "protest",
       "title": "Trump says US bombed military sites on an island vital to Iran oil network | News , Sports , Jobs",
@@ -1349,7 +1363,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1330769073",
+      "id": "gdelt-3028600321",
       "source": "gdelt",
       "category": "protest",
       "title": "테헤란 한국인  까만  기름 비  내려 … 주민 90 % 떠나 시위 올스톱  ",
@@ -1363,7 +1377,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3564526960",
+      "id": "gdelt-1483818040",
       "source": "gdelt",
       "category": "protest",
       "title": "Protesters burn photos of Trump , Meloni in Rome march",
@@ -1377,32 +1391,774 @@
       "lng": null
     },
     {
-      "id": "gdelt-4223333943",
+      "id": "gdelt-1465026498",
       "source": "gdelt",
-      "category": "protest",
-      "title": "哈贝马斯 ： 纵然承受恶意 ， 也绝不沦为犬儒｜逝者",
+      "category": "military",
+      "title": "Oscars 2026 : Nominees , predictions , start time and how to watch - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "country": "",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-03-15/doc-inhrafpq6627952.shtml",
-      "source_name": "finance.sina.com.cn",
-      "timestamp": "20260315T091500Z",
-      "language": "Chinese",
-      "image": "https://n.sinaimg.cn/sinakd20260315s/446/w800h446/20260315/7230-3b6f333cc33a19fa0dd5cf7ce60f9c52.png",
+      "url": "https://dominicanrepublicpost.com/oscars-2026-nominees-predictions-start-time-and-how-to-watch/",
+      "source_name": "dominicanrepublicpost.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://dominicanrepublicpost.com/app/uploads/2026/03/2026-01-22T131750Z_48792263_RC2D6JA05O5L_RTRMADP_3_AWARDS-OSCARS-NOMINATIONS-1773419028-7h5Kaa.jpg",
       "lat": null,
       "lng": null
     },
     {
-      "id": "gdelt-1070129247",
+      "id": "gdelt-3967790929",
       "source": "gdelt",
-      "category": "protest",
-      "title": "Iraq is caught in the crossfire of the Iran war , with attacks by both sides on its soil | News , Sports , Jobs",
-      "country": "Iraq",
-      "url": "http://www.vindy.com/wire/?category=6&ID=389423",
-      "source_name": "vindy.com",
-      "timestamp": "20260315T091500Z",
+      "category": "military",
+      "title": "Israeli soldiers fire on family car in occupied West Bank , killing 4",
+      "country": "Israel",
+      "url": "https://www.ktep.org/world-news/2026-03-15/israeli-soldiers-fire-on-family-car-in-occupied-west-bank-killing-4",
+      "source_name": "ktep.org",
+      "timestamp": "20260315T131500Z",
       "language": "English",
-      "image": "https://www.vindy.com/wp-content/themes/coreV3_lazy_vindycustom/images/vindicatorfb.jpg",
+      "image": "http://npr-brightspot.s3.amazonaws.com/5f/7f/511e19b54766bacf5d0f0184fda3/ap26074367822239.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-4034448551",
+      "source": "gdelt",
+      "category": "military",
+      "title": "ウクライナと合意は 「 困難 」／ トランプ大統領突き放す | 全国ニュース",
+      "country": "",
+      "url": "http://www.shikoku-np.co.jp/national/international/article.aspx?id=20260315000447",
+      "source_name": "shikoku-np.co.jp",
+      "timestamp": "20260315T131500Z",
+      "language": "Japanese",
+      "image": "http://www.shikoku-np.co.jp/img_news.aspx?id=20260315000447&no=1",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-970237288",
+      "source": "gdelt",
+      "category": "military",
+      "title": "İran İsrailə qarşı  Seccil  raketlərindən ilk dəfə istifadə olunduğunu bildirib",
+      "country": "Iran",
+      "url": "https://az.trend.az/other/world/4165363.html",
+      "source_name": "az.trend.az",
+      "timestamp": "20260315T131500Z",
+      "language": "Azerbaijani",
+      "image": "https://az.trend.az/imagen/4165363",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-1396341820",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Ataques , amenazas y presión internacional : aumenta el conflicto en Oriente Medio",
+      "country": "",
+      "url": "https://www.excelsior.com.mx/internacional/ataques-amenazas-y-presion-internacional-aumenta-conflicto-oriente-medio",
+      "source_name": "excelsior.com.mx",
+      "timestamp": "20260315T131500Z",
+      "language": "Spanish",
+      "image": "https://imagenes.excelsior.com.mx/files/og_thumbnail/uploads/2026/03/15/69b6899f96ffd.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-4085671808",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Odpryskowe furie psychiatryczne - Stanisław Michalkiewicz",
+      "country": "",
+      "url": "http://www.michalkiewicz.pl/tekst.php?tekst=6000",
+      "source_name": "michalkiewicz.pl",
+      "timestamp": "20260315T131500Z",
+      "language": "Polish",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-561403444",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Шпанија , Италија , Малта , Португалија и Хрватска ќе имаат корист од кризата на Блискиот Исток",
+      "country": "",
+      "url": "https://time.mk/c/8250057194/spanija-italija-malta-portugalija-i-hrvatska-ke-imaat-korist-od-krizata-na-bliskiot-istok.html",
+      "source_name": "time.mk",
+      "timestamp": "20260315T131500Z",
+      "language": "Macedonian",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3297628589",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Qmati : French initiative born dead , normalization a major sin",
+      "country": "",
+      "url": "https://www.naharnet.com:443/stories/en/318972-qmati-french-initiative-born-dead-normalization-a-major-sin",
+      "source_name": "naharnet.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "http://images3.naharnet.com/images/273685/w140.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2858041086",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Guerra de lIran : així sha preparat Teheran durant anys per a aquest guerra",
+      "country": "Iran",
+      "url": "https://www.ara.cat/internacional/proxim-orient/aixi-s-preparat-l-iran-durant-anys-aquesta-guerra_1_5677192.html",
+      "source_name": "ara.cat",
+      "timestamp": "20260315T131500Z",
+      "language": "Catalan",
+      "image": "https://static1.ara.cat/clip/d7376bde-fa7a-4dc7-8835-c4c1cde3bc78_facebook-aspect-ratio_default_0_x711y583.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-1249032325",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Мирні переговори щодо України під загрозою зриву , оскільки США більше перемикається на конфлікт на Близькому Сході , – FT",
+      "country": "",
+      "url": "https://for-ua.com/article/1255973",
+      "source_name": "for-ua.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Ukrainian",
+      "image": "https://for-ua.com/static/images/previews/125/1255973-0.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2550416933",
+      "source": "gdelt",
+      "category": "military",
+      "title": "What we know on the 16th day of the US and Israel war with Iran",
+      "country": "Israel",
+      "url": "https://ktvz.com/news/national-world/cnn-world/2026/03/14/what-we-know-on-the-16th-day-of-the-us-and-israels-war-with-iran/",
+      "source_name": "ktvz.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://ktvz.b-cdn.net/2025/02/KTVZ-Default-image-860x484.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-4195478126",
+      "source": "gdelt",
+      "category": "military",
+      "title": "War in the Middle East : Latest developments",
+      "country": "",
+      "url": "https://www.naharnet.com:443/stories/en/318968-war-in-the-middle-east-latest-developments",
+      "source_name": "naharnet.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "http://images1.naharnet.com/images/273683/w140.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3740249058",
+      "source": "gdelt",
+      "category": "military",
+      "title": "אנחנו חייבים להם",
+      "country": "",
+      "url": "https://www.ynet.co.il/news/article/hjvoyk49zg",
+      "source_name": "ynet.co.il",
+      "timestamp": "20260315T131500Z",
+      "language": "Hebrew",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2022/10/09/rkQawXVxQo/rkQawXVxQo_0_44_829_467_0_large.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1926878285",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Trump Says US Not Ready To Agree Deal To End Iran War",
+      "country": "Iran",
+      "url": "https://www.deccanchronicle.com/world/americas/trump-says-us-not-ready-to-agree-deal-to-end-iran-war-1943997",
+      "source_name": "deccanchronicle.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://www.deccanchronicle.com/h-upload/2026/03/15/2021634-trump.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-2527856164",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Strażnicy Rewolucji : będziemy ścigać i zabijemy izraelskiego ... ",
+      "country": "",
+      "url": "https://www.gosc.pl/doc/9628358.Straznicy-Rewolucji-bedziemy-scigac-i-zabijemy-izraelskiego",
+      "source_name": "gosc.pl",
+      "timestamp": "20260315T131500Z",
+      "language": "Polish",
+      "image": "https://wf1.xcdn.pl/files/21/01/27/737762_hDSA_GN_PREV_2_C1200x1200-hwAh01.png.webp?conv=JGQFAAAABLAEsAB9IJgG",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1548519275",
+      "source": "gdelt",
+      "category": "military",
+      "title": "تصعيد إسرائيلي في الجبهة الجنوبية اللبنانية بـ12 غارة ..  القاهرة الإخبارية  ترصد المستجدات",
+      "country": "",
+      "url": "https://www.dostor.org/5459071",
+      "source_name": "dostor.org",
+      "timestamp": "20260315T131500Z",
+      "language": "Arabic",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-758502614",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Адміністрація президента США відхилила спроби союзників на Близькому Сході розпочати переговори про припинення війни",
+      "country": "",
+      "url": "https://for-ua.com/article/1255971",
+      "source_name": "for-ua.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Ukrainian",
+      "image": "https://for-ua.com/static/images/previews/125/1255971-0.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1812886363",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Трамп на встрече с Мерцем выразил уверенность в победе России над Украиной",
+      "country": "",
+      "url": "https://life.ru/p/1852313",
+      "source_name": "life.ru",
+      "timestamp": "20260315T131500Z",
+      "language": "Russian",
+      "image": "https://static.life.ru/ip/unsafe/rs:fit:1200:/q:98/sh:0.5/czM6Ly9saWZlLXN0YXRpYy9wdWJsaWNhdGlvbnMvMjAyNi8zLzE1LzEwMjYwOTY3OTAzNzEuNzc3My5qcGc=.webp",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-4090040226",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Режим в Тегеране под ударом : экс - президент Грузии в интервью haqqin . az о будущем Южного Кавказа",
+      "country": "",
+      "url": "https://haqqin.az/newsarchive/378425",
+      "source_name": "haqqin.az",
+      "timestamp": "20260315T130000Z",
+      "language": "Russian",
+      "image": "https://i.haqqin.az/957918_crop_0_0601479d22deccda.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1356231544",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Israeli soldiers fire on family car in occupied West Bank , killing 4",
+      "country": "Israel",
+      "url": "https://www.capeandislands.org/2026-03-15/israeli-soldiers-fire-on-family-car-in-occupied-west-bank-killing-4",
+      "source_name": "capeandislands.org",
+      "timestamp": "20260315T130000Z",
+      "language": "English",
+      "image": "http://npr-brightspot.s3.amazonaws.com/5f/7f/511e19b54766bacf5d0f0184fda3/ap26074367822239.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-803932764",
+      "source": "gdelt",
+      "category": "military",
+      "title": "US Intelligence Assesses Iran Regime Stable Despite Loss of Senior Leaders in Military Strikes – NaturalNews . com",
+      "country": "Iran",
+      "url": "https://www.naturalnews.com/2026-03-15-us-intelligence-iran-stable-loss-of-senior-leaders.html",
+      "source_name": "naturalnews.com",
+      "timestamp": "20260315T130000Z",
+      "language": "English",
+      "image": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/03/us-intelligence-assessment-iran-regime-stability-military-strikes-477-original.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-3917845456",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Israeli soldiers fire on family car in occupied West Bank , killing 4",
+      "country": "Israel",
+      "url": "https://lufkindailynews.com/anpa/international/israeli-soldiers-fire-on-family-car-in-occupied-west-bank-killing-4/article_78e04b38-ff7e-52c9-8227-4ab7e8214183.html",
+      "source_name": "lufkindailynews.com",
+      "timestamp": "20260315T130000Z",
+      "language": "English",
+      "image": "https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/5/8b/58b25b3a-a2a9-5133-b5c8-b441e0948b1d/69b6a0ac9dfdb.image.jpg?crop=1763%2C926%2C0%2C124",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-5113631",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Defensa canvia demplaçament els militars espanyols enviats a lIraq per posar - los fora de perill",
+      "country": "Iraq",
+      "url": "https://www.elperiodico.cat/ca/politica/20260315/defensa-canvia-emplacament-militars-espanyols-iraq-seguretat-127982228",
+      "source_name": "elperiodico.cat",
+      "timestamp": "20260315T130000Z",
+      "language": "Catalan",
+      "image": "https://estaticos-cdn.prensaiberica.es/clip/68566fb1-f48c-4640-9764-2af3f9abc858_16-9-aspect-ratio_default_0_x796y260.jpg",
       "lat": 33.22,
       "lng": 43.68
+    },
+    {
+      "id": "gdelt-3671026576",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Palantir Aktie : KI im Kriegseinsatz ( Finanztrends ) ",
+      "country": "",
+      "url": "https://boerse-social.com/page/newsflow/palantir_aktie_ki_im_kriegseinsatz_finanztrends",
+      "source_name": "boerse-social.com",
+      "timestamp": "20260315T130000Z",
+      "language": "German",
+      "image": "https://boerse-social.com/media/Content/CD_Image/image/121801/scalex/1000/scaley/550;.jpg?1.01",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-4198681222",
+      "source": "gdelt",
+      "category": "military",
+      "title": "AI warfare is here in the form of quadcopters and high - tech drones . ",
+      "country": "",
+      "url": "https://nypost.com/2026/03/15/us-news/ai-warfare-is-here-in-the-form-of-quadcopters-and-high-tech-drones/",
+      "source_name": "nypost.com",
+      "timestamp": "20260315T130000Z",
+      "language": "English",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2026/03/15PS.MAIN1_.C.TA_.jpg?quality=75&strip=all",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1994594863",
+      "source": "gdelt",
+      "category": "military",
+      "title": "War in the Middle East : latest developments",
+      "country": "",
+      "url": "https://www.spacewar.com/afp/260315102610.7y1akiku.html",
+      "source_name": "spacewar.com",
+      "timestamp": "20260315T130000Z",
+      "language": "English",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-863199068",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Israeli soldiers fire on family car in occupied West Bank , killing 4",
+      "country": "Israel",
+      "url": "https://www.clickorlando.com/news/world/2026/03/15/israeli-soldiers-fire-on-family-car-in-occupied-west-bank-killing-4/",
+      "source_name": "clickorlando.com",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/UGBH3JQ5DJEYJO64T7BEDP235Q.jpg?_a=DATAg1fkZAA0",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-938906179",
+      "source": "gdelt",
+      "category": "military",
+      "title": "From slavery to the White House , the Ficklin family served presidents for nearly 8 decades – Winnipeg Free Press",
+      "country": "",
+      "url": "https://www.winnipegfreepress.com/world/2026/03/15/from-slavery-to-the-white-house-the-ficklin-family-served-presidents-for-nearly-8-decades",
+      "source_name": "winnipegfreepress.com",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-543841482",
+      "source": "gdelt",
+      "category": "military",
+      "title": "Ataques israelitas matam pelo menos quatro pessoas no Líbano",
+      "country": "Israel",
+      "url": "https://pt.euronews.com/2026/03/15/ataques-israelitas-matam-pelo-menos-quatro-pessoas-no-libano-guterres-apela-a-uma-solucao-",
+      "source_name": "pt.euronews.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Portuguese",
+      "image": "https://images.euronews.com/articles/stories/09/68/62/58/1200x675_cmsv2_45c2b247-6827-5435-aa93-80e7810238de-9686258.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-905390583",
+      "source": "gdelt",
+      "category": "military",
+      "title": "İrandan savaşla ilgili dikkat çeken iddia : 11 Eylül benzeri komplo kuruyorlar",
+      "country": "",
+      "url": "https://www.haber7.com/dunya/haber/3612206-irandan-savasla-ilgili-dikkat-ceken-iddia-11-eylul-benzeri-komplo-kuruyorlar",
+      "source_name": "haber7.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Turkish",
+      "image": "https://i20.haber7.net/resize/1280x720/haber/haber7/photos/2026/11/irandan_savasla_ilgili_dikkat_ceken_iddia_11_eylul_benzeri_komplo_kuruyorlar_1773575414_1545.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1879476479",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "ANF | MSD : Demokratik bir siyasi süreç başlatılmalı",
+      "country": "",
+      "url": "https://anf-news.com/rojava-surIye/msd-demokratik-bir-siyasi-surec-baslatilmali-226075",
+      "source_name": "anf-news.com",
+      "timestamp": "20260315T131500Z",
+      "language": "Turkish",
+      "image": "https://anf-news.com/uploads/tr/articles/2026/03/20260315-msd-jpg2b4ee6-image.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-393403718",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "tayyar . org - البابا : لإحلال السلام في الشرق الأوسط",
+      "country": "",
+      "url": "https://www.tayyar.org/News/World/711453/_guid=711453",
+      "source_name": "tayyar.org",
+      "timestamp": "20260315T131500Z",
+      "language": "Arabic",
+      "image": "https://static.tayyar.org/Content/ResizedImages/663/423/outside/4390385_1746886299.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1740227955",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Israel says no direct talks planned with Lebanon to stop the war",
+      "country": "Lebanon",
+      "url": "https://www.naharnet.com:443/stories/en/318971-israel-says-no-direct-talks-planned-with-lebanon-to-stop-the-war",
+      "source_name": "naharnet.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "http://images0.naharnet.com/images/268978/w140.jpeg",
+      "lat": 33.85,
+      "lng": 35.86
+    },
+    {
+      "id": "gdelt-3466633831",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Războiul din Orientul Mijlociu complică situația Ucrainei . Negocierile de pace stagnează , livrările de arme din SUA întârzie , iar Rusia profită de creșterea prețului petrolului",
+      "country": "",
+      "url": "https://www.mediafax.ro/externe/razboiul-din-orientul-mijlociu-complica-situatia-ucrainei-negocierile-de-pace-stagneaza-livrarile-de-arme-din-sua-intarzie-iar-rusia-profita-de-cresterea-pretului-petrolului-23703318",
+      "source_name": "mediafax.ro",
+      "timestamp": "20260315T131500Z",
+      "language": "Romanian",
+      "image": "https://www.mediafax.ro/wp-content/uploads/2026/03/7935095-hepta_mediafax_foto-abacapress_hepta-1-scaled.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1034232333",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Iran Ali Larijani claims  Epstein team  plotting  9 / 11 - style  attack to blame Tehran",
+      "country": "Iran",
+      "url": "https://www.moneycontrol.com/world/iran-s-ali-larijani-claims-epstein-team-plotting-9-11-style-attack-to-blame-tehran-article-13860896.html",
+      "source_name": "moneycontrol.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260315124438_alilarjanirtr.png",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-3356632080",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Report : Dermer met officials in KSA over new agreement in Lebanon",
+      "country": "Lebanon",
+      "url": "https://www.naharnet.com:443/stories/en/318970-report-dermer-met-officials-in-ksa-over-new-agreement-in-lebanon",
+      "source_name": "naharnet.com",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "http://images0.naharnet.com/images/207755/w140.jpg",
+      "lat": 33.85,
+      "lng": 35.86
+    },
+    {
+      "id": "gdelt-3672572565",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "India plans US$6 . 2b fund to shield economy from crises",
+      "country": "",
+      "url": "https://www.businesstimes.com.sg/international/india-plans-us6-2-billion-fund-export-relief-amid-iran-war",
+      "source_name": "businesstimes.com.sg",
+      "timestamp": "20260315T131500Z",
+      "language": "English",
+      "image": "https://cassette.sphdigital.com.sg/image/businesstimes/3228ae1f490d0bb97cf42573ffc3dac78eeaae5b1e1e731d2185fb4c39fc4963?&f=webp",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2954605742",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "البنك الدولي يمنح سوريا 20 مليون دولار لتعزيز كفاءة الأموال العامة",
+      "country": "",
+      "url": "https://www.dostor.org/5458914",
+      "source_name": "dostor.org",
+      "timestamp": "20260315T130000Z",
+      "language": "Arabic",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1718977617",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Israel destroys Hezbollah elite",
+      "country": "Israel",
+      "url": "http://www.greekherald.com/news/278923292/israel-destroys-hezbollah-elite-command-centres-in-beirut-as-death-toll-hits-826",
+      "source_name": "greekherald.com",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://image.chitra.live/api/v1/wps/6d14b22/c6f691b1-2e75-4221-a73d-4946ff8c5a90/0/ANI-20260315093037-600x315.jpg",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-568601269",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Israel not planning to hold direct talks with Lebanon",
+      "country": "Lebanon",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-not-planning-hold-direct-talks-lebanon",
+      "source_name": "middleeasteye.net",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2VF9VD.jpg",
+      "lat": 33.85,
+      "lng": 35.86
+    },
+    {
+      "id": "gdelt-1834766359",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Αραγτσί : Το Ισραήλ « κρύβεται » πίσω από επιθέσεις σε αραβικές χώρες",
+      "country": "",
+      "url": "https://www.protagon.gr/epikairotita/aragtsi-to-israil-kryvetai-pisw-apo-epitheseis-se-aravikes-xwres-44343330367",
+      "source_name": "protagon.gr",
+      "timestamp": "20260315T124500Z",
+      "language": "Greek",
+      "image": "https://www.protagon.gr/wp-content/uploads/2026/03/2026-02-17T144335Z_457520665_RC2QNJAALWP4_RTRMADP_3_IRAN-CRISIS-GENEVA-e1773571846652-1024x571.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1848789285",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "ABD , İsrail - İran savaşının 16 . gününde SON DAKİKA gelişmeler I İran : 54 . dalga saldırı başladı ! Siccil balistik füze ateşlendi ... ",
+      "country": "Iran",
+      "url": "https://www.cnnturk.com/dunya/live-abd-israil-iran-savasinin-16-gununde-son-dakika-gelismeler-i-iran-54-dalga-saldiri-basladi-siccil-balistik-fuze-ateslendi-2406257",
+      "source_name": "cnnturk.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Turkish",
+      "image": "https://image.cnnturk.com/i/cnnturk/75/1200x675/69b4ef5e6439ca6a0cc70a01.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-3573156244",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "İyi Parti Genel Başkanı Dervişoğlu Şırnakta :  Burada Yaşayan İnsanları Bir Oy Deposu Olarak Görmüyoruz  ",
+      "country": "",
+      "url": "http://www.haberler.com/guncel/iyi-parti-genel-baskani-dervisoglu-sirnak-ta-19660220-haberi/",
+      "source_name": "haberler.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Turkish",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3723505510",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Time . ai",
+      "country": "",
+      "url": "https://time.mk/ai/891aa51897/mk/",
+      "source_name": "time.mk",
+      "timestamp": "20260315T124500Z",
+      "language": "Macedonian",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-653504837",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Pope escalates call for ceasefire in Iran by addressing those responsi ... ",
+      "country": "Iran",
+      "url": "https://www.semissourian.com/world/pope-escalates-call-for-ceasefire-in-iran-by-addressing-those-responsible-for-the-war-bb46803e",
+      "source_name": "semissourian.com",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://public-assets-prod.pubgen.ai/brand_a7b06a8b-02b9-4920-9426-9b9be1d4e410/asset_63655018-0b2e-5525-a2c3-5527ad510455.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-2717947953",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "From slavery to the White House , the Ficklin family served presidents for nearly 8 decades",
+      "country": "",
+      "url": "https://www.ksat.com/news/politics/2026/03/15/from-slavery-to-the-white-house-the-ficklin-family-served-presidents-for-nearly-8-decades/",
+      "source_name": "ksat.com",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/SYJB7MJEHFGU3AJWWOQ3CVEOOU.jpg?_a=DATAg1fkZAA0",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1784796965",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Gazzede hayatını kaybedenlerin sayısı 72 bin 239  a yükseldi",
+      "country": "",
+      "url": "https://www.ensonhaber.com/dunya/gazzede-hayatini-kaybedenlerin-sayisi-72-bin-239a-yukseldi",
+      "source_name": "ensonhaber.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Turkish",
+      "image": "https://imgcdn.ensonhaber.com/media/esh/2026/03/15/69b695af973e1434.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1208289608",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "İran İsrailin polis mərkəzini atəşə tutduğunu elan edib",
+      "country": "Iran",
+      "url": "https://news.day.az/azerinews/1822327.html",
+      "source_name": "news.day.az",
+      "timestamp": "20260315T124500Z",
+      "language": "Azerbaijani",
+      "image": "https://news.day.az/media/2026/03/15/raket.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-3034213302",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Sky News halted for breaking Donald Trump announcement",
+      "country": "",
+      "url": "https://www.express.co.uk/showbiz/tv-radio/2182418/sky-news-halted-breaking-donald-trump-announcement",
+      "source_name": "express.co.uk",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/20/1200x630/6801911.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3481387957",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "La alianza con Estados Unidos pasa factura a las países del Golfo",
+      "country": "",
+      "url": "https://www.elperiodico.com/es/internacional/20260315/alianza-estados-unidos-pasa-factura-127932560",
+      "source_name": "elperiodico.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Spanish",
+      "image": "https://estaticos-cdn.prensaiberica.es/clip/d005ea77-cf3d-4641-911b-26f0fe10a6d9_16-9-discover-aspect-ratio_default_0_x960y360.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1066683731",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Σαρώνει η κακοκαιρία την Κύπρο – Μαγευτικές εικόνες από το χιόνι στο Τρόοδος – Δείτε βίντεο",
+      "country": "",
+      "url": "https://www.tothemaonline.com/Article/455837/sarwnei-h-kakokairia-thn-kypro-%E2%80%93-mageytikes-eikones-apo-to-hioni-sto-troodos-%E2%80%93-deite-binteo",
+      "source_name": "tothemaonline.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Greek",
+      "image": "https://www.tothemaonline.com/img/path/548d084f-3ffd-492a-8008-7c554219e1bd_kairos-xionia-troodos_2.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-740295961",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Radikálny krok united states : STOPKA rokovaniam a presun TISÍCOV vojakov ! NAJNOVŠIE informácie o iránskom vodcovi",
+      "country": "",
+      "url": "https://www.topky.sk/cl/11/9348027/MIMORIADNY-ONLINE-Radikalny-krok-USA--STOPKA-rokovaniam-a-presun-TISICOV-vojakov--NAJNOVSIE-informacie-o-iranskom-vodcovi",
+      "source_name": "topky.sk",
+      "timestamp": "20260315T124500Z",
+      "language": "Slovak",
+      "image": "https://static-images.zoznam.sk/image/fetch/q_92,w_1200,h_630,c_fill/h_108,g_north_east,x_0,y_30,l_topky_watermark/https://img.topky.sk/1280px/6434735.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1718821620",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Siaga 1 TNI dan Respons Indonesia Hadapi Ketegangan Geopolitik Timur Tengah",
+      "country": "",
+      "url": "https://www.merdeka.com/peristiwa/siaga-1-tni-dan-respons-indonesia-hadapi-ketegangan-geopolitik-timur-tengah-550053-mvk.html",
+      "source_name": "merdeka.com",
+      "timestamp": "20260315T124500Z",
+      "language": "Indonesian",
+      "image": "https://cdns.klimg.com/mav-prod-resized/1280x720/ori/image_bank/2026/03/15/190155.243-siaga-1-tni-dan-respons-indonesia-hadapi-ketegangan-geopolitik-timur-tengah-1.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2602831337",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "From slavery to the White House , the Ficklin family served presidents for nearly 8 decades",
+      "country": "",
+      "url": "https://www.clickorlando.com/news/politics/2026/03/15/from-slavery-to-the-white-house-the-ficklin-family-served-presidents-for-nearly-8-decades/",
+      "source_name": "clickorlando.com",
+      "timestamp": "20260315T124500Z",
+      "language": "English",
+      "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/SYJB7MJEHFGU3AJWWOQ3CVEOOU.jpg?_a=DATAg1fkZAA0",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2477939898",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Saar : Izrael neplánuje priame rokovania s Libanonom",
+      "country": "",
+      "url": "https://www.teraz.sk/zahranicie/saar-izrael-neplanuje-priame-rokovania/948271-clanok.html",
+      "source_name": "teraz.sk",
+      "timestamp": "20260315T124500Z",
+      "language": "Slovak",
+      "image": "https://www.teraz.sk/usercontent/socialmedia/c0ab9481e439e921f4ffdf34c22eb5605c5c8070.jpg?wm=tasr-teraz&v=2",
+      "lat": null,
+      "lng": null
     }
   ]
 }
