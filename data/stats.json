@@ -1,32 +1,26 @@
 {
-  "total_events": 598,
+  "total_events": 548,
   "by_source": {
     "acled": 0,
-    "gdelt": 50,
+    "gdelt": 0,
     "firms": 545,
     "usgs": 3,
     "reliefweb": 0
   },
   "by_category": {
-    "conflict": 50,
     "thermal_anomaly": 545,
     "earthquake": 3
   },
-  "by_country": {
-    "Israel": 7,
-    "Kuwait": 1,
-    "Iran": 14,
-    "Qatar": 1
-  },
-  "last_updated": "2026-03-15T16:47:13.399670Z",
+  "by_country": {},
+  "last_updated": "2026-03-15T17:13:15.446538Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": "2026-03-15T12:13:17.206972Z"
     },
     "gdelt": {
-      "count": 50,
-      "fetched_at": "2026-03-15T16:46:08.446469Z"
+      "count": 0,
+      "fetched_at": "2026-03-15T17:11:55.464731Z"
     },
     "firms": {
       "count": 545,
@@ -34,11 +28,11 @@
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-15T16:47:03.090129Z"
+      "fetched_at": "2026-03-15T17:12:11.728188Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-15T16:03:42.685375Z"
+      "fetched_at": "2026-03-15T17:04:55.736731Z"
     }
   }
 }
