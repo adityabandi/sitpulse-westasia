@@ -1,9 +1,26 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-15T20:12:06.838902Z",
+  "fetched_at": "2026-03-15T21:12:07.250338Z",
   "region": "west_asia",
-  "count": 3,
+  "count": 4,
   "events": [
+    {
+      "id": "usgs-us6000sghq",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 4.4 - 62 km SW of Fereydūnshahr, Iran",
+      "place": "62 km SW of Fereydūnshahr, Iran",
+      "magnitude": 4.4,
+      "depth_km": 10,
+      "severity": "moderate",
+      "lat": 32.4853,
+      "lng": 49.7256,
+      "timestamp": "2026-03-15T19:26:57.083000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sghq",
+      "felt": null,
+      "tsunami": 0,
+      "alert": null
+    },
     {
       "id": "usgs-us6000sg7e",
       "source": "usgs",
