@@ -18,7 +18,7 @@
     "Iraq": 1,
     "Gaza": 1
   },
-  "last_updated": "2026-03-15T19:15:58.025024Z",
+  "last_updated": "2026-03-15T19:43:27.935182Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -30,11 +30,11 @@
     },
     "firms": {
       "count": 545,
-      "fetched_at": "2026-03-15T18:28:25.307525Z"
+      "fetched_at": "2026-03-15T19:27:08.972858Z"
     },
     "usgs": {
       "count": 3,
-      "fetched_at": "2026-03-15T19:14:59.920787Z"
+      "fetched_at": "2026-03-15T19:42:52.631489Z"
     },
     "reliefweb": {
       "count": 0,
