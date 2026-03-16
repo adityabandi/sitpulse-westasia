@@ -1,6 +1,6 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-16T12:29:32.665511Z",
+  "fetched_at": "2026-03-16T12:57:25.630781Z",
   "region": "west_asia",
   "count": 4,
   "events": [
@@ -17,7 +17,7 @@
       "lng": 49.7256,
       "timestamp": "2026-03-15T19:26:57.083000Z",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sghq",
-      "felt": null,
+      "felt": 0,
       "tsunami": 0,
       "alert": null
     },
