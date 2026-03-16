@@ -20,7 +20,7 @@
     "Iran": 3,
     "Gaza": 2
   },
-  "last_updated": "2026-03-16T16:31:56.309733Z",
+  "last_updated": "2026-03-16T16:56:37.019979Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -32,7 +32,7 @@
     },
     "firms": {
       "count": 587,
-      "fetched_at": "2026-03-16T15:41:22.184497Z"
+      "fetched_at": "2026-03-16T16:40:17.070376Z"
     },
     "usgs": {
       "count": 4,
