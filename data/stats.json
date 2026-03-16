@@ -1,9 +1,9 @@
 {
-  "total_events": 245,
+  "total_events": 539,
   "by_source": {
     "acled": 0,
     "gdelt": 125,
-    "firms": 116,
+    "firms": 410,
     "usgs": 4,
     "reliefweb": 0
   },
@@ -11,7 +11,7 @@
     "conflict": 50,
     "protest": 49,
     "military": 26,
-    "thermal_anomaly": 116,
+    "thermal_anomaly": 410,
     "earthquake": 4
   },
   "by_country": {
@@ -22,7 +22,7 @@
     "Jordan": 1,
     "Gaza": 1
   },
-  "last_updated": "2026-03-16T12:30:27.859517Z",
+  "last_updated": "2026-03-16T12:54:20.262255Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -33,8 +33,8 @@
       "fetched_at": "2026-03-16T12:27:51.776829Z"
     },
     "firms": {
-      "count": 116,
-      "fetched_at": "2026-03-16T11:34:18.181462Z"
+      "count": 410,
+      "fetched_at": "2026-03-16T12:35:39.214094Z"
     },
     "usgs": {
       "count": 4,
