@@ -19,7 +19,7 @@
     "Iraq": 1,
     "Qatar": 1
   },
-  "last_updated": "2026-03-16T17:29:53.241119Z",
+  "last_updated": "2026-03-16T17:54:07.117974Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -31,7 +31,7 @@
     },
     "firms": {
       "count": 587,
-      "fetched_at": "2026-03-16T16:40:17.070376Z"
+      "fetched_at": "2026-03-16T17:39:08.063927Z"
     },
     "usgs": {
       "count": 4,
