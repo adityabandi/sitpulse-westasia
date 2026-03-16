@@ -1,33 +1,36 @@
 {
-  "total_events": 242,
+  "total_events": 245,
   "by_source": {
     "acled": 0,
-    "gdelt": 122,
+    "gdelt": 125,
     "firms": 116,
     "usgs": 4,
     "reliefweb": 0
   },
   "by_category": {
     "conflict": 50,
-    "military": 30,
-    "humanitarian": 42,
+    "protest": 49,
+    "military": 26,
     "thermal_anomaly": 116,
     "earthquake": 4
   },
   "by_country": {
-    "Iran": 39,
-    "Israel": 5,
-    "Lebanon": 1
+    "Iran": 27,
+    "Israel": 3,
+    "Lebanon": 1,
+    "Kuwait": 2,
+    "Jordan": 1,
+    "Gaza": 1
   },
-  "last_updated": "2026-03-16T11:51:21.793934Z",
+  "last_updated": "2026-03-16T12:30:27.859517Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
-      "fetched_at": "2026-03-16T06:36:56.522304Z"
+      "fetched_at": "2026-03-16T12:21:39.139696Z"
     },
     "gdelt": {
-      "count": 122,
-      "fetched_at": "2026-03-16T11:49:13.194087Z"
+      "count": 125,
+      "fetched_at": "2026-03-16T12:27:51.776829Z"
     },
     "firms": {
       "count": 116,
@@ -35,11 +38,11 @@
     },
     "usgs": {
       "count": 4,
-      "fetched_at": "2026-03-16T11:49:26.398693Z"
+      "fetched_at": "2026-03-16T12:29:32.665511Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-16T11:16:47.690683Z"
+      "fetched_at": "2026-03-16T12:11:07.605737Z"
     }
   }
 }
