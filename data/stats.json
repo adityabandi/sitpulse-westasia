@@ -22,7 +22,7 @@
     "Tehran": 1,
     "Gaza": 1
   },
-  "last_updated": "2026-03-16T19:29:23.366394Z",
+  "last_updated": "2026-03-16T19:52:23.485324Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -34,11 +34,11 @@
     },
     "firms": {
       "count": 587,
-      "fetched_at": "2026-03-16T18:36:16.825947Z"
+      "fetched_at": "2026-03-16T19:37:44.262731Z"
     },
     "usgs": {
       "count": 4,
-      "fetched_at": "2026-03-16T18:57:49.403560Z"
+      "fetched_at": "2026-03-16T19:29:52.960460Z"
     },
     "reliefweb": {
       "count": 0,
