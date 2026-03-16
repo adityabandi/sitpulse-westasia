@@ -20,7 +20,7 @@
     "Qatar": 1,
     "Lebanon": 1
   },
-  "last_updated": "2026-03-16T03:16:02.281878Z",
+  "last_updated": "2026-03-16T04:26:50.064805Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -32,15 +32,15 @@
     },
     "firms": {
       "count": 0,
-      "fetched_at": "2026-03-16T01:57:58.024244Z"
+      "fetched_at": "2026-03-16T03:25:32.518651Z"
     },
     "usgs": {
       "count": 4,
-      "fetched_at": "2026-03-16T03:15:49.399106Z"
+      "fetched_at": "2026-03-16T04:26:21.586353Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-16T02:59:39.164800Z"
+      "fetched_at": "2026-03-16T04:06:14.110200Z"
     }
   }
 }
