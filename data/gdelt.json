@@ -1,11 +1,11 @@
 {
   "source": "gdelt",
-  "fetched_at": "2026-03-16T10:29:52.518853Z",
+  "fetched_at": "2026-03-16T10:55:49.594692Z",
   "region": "west_asia",
-  "count": 130,
+  "count": 96,
   "events": [
     {
-      "id": "gdelt-504253910",
+      "id": "gdelt-2227448677",
       "source": "gdelt",
       "category": "military",
       "title": "Iran War Day 17 : Iran hits Gulf neighbors",
@@ -19,7 +19,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-4265112355",
+      "id": "gdelt-280953740",
       "source": "gdelt",
       "category": "military",
       "title": "  For the victims of Epstein Island : Iran propaganda machine in overdrive",
@@ -33,7 +33,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3836608284",
+      "id": "gdelt-2159760882",
       "source": "gdelt",
       "category": "military",
       "title": "Georgia Civic & Social Justice Orgs Condemn Illegal War On Iran , U . S . Indiscriminate Killing Of Iranian Citizens",
@@ -47,7 +47,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-388443282",
+      "id": "gdelt-1486071832",
       "source": "gdelt",
       "category": "military",
       "title": "Trump zagrozil Natu in evropskim državam : Pomagajte nam pri vojni v Iranu ali pa vas čaka slaba prihodnost",
@@ -61,7 +61,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-584935354",
+      "id": "gdelt-243794254",
       "source": "gdelt",
       "category": "military",
       "title": "Ανάλυση – Πόλεμος στο Ιράν : Το γεωπολιτικό ρήγμα που αλλάζει τη Μέση Ανατολή – Τα πέντε πιθανά σενάρια της επόμενης ημέρας",
@@ -75,7 +75,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2723123256",
+      "id": "gdelt-1358717779",
       "source": "gdelt",
       "category": "military",
       "title": "  Donald Trump blundered into Iran war - now he wants our kids to pay for his stupidity  ",
@@ -89,7 +89,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1914077241",
+      "id": "gdelt-942334885",
       "source": "gdelt",
       "category": "military",
       "title": "Guerre en Iran : le raid le plus meurtrier de loffensive américano - israélienne détruit une cible non militaire",
@@ -103,7 +103,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3243910004",
+      "id": "gdelt-4003633620",
       "source": "gdelt",
       "category": "military",
       "title": "Trump Has  Won Iran War , Then Why Does He Need Foreign Ships To End It ? 3 Reasons Explained | Explainers News",
@@ -117,7 +117,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2403848167",
+      "id": "gdelt-1693261830",
       "source": "gdelt",
       "category": "military",
       "title": "КОЛУМНА I Дали живееме во ера на постојани економски кризи ? ",
@@ -131,7 +131,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-720178968",
+      "id": "gdelt-3775031632",
       "source": "gdelt",
       "category": "military",
       "title": "허프포스트코리아",
@@ -145,7 +145,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-870934142",
+      "id": "gdelt-1008908800",
       "source": "gdelt",
       "category": "military",
       "title": "Donald Trump droht Nato und fordert Hilfe in Straße von Hormus",
@@ -159,7 +159,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-826544586",
+      "id": "gdelt-45903188",
       "source": "gdelt",
       "category": "military",
       "title": "اسرائیلی فوج نے لبنان میں حزب اللہ کے خلاف زمینی کارروائی کا آغاز کردیا - World",
@@ -173,7 +173,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3847987473",
+      "id": "gdelt-2918518350",
       "source": "gdelt",
       "category": "military",
       "title": "德黑蘭天降有毒黑雨 ： 美伊衝突連轟基礎設施 ， 水與石油淪為軍事籌碼 - TNL The News Lens 關鍵評論網",
@@ -187,7 +187,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2440675284",
+      "id": "gdelt-4155175127",
       "source": "gdelt",
       "category": "military",
       "title": "USS Abraham Lincoln moves farther from Iran after reported drone threats",
@@ -201,7 +201,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1366769756",
+      "id": "gdelt-1517466964",
       "source": "gdelt",
       "category": "military",
       "title": "MFA updates number of Armenians stranded in Asia",
@@ -215,7 +215,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3195889026",
+      "id": "gdelt-4212118926",
       "source": "gdelt",
       "category": "military",
       "title": "Iran does not fight to win , but to endure",
@@ -229,7 +229,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2428785664",
+      "id": "gdelt-1641337809",
       "source": "gdelt",
       "category": "military",
       "title": "Israel diz ter destruído avião do anterior líder supremo do Irão . Um morto em Abu Dhabi após queda de míssil",
@@ -243,7 +243,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-2651139126",
+      "id": "gdelt-1104609932",
       "source": "gdelt",
       "category": "military",
       "title": "Between Iran and a Hard Place : Wall Street Weighs War and Stagflation Risks",
@@ -257,7 +257,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1785960183",
+      "id": "gdelt-298253378",
       "source": "gdelt",
       "category": "military",
       "title": "تمارا حداد : إسرائيل حققت 70 % من أهدافها العسكرية للحرب على إيران",
@@ -271,7 +271,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2658970839",
+      "id": "gdelt-800972198",
       "source": "gdelt",
       "category": "military",
       "title": "  미 · 이란 전쟁 여파 … 유가 10 % 상승 시 제조업 생산비 0 . 71 % 증가  ",
@@ -285,7 +285,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1716190618",
+      "id": "gdelt-2365851076",
       "source": "gdelt",
       "category": "military",
       "title": "Hungarian Troops and Diplomats Withdrawn from Erbil Base in Iraq",
@@ -299,7 +299,7 @@
       "lng": 43.68
     },
     {
-      "id": "gdelt-595367810",
+      "id": "gdelt-1050799421",
       "source": "gdelt",
       "category": "military",
       "title": "Iran war : Israel says it has enough interceptors but for how long ? ",
@@ -313,7 +313,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-3247318039",
+      "id": "gdelt-3658057200",
       "source": "gdelt",
       "category": "military",
       "title": "Iran live updates : Dubai airport resumes some flights after drone impact sparks fuel tank fire",
@@ -327,7 +327,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-4017083124",
+      "id": "gdelt-4035785708",
       "source": "gdelt",
       "category": "military",
       "title": "Το Στενό του Ορμούζ στο χείλος της στρατηγικής κρίσης και το « στοίχημα » της ναυτικής αποτροπής",
@@ -341,7 +341,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3676395673",
+      "id": "gdelt-1749678882",
       "source": "gdelt",
       "category": "military",
       "title": "WHO releases $2mn in emergency funds for Middle East health",
@@ -355,7 +355,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2012606814",
+      "id": "gdelt-3087122280",
       "source": "gdelt",
       "category": "military",
       "title": "Shtohen tensionet mes Serbisë dhe Kroacisë , Milanoviç - Vuçiç përplasen për raketat kineze dhe akuzat për aleancë ... - Sot News",
@@ -369,7 +369,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3858342392",
+      "id": "gdelt-1743236072",
       "source": "gdelt",
       "category": "military",
       "title": "Parteien gegen deutsche Beteiligung an US - Militärmission",
@@ -383,7 +383,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1522605642",
+      "id": "gdelt-2537875806",
       "source": "gdelt",
       "category": "military",
       "title": "Lübnan , UNIFIL glerine ülkenin güneyinde yapılan saldırıyı kınadı",
@@ -397,7 +397,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3340349463",
+      "id": "gdelt-3204584905",
       "source": "gdelt",
       "category": "military",
       "title": "Are Iran  Mosaic Defence  and  Fourth Successor  Models Ensuring the Regime Survival ? | Kashmir Life",
@@ -411,7 +411,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3425216642",
+      "id": "gdelt-2371900527",
       "source": "gdelt",
       "category": "military",
       "title": "İsrail ordusu bu gecə Livanda quru əməliyyatlarına başlayıb",
@@ -425,7 +425,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-344153647",
+      "id": "gdelt-2361346522",
       "source": "gdelt",
       "category": "military",
       "title": "  PM Modi undermining BRICS presidency to please Trump : Jairam Ramesh questions  silence  on US actions",
@@ -439,7 +439,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1344524607",
+      "id": "gdelt-1479703167",
       "source": "gdelt",
       "category": "military",
       "title": "Ýran Füzesi Ýsrailin Merkezine Ýsabet Etti",
@@ -453,7 +453,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1825044598",
+      "id": "gdelt-11676824",
       "source": "gdelt",
       "category": "military",
       "title": "Lebanese influencer Natalie Kamal El - Din fighting for life after Israel attack that killed her husband , daughter",
@@ -467,7 +467,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-2800302841",
+      "id": "gdelt-2046859741",
       "source": "gdelt",
       "category": "military",
       "title": "باحثة : مبادرة فرنسية بالتوازي مع التطورات العسكرية في لبنان و  بري  يعترض",
@@ -481,7 +481,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1482483856",
+      "id": "gdelt-3346012926",
       "source": "gdelt",
       "category": "military",
       "title": "Ветеран заявил , что Украина проиграла  битву за мнения  ",
@@ -495,7 +495,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2526026419",
+      "id": "gdelt-3082857059",
       "source": "gdelt",
       "category": "military",
       "title": "PNG must not follow Australia into war",
@@ -509,7 +509,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1194565849",
+      "id": "gdelt-1672013401",
       "source": "gdelt",
       "category": "military",
       "title": "İran füzesi İsrailin merkezine isabet etti",
@@ -523,7 +523,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2217836464",
+      "id": "gdelt-280442691",
       "source": "gdelt",
       "category": "military",
       "title": "Τραμπ : Aπαιτεί από συμμάχους - Κίνα να αναπτύξουν πολεμικά πλοία στο Ορμούζ",
@@ -537,7 +537,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3150453308",
+      "id": "gdelt-1646858487",
       "source": "gdelt",
       "category": "military",
       "title": "Iran - Führer Modschtaba Chamenei in Moskau ? Bericht über Not - OP in Putins Palast",
@@ -551,7 +551,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3155963220",
+      "id": "gdelt-692463205",
       "source": "gdelt",
       "category": "military",
       "title": "পারমাণবিক অস্ত্রে ঝুঁকতে পারে ইসরাইল",
@@ -565,7 +565,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-161730909",
+      "id": "gdelt-3920491313",
       "source": "gdelt",
       "category": "military",
       "title": "Το Ισραήλ ξεκινά χερσαίες επιθέσεις κατά του Λιβάνου - Ξεπερνούν τους 3 . 000 οι νεκροί στο Ιράν - The Press Project",
@@ -579,7 +579,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-855503741",
+      "id": "gdelt-2517122426",
       "source": "gdelt",
       "category": "military",
       "title": "川普促護航荷姆茲海峽 警告歐 . 中恐面臨不利 | 國際",
@@ -593,7 +593,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3917808390",
+      "id": "gdelt-314004865",
       "source": "gdelt",
       "category": "military",
       "title": "Yön uutiskooste | Trump : Iran ei ole valmis sopimukseen , s lämpenee loppuviikosta , ennakkosuosikit jyräsivät Oscar - gaalassa",
@@ -607,7 +607,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1599993380",
+      "id": "gdelt-2706425465",
       "source": "gdelt",
       "category": "military",
       "title": "Трамп пошел на жесткий шаг : обратился к нескольким странам и серьезно предупредил НАТО",
@@ -621,7 +621,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3840867566",
+      "id": "gdelt-386751344",
       "source": "gdelt",
       "category": "military",
       "title": "Trump yönetimi , İrana saldırıların maliyetini açıkladı",
@@ -635,7 +635,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1232227592",
+      "id": "gdelt-443295121",
       "source": "gdelt",
       "category": "military",
       "title": "Iran War : NLC Makes 5 Demands From FG Over Rising Price Of Petrol",
@@ -649,7 +649,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2932310860",
+      "id": "gdelt-2718787445",
       "source": "gdelt",
       "category": "military",
       "title": "Ливан - Израиль начал вторжение в страну",
@@ -663,7 +663,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2743022658",
+      "id": "gdelt-840877481",
       "source": "gdelt",
       "category": "military",
       "title": "アングル ： 中東緊迫で市場は2022年の教訓参照 ロシアのウクライナ侵攻時の動き再検証",
@@ -677,7 +677,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2823843180",
+      "id": "gdelt-3798535126",
       "source": "gdelt",
       "category": "military",
       "title": "Oil rises further above $100 , stocks mixed as Iran war rages",
@@ -691,7 +691,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1773613640",
+      "id": "gdelt-3647714004",
       "source": "gdelt",
       "category": "military",
       "title": "ইসরাইল প্রধানমন্ত্রী মোদির সফরের দুদিন পর ইরানে হামলার অনুমোদন দিয়েছে , দূত বলেছেন",
@@ -705,7 +705,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-265793137",
+      "id": "gdelt-1665251622",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -719,7 +719,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3602007902",
+      "id": "gdelt-2890334006",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Španjolski glumac nosio natpis na dodjeli Oscara : Evo što znači",
@@ -733,7 +733,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1641222002",
+      "id": "gdelt-1517322930",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -747,7 +747,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-521790272",
+      "id": "gdelt-1210299087",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "  원 배틀  오스카 작품상 등 6관왕 … 전쟁 끝내야  목소리도 - 국민일보",
@@ -761,7 +761,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2251390608",
+      "id": "gdelt-1789874356",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "HAOS U DUBAIJU ! Pokrenuta kopnena operacija , Tramp zapretio NATO paktu ! ",
@@ -775,7 +775,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1900395210",
+      "id": "gdelt-355074266",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -789,7 +789,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2614252751",
+      "id": "gdelt-405837424",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -803,7 +803,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3087055606",
+      "id": "gdelt-27169814",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -817,7 +817,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3606172156",
+      "id": "gdelt-2009710813",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "SÌ , viaggiare … ma c  È una guerra da evitare – il conflitto in iran sta scombinando i piani di ... ",
@@ -831,7 +831,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2484213356",
+      "id": "gdelt-3721957618",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -845,7 +845,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-841026215",
+      "id": "gdelt-2267896006",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Última hora de la guerra en Oriente Medio | La UE dice que Ormuz está fuera del ámbito de la OTAN",
@@ -859,7 +859,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3291961781",
+      "id": "gdelt-4053313971",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Miliony migrantów ruszą na Europę ? Szefowa KE ostrzega",
@@ -873,7 +873,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3441636498",
+      "id": "gdelt-155939328",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -887,7 +887,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-392528888",
+      "id": "gdelt-1232878190",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Мьянма возобновила работу парламента при жестком контроле военных | MigNews - Новости Израиля и Мира на русском языке",
@@ -901,7 +901,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1476020920",
+      "id": "gdelt-2098683958",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -915,7 +915,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1128000313",
+      "id": "gdelt-420015163",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "The Latest : Trump calls for help to reopen the Strait of Hormuz",
@@ -929,7 +929,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1888838753",
+      "id": "gdelt-4247950699",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "28ο Φεστιβάλ Κινηματογράφου - Η τεκμηρίωση επιμένει",
@@ -943,7 +943,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1740102019",
+      "id": "gdelt-2487346776",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Ο μηχανισμός στρατηγικών οικονομικών επιπτώσεων του στενού του Ορμούζ",
@@ -957,7 +957,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-239894225",
+      "id": "gdelt-85030548",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -971,7 +971,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3025997629",
+      "id": "gdelt-1338912435",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Una UE blindada es prepara per gestionar una altra crisi migratòria",
@@ -985,7 +985,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2846202924",
+      "id": "gdelt-2147196053",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -999,7 +999,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3573919085",
+      "id": "gdelt-4171789265",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "就连日本都委婉拒绝了 ， 高市早苗能躲过特朗普压力吗 ？ ",
@@ -1013,7 +1013,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-964206519",
+      "id": "gdelt-1359585533",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1027,7 +1027,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3479249883",
+      "id": "gdelt-3638051975",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1041,7 +1041,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-472299038",
+      "id": "gdelt-1088608987",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "The Latest : Trump calls for help to reopen the Strait of Hormuz",
@@ -1055,7 +1055,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3067967436",
+      "id": "gdelt-1805886180",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1069,7 +1069,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2433753127",
+      "id": "gdelt-1827722356",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Última hora de la guerra en Oriente Medio | La UE dice que Ormuz está fuera del ámbito de la OTAN",
@@ -1083,7 +1083,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3533290845",
+      "id": "gdelt-3364400698",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "South Africa Reviews Israel Response in ICJ Genocide Case",
@@ -1097,7 +1097,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-1572727730",
+      "id": "gdelt-1502653454",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1111,7 +1111,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3553802403",
+      "id": "gdelt-3852866258",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1125,7 +1125,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1554612900",
+      "id": "gdelt-1241384464",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1139,7 +1139,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1708195541",
+      "id": "gdelt-1639631534",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Kakav je to natpis nosio španjolski glumac na dodjeli Oscara ? ",
@@ -1153,7 +1153,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-4112255555",
+      "id": "gdelt-675692907",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1167,7 +1167,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2055056564",
+      "id": "gdelt-3386977010",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1181,7 +1181,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2189380948",
+      "id": "gdelt-3726937091",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Batý  ya tepki Mazlumun yanýnda duran þerefli Türkiyeyi seviyorum",
@@ -1195,7 +1195,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-4128097919",
+      "id": "gdelt-3809538816",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Sir Keir Starmer announces new cost of living support as prices soar",
@@ -1209,7 +1209,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1407373991",
+      "id": "gdelt-3513478455",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "İsrailin yerinden ettiği Lübnanlılar , Batı  nın sessizliği ve İsraille işbirliğinden şikayetçi",
@@ -1223,7 +1223,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3250251389",
+      "id": "gdelt-3383710155",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Libano , lindifferenza del governo per le vittime degli attacchi israeliani",
@@ -1237,7 +1237,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-1979984081",
+      "id": "gdelt-1988890632",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Гинтаутас Мажейкис . Станет ли Иран несостоявшимся государством ? ",
@@ -1251,7 +1251,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3549728344",
+      "id": "gdelt-100978758",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Yeditepe Üniversitesinde mescit erişimi ve iftar organizasyonu tartışma konusu oldu",
@@ -1265,7 +1265,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3445597674",
+      "id": "gdelt-3145378551",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Όσκαρ 2026 : Οι αναφορές στο σκάνδαλο Έπσταϊν , ο Τραμπ και τα μηνύματα για τον πόλεμο",
@@ -1279,7 +1279,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1467709545",
+      "id": "gdelt-3088022736",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Iran - Krieg im Liveticker : +++ 09 : 35 Israel meldet Zerstörung von Chameneis Flugzeug +++",
@@ -1293,7 +1293,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-3870839406",
+      "id": "gdelt-2496703601",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Trump warns Nato allies over Iran response as Starmer pledges heating oil help",
@@ -1307,7 +1307,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-738903995",
+      "id": "gdelt-2794036269",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "The Latest : Trump calls for allies to help reopen Strait of Hormuz",
@@ -1321,7 +1321,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2735605509",
+      "id": "gdelt-821311285",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "Sir Keir Starmer announces new cost of living support as prices soar",
@@ -1335,7 +1335,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-362629966",
+      "id": "gdelt-3699336540",
       "source": "gdelt",
       "category": "humanitarian",
       "title": "کارشناس : متأسفانه ، عامل سیاسی بر کار دادگاه کیفری بین‌المللی تأثیر می‌گذارد",
@@ -1345,482 +1345,6 @@
       "timestamp": "20260316T090000Z",
       "language": "Persian",
       "image": "https://cdn1.img.spnfa.ir/img/07ea/03/10/28688103_1:0:799:449_2072x0_60_0_0_65c002bfe441093ae153a645f5bce180.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1362052227",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Hormuzi në qendër të krizës globale , Trump presion ndaj NATO - s dhe Kinës",
-      "country": "",
-      "url": "https://zhurnal.mk/hormuzi-ne-qender-te-krizes-globale-trump-presion-ndaj-nato-s-dhe-kines/",
-      "source_name": "zhurnal.mk",
-      "timestamp": "20260316T100000Z",
-      "language": "Albanian",
-      "image": "https://zhurnal.mk/wp-content/uploads/2026/03/AA-20260302-40713551-40713550-US_PRESIDENT_TRUMP_PARTICIPATES_IN_MEDAL_OF_HONOR_CEREMONY_AT_WHITE_HOUSE-1-768x512-2.webp",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-192779486",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Joachim Gauck bei „ Miosga : „ Hör mal zu , Alter , jetzt reicht ! ",
-      "country": "",
-      "url": "https://www.tagesspiegel.de/politik/joachim-gauck-bei-miosga-hor-mal-zu-alter-jetzt-reichts-15360895.html",
-      "source_name": "tagesspiegel.de",
-      "timestamp": "20260316T094500Z",
-      "language": "German",
-      "image": "https://www.tagesspiegel.de/images/15360896/alternates/BASE_16_9_W1400/1773611327000/gauck-medien-in-der-beistandspflicht-zur-verteidigung-der-demokratie.jpeg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-254582021",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "לבד ברחוב מגיל 16 : מי יעזור לצעירים שעזבו את מערכת החינוך החרדית ? ",
-      "country": "",
-      "url": "https://www.ynet.co.il/judaism/article/yokra14708611",
-      "source_name": "ynet.co.il",
-      "timestamp": "20260316T094500Z",
-      "language": "Hebrew",
-      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/03/16/Hk8FDGBqZx/Hk8FDGBqZx_0_0_853_481_0_large.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1852989324",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Cotton backs Hammer over Norris in Arkansas secretary of state runoff",
-      "country": "",
-      "url": "https://www.eldoradonews.com/news/2026/mar/16/cotton-backs-hammer-over-norris-in-arkansas/",
-      "source_name": "eldoradonews.com",
-      "timestamp": "20260316T094500Z",
-      "language": "English",
-      "image": "https://wehco.media.clients.ellingtoncms.com/imports/adg/img/2026/03/16/212451500_Cotton_Hammer_Norris_t1684_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-327784876",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Usa - Cina , riparte il negoziato in vista del vertice fra Trump e Xi Jinping . Sul tavolo i dazi e il blocco di Hormuz",
-      "country": "",
-      "url": "https://www.ilgazzettino.it:443/esteri/usa_cina_negoziato_trump_xi_guerra_dazi_hormuz-9418938.html",
-      "source_name": "ilgazzettino.it",
-      "timestamp": "20260316T094500Z",
-      "language": "Italian",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/03/16/9418938_OBJ66103578_111648.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3452533122",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "美伊戰火釀鉅變 ？ 謝金河點名 「 2國家 」 | 國際 | 三立新聞網 SETN . COM",
-      "country": "",
-      "url": "https://www.setn.com/News.aspx?NewsID=1808107",
-      "source_name": "setn.com",
-      "timestamp": "20260316T094500Z",
-      "language": "Chinese",
-      "image": "https://attach.setn.com/newsimages/2020/04/12/2500801-PH.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-2701566584",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Η Κάλας προτείνει το μοντέλο της Μαύρης Θάλασσας για να ξεμπλοκάρει το ... ",
-      "country": "",
-      "url": "https://www.capital.gr/diethni/3979761/i-kalas-proteinei-to-montelo-tis-mauris-thalassas-gia-na-xemplokarei-to-steno-tou-ormouz/",
-      "source_name": "capital.gr",
-      "timestamp": "20260316T093000Z",
-      "language": "Greek",
-      "image": "https://www.capital.gr/Content/ImagesDatabase/fb/1000x523/crop/both/14/14913c556a424fb1a4b62fa620e922d4.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-4207109968",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "海事数据显示 ： 霍尔木兹海峡通航船只数量首次降为零 ！ _ 东方财富网",
-      "country": "",
-      "url": "https://finance.eastmoney.com/a/202603163673067123.html",
-      "source_name": "finance.eastmoney.com",
-      "timestamp": "20260316T093000Z",
-      "language": "Chinese",
-      "image": "",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3683052743",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "伊朗发动袭击 国际油价再度拉升 ！ 市场探底回升 存储芯片板块集体爆发 _ 东方财富网",
-      "country": "",
-      "url": "https://finance.eastmoney.com/a/202603163673111755.html",
-      "source_name": "finance.eastmoney.com",
-      "timestamp": "20260316T093000Z",
-      "language": "Chinese",
-      "image": "",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-220254991",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "川普促護航荷姆茲海峽 警告歐 . 中恐面臨不利 | 國際",
-      "country": "",
-      "url": "https://news.ustv.com.tw/newsdetail/20260316A049?newsall=true&type=104",
-      "source_name": "news.ustv.com.tw",
-      "timestamp": "20260316T093000Z",
-      "language": "Chinese",
-      "image": "https://cdn.ustv.com.tw/new_newsimg/20260316/A049/20260316A049_154603.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-4265603445",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Oil rises further above $100 , most Asian stocks fall as Iran war rages",
-      "country": "Iran",
-      "url": "https://www.suncommercial.com/gcdailyworld/news/national/article_05cdfb2d-0e6b-54ac-8e6e-78be886605c0.html",
-      "source_name": "suncommercial.com",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "https://bloximages.chicago2.vip.townnews.com/suncommercial.com/content/tncms/assets/v3/editorial/2/b8/2b838093-1e8b-55b1-96c9-2b8e2d8bbd6b/69b783d134200.image.jpg?crop=341%2C341%2C85%2C0",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-3264969578",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Japan , Australia reject Donald Trump Hormuz escort request",
-      "country": "",
-      "url": "https://www.jpost.com/middle-east/article-890072",
-      "source_name": "jpost.com",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/711518",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-643249411",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Τραμπ απειλεί το ΝΑΤΟ και την Κίνα για τα Στενά του Ορμούζ : Θα έχετε κακό μέλλον αν δεν βοηθήσετε",
-      "country": "",
-      "url": "https://www.madata.gr/epikairotita/world/964702-tramp-apeilei-to-nato-kai-thn-kina-gia-ta-stena-toy-ormoyz-tha-echete-kako-mellon-an-den-vohthhsete.html",
-      "source_name": "madata.gr",
-      "timestamp": "20260316T093000Z",
-      "language": "Greek",
-      "image": "https://www.madata.gr/gimimage/1200/675/2026/03/trump-nato-ormouz-crisis-2026.webp",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-173491901",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Лавров заявил о риске превращения космоса в зону конфликта из - за « Золотого купола » ",
-      "country": "",
-      "url": "https://life.ru/p/1852512",
-      "source_name": "life.ru",
-      "timestamp": "20260316T093000Z",
-      "language": "Russian",
-      "image": "https://static.life.ru/ip/unsafe/rs:fit:1200:/q:98/sh:0.5/czM6Ly9saWZlLXN0YXRpYy9wdWJsaWNhdGlvbnMvMjAyNi8zLzE2LzExMDU4MjMwOTk2ODkuNDQzLnBuZw==.webp",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-2299024804",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Iran hits Gulf neighbors and keeps stranglehold on oil shipping as concerns rise of energy crisis",
-      "country": "Iran",
-      "url": "https://accesswdun.com/ap_article/iran-hits-gulf-neighbors-and-keeps-stranglehold-on-oil-shipping-as-concerns-rise-of-energy-crisis",
-      "source_name": "accesswdun.com",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "https://accesswdun.com/wp-content/uploads/2026/03/ap-img-69b79b8575ac3.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-4212778927",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Politically charged awards season ends with some at Oscars advocating for peace in Gaza",
-      "country": "Gaza",
-      "url": "https://accesswdun.com/ap_article/politically-charged-awards-season-ends-with-some-at-oscars-advocating-for-peace-in-gaza",
-      "source_name": "accesswdun.com",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "https://accesswdun.com/wp-content/uploads/2025/08/cropped-AccessStack-512.png",
-      "lat": 31.42,
-      "lng": 34.38
-    },
-    {
-      "id": "gdelt-4100122516",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "What we know on the 17th day of the US and Israel war with Iran - LocalNews8 . com",
-      "country": "Israel",
-      "url": "https://localnews8.com/news/national-world/cnn-world/2026/03/15/what-we-know-on-the-17th-day-of-the-us-and-israels-war-with-iran/",
-      "source_name": "localnews8.com",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-1523995652",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Trump insta a China y a los europeos a intervenir para mantener abierto al tráfico petrolero el Estrecho de Ormuz",
-      "country": "",
-      "url": "https://www.periodistadigital.com/mundo/20260316/trump-insta-china-europeos-intervenir-mantener-abierto-trafico-petrolero-estrecho-ormuz-noticia-689405191499/",
-      "source_name": "periodistadigital.com",
-      "timestamp": "20260316T093000Z",
-      "language": "Spanish",
-      "image": "https://www.periodistadigital.com/wp-content/uploads/2026/03/Estrecho-de-Ormuz-clave-del-petroleo-mundial-1.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-4138307099",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "İsrailden  Türkiye  itirafı :  İlişkileri onarmaya çalıştık ama geri çevirdiler  ",
-      "country": "",
-      "url": "https://www.haber7.com/dunya/haber/3612414-israilden-turkiye-itirafi-iliskileri-onarmaya-calistik-ama-geri-cevirdiler",
-      "source_name": "haber7.com",
-      "timestamp": "20260316T093000Z",
-      "language": "Turkish",
-      "image": "https://i20.haber7.net/resize/1280x720/haber/haber7/photos/2026/12/israilden_turkiye_itirafi_iliskileri_onarmaya_calistik_geri_cevirdiler_1773648838_333.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-332277160",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Başkan Memet Aslandan Kadir Gecesi mesajı",
-      "country": "",
-      "url": "https://www.vandahaber.com/haber/baskan-memet-aslandan-kadir-gecesi-mesaji",
-      "source_name": "vandahaber.com",
-      "timestamp": "20260316T093000Z",
-      "language": "Turkish",
-      "image": "https://www.vandahaber.com/storage/posts/2026/03/baskan-memet-aslandan-kadir-gecesi-mesaji.webp",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3411933450",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Trump says he asked  about 7  countries to join coalition to police Iran Strait of Hormuz",
-      "country": "Iran",
-      "url": "https://www.wabi.tv:443/2026/03/16/trump-demands-that-about-7-countries-join-coalition-police-irans-strait-hormuz/",
-      "source_name": "wabi.tv",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "https://gray-wabi-prod.gtv-cdn.com/resizer/v2/633IXKG6EFBVBDQKVBNB3XYQW4.jpg?auth=97bc132938964747347287140ec7a56a8fcc5b7319885c74716a28b0a6162acd&smart=true",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2741600249",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "The Call For Peace Amidst Unjust Warfare In Iran",
-      "country": "Iran",
-      "url": "https://www.patheos.com/blogs/henrykarlson/2026/03/the-call-for-peace-amidst-unjust-warfare-in-iran/",
-      "source_name": "patheos.com",
-      "timestamp": "20260316T093000Z",
-      "language": "English",
-      "image": "https://wp-media.patheos.com/blogs/sites/637/2026/03/SW_CJCS_Conduct_Pentagon_Press_Briefing_9558677.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2161264936",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Trump appeals to other countries to send warships to keep Strait of Hormuz  open and safe  ",
-      "country": "",
-      "url": "https://www.thejournal.ie/iran-war-trump-6986464-Mar2026/",
-      "source_name": "thejournal.ie",
-      "timestamp": "20260316T091500Z",
-      "language": "English",
-      "image": "https://img2.thejournal.ie/article/6986464/river/?&version=6986474",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1865537528",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Iran war : What is happening on day 17 of US - Israel attacks ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "country": "Israel",
-      "url": "https://dominicanrepublicpost.com/iran-war-what-is-happening-on-day-17-of-us-israel-attacks/",
-      "source_name": "dominicanrepublicpost.com",
-      "timestamp": "20260316T091500Z",
-      "language": "English",
-      "image": "https://dominicanrepublicpost.com/app/uploads/2026/03/2026-03-16T050503Z_817959282_RC2F5KA7NMM6_RTRMADP_3_IRAN-CRISIS-EMIRATES-INCIDENT-1773642878-ItRaB6.jpg",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-2044366489",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "ALEKSEJ KIŠJUHAS : Genocidna vrsta",
-      "country": "",
-      "url": "https://autonomija.info/aleksej-kisjuhas-genocidna-vrsta/",
-      "source_name": "autonomija.info",
-      "timestamp": "20260316T091500Z",
-      "language": "Serbian",
-      "image": "https://autonomija.info/wp-content/uploads/2025/10/Aleksej-Kisjuhas2-e1761475150978.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-2787888461",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Трамп : Без помощи США в Иране у НАТО - мрачное будущее",
-      "country": "",
-      "url": "https://www.lrt.lt/ru/novosti/17/2869045/tramp-bez-pomoshchi-ssha-v-irane-u-nato-mrachnoe-budushchee",
-      "source_name": "lrt.lt",
-      "timestamp": "20260316T091500Z",
-      "language": "Russian",
-      "image": "https://www.lrt.lt/img/2026/03/16/2345260-916187-1287x836.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1080975378",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Палестинский мирный житель погиб в Абу - Даби из - за ракетного удара | MigNews - Новости Израиля и Мира на русском языке",
-      "country": "",
-      "url": "https://mignews.com/news/disasters/palestinskij-mirnyj-zhitel-pogib-v-abu-dabi-iz-za-raketnogo-udara.html",
-      "source_name": "mignews.com",
-      "timestamp": "20260316T091500Z",
-      "language": "Russian",
-      "image": "https://mignews.com/media/cache/da/1b/da1b6fbbde39ac37c34d6bef098abd57.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1729370893",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Irán tiene evidencia de que EEUU e Israel lanzan ataques contra países de la región , dice canciller",
-      "country": "Israel",
-      "url": "http://spanish.peopledaily.com.cn/n3/2026/0316/c31618-20436241.html",
-      "source_name": "spanish.peopledaily.com.cn",
-      "timestamp": "20260316T091500Z",
-      "language": "Spanish",
-      "image": "",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-1850267902",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Map shows how 16 days of attacks have evolved in US - Israel war on Iran - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "country": "Israel",
-      "url": "https://dominicanrepublicpost.com/map-shows-how-16-days-of-attacks-have-evolved-in-us-israel-war-on-iran/",
-      "source_name": "dominicanrepublicpost.com",
-      "timestamp": "20260316T091500Z",
-      "language": "English",
-      "image": "",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-3253638738",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Ekslusif ke Aljazeera , Ini Faktor yang Membuat Iran tak akan Hentikan Perang",
-      "country": "Iran",
-      "url": "https://khazanah.republika.co.id/berita/tbzi9m320/ekslusif-ke-aljazeera-ini-faktor-yang-membuat-iran-tak-akan-hentikan-perang",
-      "source_name": "khazanah.republika.co.id",
-      "timestamp": "20260316T091500Z",
-      "language": "Indonesian",
-      "image": "https://static.republika.co.id/uploads/images/kanal_slide/_260303114007-298.png",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-924845277",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Mahsum Altunkaya :  Savaş bölge ekonomisine büyük darbe vurdu  ",
-      "country": "",
-      "url": "https://www.olaymedya.com/ekonomi/17419478/mahsum-altunkaya-savas-bolge-ekonomisine-buyuk-darbe-vurdu",
-      "source_name": "olaymedya.com",
-      "timestamp": "20260316T091500Z",
-      "language": "Turkish",
-      "image": "https://cdn.olaymedya.com/news/143485.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1345683141",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": " … तर यांनी हिंदुहृदयसम्राट बाळासाहेब ठाकरे यांनाही अर्बन नक्षल ठरवलं असतं , संजय राऊत यांचा घणाघात",
-      "country": "",
-      "url": "https://www.saamana.com/sanjay-raut-slams-bjp-over-urban-naxal-tag-and-opposition-leader-post/",
-      "source_name": "saamana.com",
-      "timestamp": "20260316T091500Z",
-      "language": "Marathi",
-      "image": "https://www.saamana.com/wp-content/uploads/2026/03/sanjay-raut-mumbai-news.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3677750335",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "1 , 7 δισ . βαρέλια πετρελαίου εν πλω σε 1 . 467 πλοία",
-      "country": "",
-      "url": "https://www.naftemporiki.gr/maritime/2085965/17-dis-varelia-petrelaioy-en-plo-se-1-467-ploia/",
-      "source_name": "naftemporiki.gr",
-      "timestamp": "20260316T091500Z",
-      "language": "Greek",
-      "image": "https://www.naftemporiki.gr/wp-content/uploads/2026/03/ormouz.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-375332370",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Líbano , un siglo al filo de la muerte",
-      "country": "",
-      "url": "https://www.milenio.com/opinion/javier-garcia-bejos/ekos/libano-un-siglo-al-filo-de-la-muerte",
-      "source_name": "milenio.com",
-      "timestamp": "20260316T091500Z",
-      "language": "Spanish",
-      "image": "https://cdn.milenio.com/uploads/media/2025/09/17/imagen-firmas-pluma.png",
       "lat": null,
       "lng": null
     }
