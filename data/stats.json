@@ -18,7 +18,7 @@
     "Israel": 9,
     "Palestine": 1
   },
-  "last_updated": "2026-03-17T15:32:17.036486Z",
+  "last_updated": "2026-03-17T15:57:23.917597Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -30,7 +30,7 @@
     },
     "firms": {
       "count": 735,
-      "fetched_at": "2026-03-17T14:40:12.114067Z"
+      "fetched_at": "2026-03-17T15:40:40.481957Z"
     },
     "usgs": {
       "count": 5,
