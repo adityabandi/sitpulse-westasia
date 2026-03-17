@@ -17,7 +17,7 @@
     "Iran": 13,
     "Lebanon": 1
   },
-  "last_updated": "2026-03-17T05:53:36.452489Z",
+  "last_updated": "2026-03-17T06:20:33.759802Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -37,7 +37,7 @@
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-17T05:26:33.257349Z"
+      "fetched_at": "2026-03-17T06:18:39.897221Z"
     }
   }
 }
