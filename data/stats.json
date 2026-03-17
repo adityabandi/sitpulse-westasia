@@ -19,7 +19,7 @@
     "Lebanon": 3,
     "Israel": 9
   },
-  "last_updated": "2026-03-17T16:33:40.139896Z",
+  "last_updated": "2026-03-17T16:58:57.883155Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -31,7 +31,7 @@
     },
     "firms": {
       "count": 735,
-      "fetched_at": "2026-03-17T15:40:40.481957Z"
+      "fetched_at": "2026-03-17T16:41:13.841686Z"
     },
     "usgs": {
       "count": 5,
