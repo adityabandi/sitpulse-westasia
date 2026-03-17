@@ -19,7 +19,7 @@
     "Oman": 1,
     "Palestine": 1
   },
-  "last_updated": "2026-03-17T06:34:11.097469Z",
+  "last_updated": "2026-03-17T06:59:10.661283Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -31,7 +31,7 @@
     },
     "firms": {
       "count": 0,
-      "fetched_at": "2026-03-17T05:42:10.215318Z"
+      "fetched_at": "2026-03-17T06:40:28.413139Z"
     },
     "usgs": {
       "count": 4,
