@@ -1,36 +1,32 @@
 {
-  "total_events": 135,
+  "total_events": 83,
   "by_source": {
     "acled": 0,
-    "gdelt": 130,
+    "gdelt": 78,
     "firms": 0,
     "usgs": 5,
     "reliefweb": 0
   },
   "by_category": {
     "conflict": 50,
-    "protest": 48,
-    "military": 32,
+    "humanitarian": 28,
     "earthquake": 5
   },
   "by_country": {
-    "Iran": 15,
-    "Iraq": 4,
-    "Israel": 12,
-    "Tehran": 1,
-    "Baghdad": 1,
-    "Gaza": 1,
-    "Lebanon": 1
+    "Iran": 8,
+    "Israel": 8,
+    "Jordan": 5,
+    "Gaza": 1
   },
-  "last_updated": "2026-03-17T09:53:00.115815Z",
+  "last_updated": "2026-03-17T10:24:47.387711Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
       "fetched_at": "2026-03-17T06:26:40.227044Z"
     },
     "gdelt": {
-      "count": 130,
-      "fetched_at": "2026-03-17T09:51:06.291595Z"
+      "count": 78,
+      "fetched_at": "2026-03-17T10:23:42.742580Z"
     },
     "firms": {
       "count": 0,
@@ -38,11 +34,11 @@
     },
     "usgs": {
       "count": 5,
-      "fetched_at": "2026-03-17T09:52:34.869226Z"
+      "fetched_at": "2026-03-17T10:24:27.611405Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-17T09:15:38.813511Z"
+      "fetched_at": "2026-03-17T10:14:16.939410Z"
     }
   }
 }
