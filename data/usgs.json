@@ -1,9 +1,26 @@
 {
   "source": "usgs",
-  "fetched_at": "2026-03-17T06:33:02.029882Z",
+  "fetched_at": "2026-03-17T07:29:54.619897Z",
   "region": "west_asia",
-  "count": 4,
+  "count": 5,
   "events": [
+    {
+      "id": "usgs-us6000sgsq",
+      "source": "usgs",
+      "category": "earthquake",
+      "title": "M 4.5 - 37 km SW of Mohr, Iran",
+      "place": "37 km SW of Mohr, Iran",
+      "magnitude": 4.5,
+      "depth_km": 10,
+      "severity": "moderate",
+      "lat": 27.3316,
+      "lng": 52.6049,
+      "timestamp": "2026-03-17T06:59:41.105000Z",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sgsq",
+      "felt": null,
+      "tsunami": 0,
+      "alert": null
+    },
     {
       "id": "usgs-us6000sghq",
       "source": "usgs",
