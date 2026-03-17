@@ -1,11 +1,179 @@
 {
   "source": "gdelt",
-  "fetched_at": "2026-03-17T17:28:54.472153Z",
+  "fetched_at": "2026-03-17T17:55:39.679020Z",
   "region": "west_asia",
   "count": 50,
   "events": [
     {
-      "id": "gdelt-1095127678",
+      "id": "gdelt-1030289902",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Γεραπετρίτης : Η Ελλάδα δεν προτίθεται να εμπλακεί στον πόλεμο",
+      "country": "",
+      "url": "https://dialogos.com.cy/gerapetritis-i-ellada-den-protithetai-na-emplakei-ston-polemo/",
+      "source_name": "dialogos.com.cy",
+      "timestamp": "20260317T173000Z",
+      "language": "Greek",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2940340965",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "With rare movement in Suwayda - Damascus deadlock , can a solution emerge ? ",
+      "country": "Damascus",
+      "url": "https://syriadirect.org/with-rare-movement-in-suwayda-damascus-deadlock-can-a-solution-emerge/",
+      "source_name": "syriadirect.org",
+      "timestamp": "20260317T171500Z",
+      "language": "English",
+      "image": "https://syriadirect.org/wp-content/uploads/2026/03/image_under_250kb-2.jpg",
+      "lat": 33.51,
+      "lng": 36.29
+    },
+    {
+      "id": "gdelt-1270767057",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Ciptakan Situasi Aman dan Kondusif di Hari Raya Nyepi dan Idul Fitri",
+      "country": "",
+      "url": "https://lampost.co/lampung/ciptakan-situasi-aman-dan-kondusif-di-hari-raya-nyepi-dan-idul-fitri/",
+      "source_name": "lampost.co",
+      "timestamp": "20260317T171500Z",
+      "language": "Indonesian",
+      "image": "https://lampost.co/wp-content/uploads/2026/03/FKUB-Kota-Bandar-Lampung.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2855120279",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "ממשלת ישראל משדרת מסר כפול לציבור",
+      "country": "",
+      "url": "https://www.ynet.co.il/news/article/bk5dgepq11l",
+      "source_name": "ynet.co.il",
+      "timestamp": "20260317T171500Z",
+      "language": "Hebrew",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/03/17/BJgANZ3LqZx/BJgANZ3LqZx_0_0_547_308_0_large.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1535900417",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "טראמפ נגד חברות נאט  ו :  הודיעו לנו שלא ישתתפו במבצע נגד איראן . לא צריך אותן ! ",
+      "country": "",
+      "url": "https://www.ynet.co.il/news/article/hj2kxgw911g",
+      "source_name": "ynet.co.il",
+      "timestamp": "20260317T171500Z",
+      "language": "Hebrew",
+      "image": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/03/16/rJhO9ABq11g/rJhO9ABq11g_0_0_850_479_0_large.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2322951559",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "İlahi ve ezgilerle dolu gecede Çorumu mest etti",
+      "country": "",
+      "url": "https://www.corumhakimiyet.net/ilahi-ve-ezgilerle-dolu-gecede-corumu-mest-etti",
+      "source_name": "corumhakimiyet.net",
+      "timestamp": "20260317T171500Z",
+      "language": "Turkish",
+      "image": "https://corumhakimiyetnet.teimg.com/crop/1280x720/corumhakimiyet-net/uploads/2026/03/ilahi-ve-ezgilerle-dolu-gece-corumu-mest-etti-4.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1256926835",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": " « Ο Κένεντι του Ιράν »: Ποιος είναι ο φιλόσοφος Αλί Λαριτζανί που φαίνεται να δολοφόνησαν οι Ισραηλινοί",
+      "country": "",
+      "url": "https://www.inewsgr.com/27/o-kenenti-tou-iran-poios-einai-o-filosofos-ali-laritzani-pou-fainetai-na-dolofonisan-oi-israilinoi.htm",
+      "source_name": "inewsgr.com",
+      "timestamp": "20260317T171500Z",
+      "language": "Greek",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-2958187",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Macron blocca le navi :  La Francia non si unisce allintervento nello Stretto di Hormuz  ",
+      "country": "",
+      "url": "https://www.primapaginanews.it/articoli/macron-blocca-le-navi-la-francia-non-si-unisce-all-intervento-nello-stretto-di-hormuz-554193",
+      "source_name": "primapaginanews.it",
+      "timestamp": "20260317T171500Z",
+      "language": "Italian",
+      "image": "https://www.primapaginanews.it/public_files/files_upload/articoli/immagini/c8c06c/554193/09aae465ef68f8f9927532d867229f781aa85ff4.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-1887147862",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Ουσιαστική η πρόταση του Ιράν στη Γενεύη , το deal ήταν εφικτό , είπε Βρετανός διπλωμάτης που συμμετείχε στις συνομιλίες",
+      "country": "",
+      "url": "https://www.protothema.gr/world/article/1790036/ousiastiki-i-protasi-tou-iran-sti-geneui-to-deal-itan-efikto-eipe-vretanos-diplomatis-pou-summeteihe-stis-sunomilies/",
+      "source_name": "protothema.gr",
+      "timestamp": "20260317T171500Z",
+      "language": "Greek",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-439970607",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "İran Dışişleri Bakanı Erakçi : Hürmüz Boğazı  ndaki durum ABD - İsrailin açtığı savaşın bir sonucudur - Evrensel",
+      "country": "Iran",
+      "url": "https://www.evrensel.net/haber/5975617/iran-disisleri-bakani-erakci-hurmuz-bogazindaki-durum-abd-israilin-actigi-savasin-bir-sonucudur",
+      "source_name": "evrensel.net",
+      "timestamp": "20260317T171500Z",
+      "language": "Turkish",
+      "image": "https://www.evrensel.net/images/840/upload/dosya/334607.jpg",
+      "lat": 32.43,
+      "lng": 53.69
+    },
+    {
+      "id": "gdelt-1370194201",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Women leadership in politics and governance ! ",
+      "country": "",
+      "url": "https://thepoint.gm/africa/gambia/editorial/womens-leadership-in-politics-and-governance",
+      "source_name": "thepoint.gm",
+      "timestamp": "20260317T171500Z",
+      "language": "English",
+      "image": "",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gdelt-3700646105",
+      "source": "gdelt",
+      "category": "diplomatic",
+      "title": "Ali Larijani , Iran top security official , killed in airstrike , Israel says . Here why his death is significant . ",
+      "country": "Israel",
+      "url": "http://www.cbsnews.com/news/ali-larijani-iran-top-security-official-killed-war-strikes-israel/",
+      "source_name": "cbsnews.com",
+      "timestamp": "20260317T171500Z",
+      "language": "English",
+      "image": "",
+      "lat": 31.05,
+      "lng": 34.85
+    },
+    {
+      "id": "gdelt-1692132819",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Larijani Claims Martyr Sacrifices Strengthen Military Core as Tehran Prepares for Grand Funeral",
@@ -19,7 +187,7 @@
       "lng": 51.39
     },
     {
-      "id": "gdelt-471147324",
+      "id": "gdelt-1117085810",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Coaliția internațională pentru redeschiderea Strâmtorii Ormuz , un demers eșuat - SUA au avut inițiativa , united kingdom a ajutat cu un plan , aliații refuză să participe",
@@ -33,7 +201,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1832692465",
+      "id": "gdelt-335632576",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Αλί Λαριτζανί : Ο άνθρωπος του μηχανισμού που έγινε ο de facto ηγέτης του ιρανικού καθεστώτος",
@@ -47,7 +215,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1393664856",
+      "id": "gdelt-4035695338",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Iran Official Who Told Trump To  Watch Out For Yourself  Killed In Strike",
@@ -61,7 +229,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-1444393643",
+      "id": "gdelt-3566086905",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "FTSE 100 Live : Utilities , banks and oil stocks rise , Reeves wants closer united kingdom - EU ties",
@@ -75,7 +243,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3793757512",
+      "id": "gdelt-3673379344",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "US - Israeli joint aggression against Iran disrupts transit in Strait of Hormuz : FM Araghchi",
@@ -89,7 +257,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-953303931",
+      "id": "gdelt-233345330",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Reuters : Новый лидер Ирана отверг предложения о деэскалации",
@@ -103,7 +271,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1599415297",
+      "id": "gdelt-219415707",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Kozma ( ZLF ): Srbija mora da zaustavi izvoz naoružanja u Izrael i osudi genocid u Gazi",
@@ -117,7 +285,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2133028995",
+      "id": "gdelt-1592446715",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Ιράν : Οι αρχές καλούν τους πολίτες να διαδηλώσουν μαζικά κατά των ΗΠΑ και του Ισραήλ",
@@ -131,7 +299,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-562378735",
+      "id": "gdelt-1045336699",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "טראמפ על התפטרות הבכיר :  חלש מאד בענייני ביטחון , טוב שפרש  ",
@@ -145,7 +313,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2081370909",
+      "id": "gdelt-1766330078",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Trump sufre la primera dimisión dentro de la Administración por la guerra en Irán :  Es una trampa  ",
@@ -159,7 +327,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-427278679",
+      "id": "gdelt-8230205",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "AK Parti Sözcüsü Çelik , MYK toplantısı öncesinde açıklamalarda bulundu Açıklaması",
@@ -173,7 +341,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-4156046419",
+      "id": "gdelt-659570563",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Між Іраном та США відновлений канал зв  язку , пише Аxios",
@@ -187,7 +355,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1602946196",
+      "id": "gdelt-653245187",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Iran Official Who Told Trump To  Watch Out For Yourself  Killed In Strike",
@@ -201,7 +369,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3910898580",
+      "id": "gdelt-196132112",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Kuba : Was will Trump mit Kuba ? ",
@@ -215,7 +383,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3998581197",
+      "id": "gdelt-1871065119",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Talk is precious : in the age of communication collapse , Jürgen Habermas message remains vital | Eva von Redecker",
@@ -229,7 +397,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1331518932",
+      "id": "gdelt-3054800942",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Lebanon has proposed the first direct talks with Israel in decades",
@@ -243,7 +411,7 @@
       "lng": 35.86
     },
     {
-      "id": "gdelt-2620466700",
+      "id": "gdelt-3655747175",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Israels Krieg im Libanon : Im Süden die Angriffe , in Beirut das kalte Zelt",
@@ -257,7 +425,7 @@
       "lng": 35.5
     },
     {
-      "id": "gdelt-3480615335",
+      "id": "gdelt-3816448182",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "В ЕС заявили , что Израилю и Ливану необходимо приступить к переговорам",
@@ -271,7 +439,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3508604717",
+      "id": "gdelt-296219103",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Нешка Робева - казано в разговор с Велизар Енчев - ЯмболСвят - Актуални новини за Ямбол . Следете последните новини от днес за Ямбол . ",
@@ -285,7 +453,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3107472996",
+      "id": "gdelt-3695801488",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "SAD gura Siriju u sukob s Hezbolahom",
@@ -299,7 +467,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3053334781",
+      "id": "gdelt-54417067",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "The Global Economic Cost of American Militarism - ",
@@ -313,7 +481,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-2162035380",
+      "id": "gdelt-3354366782",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Ali Larijani , Iran top security official , killed in airstrike , Israel says . Here why his death is significant . ",
@@ -327,7 +495,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-2777958618",
+      "id": "gdelt-292261222",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "LUe non ha  legittimato  il Consiglio di pace di Trump , dice la commissaria europea Šuica",
@@ -341,7 +509,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1665628340",
+      "id": "gdelt-372448598",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "The Latest : Israel says it killed a top Iranian security official and the Basij force chief",
@@ -355,7 +523,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-1930031125",
+      "id": "gdelt-4255170069",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Iran - Krieg im Liveticker : +++ 16 : 59 Britischer Zerstörer legt auf Weg ins Mittelmeer in Gibraltar an +++",
@@ -369,7 +537,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-4071571389",
+      "id": "gdelt-1480244020",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Top US counterterrorism official resigns over Iran War",
@@ -383,7 +551,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2256728176",
+      "id": "gdelt-25855576",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Iran blames US , Israel for Hormuz tensions as crisis risks energy supplies - Grenada Chronicle – Daily Grenada And Caribbean News",
@@ -397,7 +565,7 @@
       "lng": 34.85
     },
     {
-      "id": "gdelt-1838047939",
+      "id": "gdelt-2133254248",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Iraq , attacco allhotel degli italiani : nessun ferito . E in Libano colpita la base Unifil",
@@ -411,7 +579,7 @@
       "lng": 43.68
     },
     {
-      "id": "gdelt-763075844",
+      "id": "gdelt-533272389",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "The Latest : Top US counterterrorism official Joe Kent resigns over Iran war",
@@ -425,7 +593,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-2665480406",
+      "id": "gdelt-4186762990",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Kemlu RI : Misi Pasukan Indonesia ke Gaza Ditunda",
@@ -439,7 +607,7 @@
       "lng": 34.38
     },
     {
-      "id": "gdelt-4143552373",
+      "id": "gdelt-2545696042",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Energy War Escalates , but Tehran Quietly Courts Neighbors",
@@ -453,7 +621,7 @@
       "lng": 51.39
     },
     {
-      "id": "gdelt-2936641962",
+      "id": "gdelt-1887186840",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "होर्मुज डील पर भारत का इंकार , कहा -  कोई बातचीत नहीं हुई , ईरान से जहाजों की अदला - बदली की खबर झूठी - no discussion between indian iranian authorities of this nature mea",
@@ -467,7 +635,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-3411053347",
+      "id": "gdelt-4066380582",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "SAD gura Siriju u sukob s Hezbolahom",
@@ -481,7 +649,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-16262021",
+      "id": "gdelt-2369192786",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "The Latest : Top US counterterrorism official Joe Kent resigns over Iran war",
@@ -495,7 +663,7 @@
       "lng": 53.69
     },
     {
-      "id": "gdelt-863606780",
+      "id": "gdelt-1482761142",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "SAD gura Siriju u sukob s Hezbolahom",
@@ -509,7 +677,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-1709028373",
+      "id": "gdelt-35702637",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "Yaxın Şərq münaqişəsi 45 milyona yaxın insanın kəskin aclığına yol aça bilər - BMT",
@@ -523,7 +691,7 @@
       "lng": null
     },
     {
-      "id": "gdelt-3396989294",
+      "id": "gdelt-1161139762",
       "source": "gdelt",
       "category": "diplomatic",
       "title": "الحرب الأمريكية الإسرائيلية الايرانيه وأثرها على السودان",
@@ -533,174 +701,6 @@
       "timestamp": "20260317T163000Z",
       "language": "Arabic",
       "image": "https://sudanile.com/wp-content/uploads/2025/09/adill.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1427165034",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Merz vs . Trump : Warum der Kanzler seinen Ton verändert",
-      "country": "",
-      "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-merz-vs-trump-warum-der-kanzler-seinen-ton-veraendert-_arid,986777.html",
-      "source_name": "berchtesgadener-anzeiger.de",
-      "timestamp": "20260317T163000Z",
-      "language": "German",
-      "image": "https://www.berchtesgadener-anzeiger.de/cms_media/module_img/3758/1879138_1_ntopbox_Klare_Worte_keinen_diplomatischen_Floskeln_Kanzler_Friedrich_Merz_CDU_aeussert_sich_bei_einem_Treffen_mit_seinem_niederlaendischen_Amtskollegen_zu_den.jpeg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3555662544",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Dermer says  making progress with Lebanon  on political agreement",
-      "country": "Lebanon",
-      "url": "https://www.naharnet.com/stories/en/319023-dermer-says-making-progress-with-lebanon-on-political-agreement",
-      "source_name": "naharnet.com",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "http://images1.naharnet.com/images/129135/w140.JPG",
-      "lat": 33.85,
-      "lng": 35.86
-    },
-    {
-      "id": "gdelt-629416040",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Can Iranian Oil Become The Key Bargaining Chip In A Potential Trump - Iran Deal Amid Ongoing War ? ",
-      "country": "Iran",
-      "url": "https://www.freepressjournal.in/analysis/can-iranian-oil-become-the-key-bargaining-chip-in-a-potential-trump-iran-deal-amid-ongoing-war",
-      "source_name": "freepressjournal.in",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "https://media.assettype.com/freepressjournal/2026-03-12/25yfko4n/Crude-Oil-1.jpg",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-719441438",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Bahreyn : İrandan atılan 129 füze ve 233 İHA engellendi",
-      "country": "",
-      "url": "https://www.trthaber.com/haber/dunya/bahreyn-irandan-atilan-129-fuze-ve-233-iha-engellendi-938125.html",
-      "source_name": "trthaber.com",
-      "timestamp": "20260317T163000Z",
-      "language": "Turkish",
-      "image": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2444000/bapco-bahreyn-2444792.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-1005202846",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "New York Times Columnist Mourns Loss of Iran Secretary of the Supreme National Security Council",
-      "country": "Iran",
-      "url": "https://hotair.com/david-strom/2026/03/17/new-york-times-columnist-mourns-loss-of-irans-secretary-of-the-supreme-national-security-council-n3812953",
-      "source_name": "hotair.com",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "https://media.townhall.com/cdn/hodl/2026/59/30302128-810f-4724-a53f-ec3c6c6d069e.png",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-1952725396",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "2 Top Iranian Leaders Eliminated , Israel Says",
-      "country": "Israel",
-      "url": "https://www.dailysignal.com/2026/03/17/2-top-iranian-leaders-eliminated-israel-says/",
-      "source_name": "dailysignal.com",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "https://www.dailysignal.com/wp-content/uploads/2026/03/260317_IranLeader.jpg",
-      "lat": 31.05,
-      "lng": 34.85
-    },
-    {
-      "id": "gdelt-902900345",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Beyond the Battlefield : How the Strait of Hormuz Blockade is Redefining Global Energy Politics",
-      "country": "",
-      "url": "https://theasian.asia/archives/203890",
-      "source_name": "theasian.asia",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "https://theasian.asia/wp-content/uploads/2026/03/Leo1.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3026771281",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Najwyższy przywódca Iranu odrzucił propozycję zawieszenia broni",
-      "country": "Iran",
-      "url": "https://dorzeczy.pl/swiat/860962/najwyzszy-przywodca-iranu-odrzucil-oferte-zawieszenia-broni.html",
-      "source_name": "dorzeczy.pl",
-      "timestamp": "20260317T163000Z",
-      "language": "Polish",
-      "image": "https://img.dorzeczy.pl/img/najwyzszy-przywodca-iranu-odrzucil-propozycje-zawieszenia-broni/ee/aa/bdc7ce2c237a997a2aa7a3b343cd.webp",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-3468402601",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Iran Official Who Told Trump To  Watch Out For Yourself  Killed In Strike",
-      "country": "Iran",
-      "url": "https://wiod.iheart.com/content/2026-03-17-iran-official-who-told-trump-to-watch-out-for-yourself-killed-in-strike/",
-      "source_name": "wiod.iheart.com",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "https://i.iheart.com/v3/re/new_assets/69b93c1fb91955a0b223a65f?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2015375353",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Куди поїхати у 2026 році - три країни світу , де безпечніше , ніж багато хто думає",
-      "country": "",
-      "url": "https://www.unian.ua/tourism/news/kudi-pojihati-u-2026-roci-tri-krajini-svitu-de-bezpechnishe-nizh-bagato-hto-dumaye-13318362.html",
-      "source_name": "unian.ua",
-      "timestamp": "20260317T163000Z",
-      "language": "Ukrainian",
-      "image": "https://images.unian.net/photos/2026_03/thumb_files/1000_545_1773762217-6943.jpg?1",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gdelt-3472880314",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "Iran Official Who Told Trump To  Watch Out For Yourself  Killed In Strike | NewsRadio 1370 AM & 92 . 9 FM WSPD",
-      "country": "Iran",
-      "url": "https://wspd.iheart.com/content/2026-03-17-iran-official-who-told-trump-to-watch-out-for-yourself-killed-in-strike/",
-      "source_name": "wspd.iheart.com",
-      "timestamp": "20260317T163000Z",
-      "language": "English",
-      "image": "https://i.iheart.com/v3/re/new_assets/69b93c1fb91955a0b223a65f?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "lat": 32.43,
-      "lng": 53.69
-    },
-    {
-      "id": "gdelt-2728055991",
-      "source": "gdelt",
-      "category": "diplomatic",
-      "title": "بوتين هو الرابح الأكبر من حرب إيران ، إذا انتهت قريباً",
-      "country": "",
-      "url": "https://www.alwatanvoice.com/arabic/news/bbc/2026/03/17/67005972.html",
-      "source_name": "alwatanvoice.com",
-      "timestamp": "20260317T163000Z",
-      "language": "Arabic",
-      "image": "https://ichef.bbci.co.uk/ace/standard/raw/cpsprodpb/b7eb/live/67123040-21f7-11f1-9256-9b680459597d.jpg",
       "lat": null,
       "lng": null
     }
