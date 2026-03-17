@@ -13,23 +13,24 @@
     "earthquake": 5
   },
   "by_country": {
-    "Tehran": 2,
-    "Iran": 13,
-    "Lebanon": 2,
-    "Beirut": 1,
+    "Damascus": 1,
+    "Iran": 9,
     "Israel": 4,
+    "Tehran": 2,
+    "Lebanon": 1,
+    "Beirut": 1,
     "Iraq": 1,
     "Gaza": 1
   },
-  "last_updated": "2026-03-17T17:54:02.872735Z",
+  "last_updated": "2026-03-17T18:29:36.742151Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
-      "fetched_at": "2026-03-17T12:20:36.128315Z"
+      "fetched_at": "2026-03-17T18:23:59.970639Z"
     },
     "gdelt": {
       "count": 50,
-      "fetched_at": "2026-03-17T17:28:54.472153Z"
+      "fetched_at": "2026-03-17T17:55:39.679020Z"
     },
     "firms": {
       "count": 735,
@@ -37,11 +38,11 @@
     },
     "usgs": {
       "count": 5,
-      "fetched_at": "2026-03-17T16:33:11.185623Z"
+      "fetched_at": "2026-03-17T17:56:26.683626Z"
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-17T17:20:55.251065Z"
+      "fetched_at": "2026-03-17T18:15:21.950902Z"
     }
   }
 }
