@@ -6,17 +6,25 @@
 <title>SITPULSE · West Asia OSINT</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.1.3/dist/maplibre-gl.css">
 <style>
 :root {
-  --bg0:#04090f;--bg1:#070d18;--bg2:#0b1520;--bg3:#101d2e;--bg4:#162638;--bg5:#1d3248;
-  --bd1:#142030;--bd2:#1b2e44;--bd3:#254160;
-  --t0:#ddeaf6;--t1:#8aaec8;--t2:#4d6e8a;--t3:#253c52;
-  --blue:#2b8df8;--bluel:#5eaaff;--blued:#0e5bc4;
-  --green:#00cc7a;--red:#ff3b3b;--orange:#ff8c00;--amber:#ffb700;
-  --purple:#9b72ff;--cyan:#00bcd4;
-  --sb:268px;--dp:366px;--tb:46px;--stb:24px;
+  --bg0:#03060b;
+  --bg1:rgba(6,10,18,0.92);
+  --bg2:rgba(10,16,28,0.85);
+  --bg3:rgba(14,22,38,0.8);
+  --bg4:rgba(20,32,52,0.7);
+  --bg5:#152030;
+  --bd1:rgba(25,50,90,0.2);
+  --bd2:rgba(35,70,120,0.22);
+  --bd3:rgba(50,90,150,0.25);
+  --glass:rgba(255,255,255,0.02);
+  --t0:#d8e8f8;--t1:#7aa8c8;--t2:#4a7090;--t3:#223850;
+  --blue:#2d8cf0;--bluel:#5aa8f0;--blued:#1060b8;
+  --green:#00d878;--red:#e84050;--orange:#e88820;--amber:#e8b020;
+  --purple:#9070e8;--cyan:#00c0d8;
+  --sb:280px;--dp:380px;--tb:48px;--stb:26px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:100vw;height:100vh;overflow:hidden;
@@ -24,160 +32,244 @@ html,body{width:100vw;height:100vh;overflow:hidden;
   background:var(--bg0);color:var(--t0);font-size:13px;
   -webkit-font-smoothing:antialiased}
 
-/* TOP BAR */
+/* ═══ TOP BAR ═══ */
 #topbar{position:fixed;top:0;left:0;right:0;height:var(--tb);
-  background:var(--bg1);border-bottom:1px solid var(--bd2);
-  display:flex;align-items:center;padding:0 14px;gap:10px;z-index:200}
-.brand{font-size:14px;font-weight:600;letter-spacing:2px;
-  text-transform:uppercase;color:var(--bluel);flex-shrink:0}
-.brand-sep{color:var(--t3);font-weight:300;margin:0 2px}
-.brand-sub{font-size:11px;letter-spacing:1px;color:var(--t2);font-weight:400}
-.vdiv{width:1px;height:20px;background:var(--bd2);flex-shrink:0}
+  background:rgba(8,14,28,0.82);
+  backdrop-filter:blur(24px) saturate(1.6);
+  -webkit-backdrop-filter:blur(24px) saturate(1.6);
+  border-bottom:1px solid rgba(60,130,220,0.12);
+  display:flex;align-items:center;padding:0 18px;gap:12px;z-index:200;
+  box-shadow:0 4px 30px rgba(0,0,0,0.4)}
+#topbar::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent 10%,var(--blue),var(--purple),transparent 90%);
+  background-size:200% 100%;animation:gradSlide 12s linear infinite;opacity:0.5}
+@keyframes gradSlide{0%{background-position:0% 0%}100%{background-position:200% 0%}}
+.brand{font-size:15px;font-weight:700;letter-spacing:2.5px;
+  text-transform:uppercase;flex-shrink:0;color:var(--t0)}
+.brand-sep{color:var(--t3);margin:0 3px;font-weight:300}
+.brand-sub{font-size:11px;letter-spacing:1.5px;color:var(--t2);font-weight:500}
+.vdiv{width:1px;height:22px;background:var(--bd2);flex-shrink:0}
 .rpill{font-family:'JetBrains Mono',monospace;font-size:10px;
-  color:var(--t1);background:var(--bg3);border:1px solid var(--bd2);
-  padding:2px 9px;border-radius:2px;white-space:nowrap}
-.chips{display:flex;align-items:center;gap:6px;margin-left:auto}
+  color:var(--t1);background:rgba(255,255,255,0.04);
+  border:1px solid var(--bd1);padding:3px 10px;border-radius:4px;white-space:nowrap}
+.chips{display:flex;align-items:center;gap:7px;margin-left:auto}
 .chip{display:flex;align-items:center;gap:5px;font-size:10px;
-  color:var(--t2);padding:3px 8px;background:var(--bg2);
-  border:1px solid var(--bd1);border-radius:2px;transition:all .2s;letter-spacing:.3px}
-.chip.live{color:var(--t1);border-color:var(--bd2)}
-.chip.err{color:var(--red);border-color:rgba(255,59,59,.25)}
-.led{width:6px;height:6px;border-radius:50%;background:var(--t3);
+  color:var(--t2);padding:4px 10px;background:rgba(255,255,255,0.03);
+  border:1px solid var(--bd1);border-radius:6px;transition:all .2s;letter-spacing:.3px;
+  font-weight:500}
+.chip.live{color:var(--t1);border-color:var(--bd2);background:rgba(59,155,255,0.05)}
+.chip.err{color:var(--red);border-color:rgba(255,68,85,.25)}
+.led{width:7px;height:7px;border-radius:50%;background:var(--t3);
   flex-shrink:0;transition:background .3s}
-.led.live{background:var(--green);box-shadow:0 0 5px var(--green);
+.led.live{background:var(--green);box-shadow:0 0 8px var(--green);
   animation:bp 2.5s ease-in-out infinite}
-.led.stale{background:var(--amber)}
-.led.err{background:var(--red)}
-@keyframes bp{0%,100%{opacity:1}50%{opacity:.35}}
+.led.stale{background:var(--amber);box-shadow:0 0 6px rgba(255,196,46,0.3)}
+.led.err{background:var(--red);box-shadow:0 0 6px rgba(255,68,85,0.3)}
+@keyframes bp{0%,100%{opacity:1}50%{opacity:.3}}
 #clock{font-family:'JetBrains Mono',monospace;font-size:11px;
-  color:var(--t1);letter-spacing:.5px;min-width:80px;text-align:right}
+  color:var(--t1);letter-spacing:.5px;min-width:84px;text-align:right;font-weight:500}
 
-/* SIDEBAR */
+/* ═══ SIDEBAR ═══ */
 #sb{position:fixed;top:var(--tb);left:0;bottom:var(--stb);
-  width:var(--sb);background:var(--bg1);border-right:1px solid var(--bd2);
+  width:var(--sb);
+  background:rgba(8,14,28,0.82);
+  backdrop-filter:blur(20px) saturate(1.5);
+  -webkit-backdrop-filter:blur(20px) saturate(1.5);
+  border-right:1px solid rgba(60,130,220,0.1);
   z-index:100;display:flex;flex-direction:column;overflow:hidden}
+
+/* Stats grid */
+.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:10px 12px}
+.stat-card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.04);
+  border-radius:6px;padding:8px 8px 7px;text-align:center;position:relative;
+  overflow:hidden;transition:all .2s}
+.stat-card:hover{background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.07)}
+.stat-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:var(--accent);opacity:0.4}
+.stat-icon{font-size:13px;margin-bottom:1px;opacity:0.6}
+.stat-val{font-family:'JetBrains Mono',monospace;font-size:20px;font-weight:600;
+  color:var(--accent);line-height:1.2}
+.stat-lbl{font-size:8px;text-transform:uppercase;letter-spacing:1.2px;
+  color:var(--t2);margin-top:2px;font-weight:600}
+
+/* Tab bar */
+.tab-bar{display:flex;border-bottom:1px solid var(--bd1);padding:0 10px;flex-shrink:0}
+.tab{flex:1;padding:10px 0 8px;background:none;border:none;
+  border-bottom:2px solid transparent;color:var(--t3);
+  font-size:10px;font-weight:600;cursor:pointer;transition:all .2s;
+  font-family:inherit;text-transform:uppercase;letter-spacing:1px}
+.tab:hover{color:var(--t2)}
+.tab.active{color:var(--bluel);border-bottom-color:var(--blue)}
+.tab-panel{display:none;flex-direction:column;flex:1;min-height:0;overflow:hidden}
+.tab-panel.active{display:flex}
+
 .sbs{border-bottom:1px solid var(--bd1);flex-shrink:0}
-.sbh{display:flex;align-items:center;justify-content:space-between;padding:9px 12px 8px}
-.sbh h3{font-size:9px;text-transform:uppercase;letter-spacing:1.2px;color:var(--t2);font-weight:600}
+.sbh{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 8px}
+.sbh h3{font-size:10px;text-transform:uppercase;letter-spacing:1.3px;color:var(--t2);font-weight:600}
 .sbh .sbn{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t1)}
-.sbd{padding:2px 12px 10px}
-.lrow{display:flex;align-items:center;gap:7px;padding:5px 0;cursor:pointer;
+.sbd{padding:2px 14px 10px}
+.lrow{display:flex;align-items:center;gap:8px;padding:6px 0;cursor:pointer;
   user-select:none;transition:opacity .15s}
-.lrow:not(.on){opacity:.4}
-.lrow:hover{opacity:.8}
+.lrow:not(.on){opacity:.35}
+.lrow:hover{opacity:.75}
 .lrow.on{opacity:1}
-.lchk{width:13px;height:13px;border-radius:2px;border:1px solid var(--bd3);
+.lchk{width:14px;height:14px;border-radius:3px;border:1.5px solid var(--bd3);
   flex-shrink:0;display:flex;align-items:center;justify-content:center;transition:all .15s}
 .lrow.on .lchk{background:var(--blue);border-color:var(--blue)}
 .lrow.on .lchk::after{content:'✓';font-size:8px;color:#fff;line-height:1}
-.ldot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.lname{font-size:12px;color:var(--t0);flex:1}
-.lcnt{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t2)}
-.mrow{display:flex;gap:4px;flex-wrap:wrap;padding:3px 0}
-.mbtn{font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 9px;
-  letter-spacing:.5px;border-radius:2px;cursor:pointer;font-weight:500;
-  background:var(--bg3);border:1px solid var(--bd2);color:var(--t2);transition:all .15s}
-.mbtn:hover{color:var(--t0);border-color:var(--bd3)}
-.mbtn.on{color:var(--bluel);border-color:var(--blue);background:rgba(43,141,248,.1)}
-.strow{display:flex;align-items:center;gap:7px;padding:3px 0}
-.stn{font-size:10px;color:var(--t1);width:72px;flex-shrink:0}
-.stb-w{flex:1;height:3px;background:var(--bg5);border-radius:2px;overflow:hidden}
-.stb-f{height:100%;border-radius:2px;transition:width .5s ease}
+.ldot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.lname{font-size:12px;color:var(--t0);flex:1;font-weight:400}
+.lcnt{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t2);font-weight:500}
+.mrow{display:flex;gap:5px;flex-wrap:wrap;padding:3px 0}
+.mbtn{font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 10px;
+  letter-spacing:.5px;border-radius:4px;cursor:pointer;font-weight:500;
+  background:rgba(255,255,255,0.03);border:1px solid var(--bd2);
+  color:var(--t2);transition:all .15s}
+.mbtn:hover{color:var(--t0);border-color:var(--bd3);background:rgba(255,255,255,0.06)}
+.mbtn.on{color:var(--bluel);border-color:var(--blue);background:rgba(59,155,255,.1)}
+.strow{display:flex;align-items:center;gap:7px;padding:4px 0}
+.stn{font-size:10px;color:var(--t1);width:76px;flex-shrink:0;font-weight:500}
+.stb-w{flex:1;height:4px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden}
+.stb-f{height:100%;border-radius:3px;transition:width .5s ease}
 .stc{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t2);
-  width:22px;text-align:right}
-.swrap{padding:7px 12px;border-bottom:1px solid var(--bd1);flex-shrink:0}
-.swrap input{width:100%;padding:5px 8px;background:var(--bg3);
-  border:1px solid var(--bd2);border-radius:3px;color:var(--t0);
-  font-size:11px;font-family:inherit;outline:none;transition:border-color .15s}
+  width:24px;text-align:right;font-weight:500}
+.swrap{padding:8px 14px;border-bottom:1px solid var(--bd1);flex-shrink:0}
+.swrap input{width:100%;padding:7px 10px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid var(--bd1);border-radius:6px;color:var(--t0);
+  font-size:11px;font-family:inherit;outline:none;transition:all .2s}
 .swrap input::placeholder{color:var(--t3)}
-.swrap input:focus{border-color:var(--blue)}
-#evlist{flex:1;overflow-y:auto;min-height:0}
-#evlist::-webkit-scrollbar{width:3px}
-#evlist::-webkit-scrollbar-thumb{background:var(--bd3);border-radius:2px}
-.ei{display:flex;align-items:flex-start;gap:8px;padding:8px 12px;cursor:pointer;
-  border-bottom:1px solid var(--bd1);border-left:2px solid transparent;
-  transition:background .1s,border-left-color .1s}
-.ei:hover{background:var(--bg3)}
-.ei.sel{background:var(--bg3);border-left-color:var(--blue)}
-.eidot{width:7px;height:7px;border-radius:50%;margin-top:4px;flex-shrink:0}
+.swrap input:focus{border-color:var(--blue);background:rgba(59,155,255,0.05);
+  box-shadow:0 0 0 3px rgba(59,155,255,0.08)}
+#evlist,#shiplist{flex:1;overflow-y:auto;min-height:0}
+#evlist::-webkit-scrollbar,#shiplist::-webkit-scrollbar{width:4px}
+#evlist::-webkit-scrollbar-thumb,#shiplist::-webkit-scrollbar-thumb{
+  background:var(--bd3);border-radius:3px}
+.ei{display:flex;align-items:flex-start;gap:9px;padding:10px 14px;cursor:pointer;
+  border-bottom:1px solid rgba(255,255,255,0.03);border-left:3px solid transparent;
+  transition:all .12s;border-radius:0 6px 6px 0;margin:1px 4px}
+.ei:hover{background:rgba(255,255,255,0.04)}
+.ei.sel{background:rgba(59,155,255,0.08);border-left-color:var(--blue)}
+.eidot{width:8px;height:8px;border-radius:50%;margin-top:5px;flex-shrink:0;
+  box-shadow:0 0 6px currentColor}
 .eibody{flex:1;min-width:0}
-.eititle{font-size:11px;color:var(--t0);line-height:1.4;
+.eititle{font-size:12px;color:var(--t0);line-height:1.45;font-weight:400;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.eimeta{display:flex;gap:5px;margin-top:2px;font-size:9px;color:var(--t2)}
-.eitag{background:var(--bg4);padding:0 4px;border-radius:2px}
+.eimeta{display:flex;gap:6px;margin-top:3px;font-size:9px;color:var(--t2);align-items:center}
+.eitag{background:rgba(255,255,255,0.06);padding:1px 6px;border-radius:3px;font-weight:500}
+.eitime{color:var(--t3);font-family:'JetBrains Mono',monospace;font-size:9px}
 
-/* MAP */
+/* Ship list items */
+.si{display:flex;align-items:center;gap:9px;padding:10px 14px;cursor:pointer;
+  border-bottom:1px solid rgba(255,255,255,0.03);transition:all .12s;
+  border-radius:0 6px 6px 0;margin:1px 4px}
+.si:hover{background:rgba(255,255,255,0.04)}
+.si.sel{background:rgba(0,212,232,0.08);border-left:3px solid var(--cyan)}
+.si-flag{font-size:18px;flex-shrink:0}
+.si-body{flex:1;min-width:0}
+.si-name{font-size:12px;color:var(--t0);font-weight:500;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.si-meta{display:flex;gap:6px;margin-top:2px;font-size:9px;color:var(--t2);align-items:center}
+.si-type{background:rgba(0,212,232,0.1);color:var(--cyan);padding:1px 6px;
+  border-radius:3px;font-weight:500;font-size:8px;text-transform:uppercase;letter-spacing:0.5px}
+.si-dest{color:var(--t1);font-family:'JetBrains Mono',monospace}
+
+/* ═══ MAP ═══ */
 #map{position:fixed;top:var(--tb);left:var(--sb);right:0;bottom:var(--stb);
   transition:right .22s ease}
 #map.dpo{right:var(--dp)}
-.maplibregl-ctrl-attrib{font-size:9px!important;opacity:.4!important}
-.maplibregl-ctrl-group{background:var(--bg2)!important;
-  border:1px solid var(--bd2)!important;box-shadow:0 2px 8px rgba(0,0,0,.5)!important}
+.maplibregl-ctrl-attrib{font-size:9px!important;opacity:.35!important}
+.maplibregl-ctrl-group{
+  background:rgba(8,14,28,0.8)!important;
+  backdrop-filter:blur(12px)!important;
+  border:1px solid rgba(60,130,220,0.15)!important;
+  border-radius:8px!important;
+  box-shadow:0 4px 16px rgba(0,0,0,.5)!important}
 .maplibregl-ctrl button{background:transparent!important}
-.maplibregl-ctrl button span{filter:invert(.6)}
+.maplibregl-ctrl button span{filter:invert(.55)}
 
-/* DETAIL PANEL */
+/* ═══ DETAIL PANEL ═══ */
 #dp{position:fixed;top:var(--tb);right:0;bottom:var(--stb);
-  width:var(--dp);background:var(--bg1);border-left:1px solid var(--bd2);
+  width:var(--dp);
+  background:rgba(8,14,28,0.85);
+  backdrop-filter:blur(24px) saturate(1.5);
+  -webkit-backdrop-filter:blur(24px) saturate(1.5);
+  border-left:1px solid rgba(60,130,220,0.12);
   z-index:150;transform:translateX(100%);transition:transform .22s ease;
-  display:flex;flex-direction:column;overflow:hidden}
+  display:flex;flex-direction:column;overflow:hidden;
+  box-shadow:-4px 0 30px rgba(0,0,0,0.3)}
 #dp.open{transform:translateX(0)}
-.dph{display:flex;align-items:center;gap:8px;padding:12px 14px;
-  border-bottom:1px solid var(--bd2);flex-shrink:0}
+.dph{display:flex;align-items:center;gap:10px;padding:14px 16px;
+  border-bottom:1px solid var(--bd1);flex-shrink:0}
 .dptag{font-family:'JetBrains Mono',monospace;font-size:9px;
-  text-transform:uppercase;letter-spacing:1px;font-weight:500;
-  padding:2px 7px;border-radius:2px;flex-shrink:0}
-.dptitle{font-size:13px;font-weight:500;flex:1;
+  text-transform:uppercase;letter-spacing:1px;font-weight:600;
+  padding:3px 8px;border-radius:4px;flex-shrink:0}
+.dptitle{font-size:14px;font-weight:600;flex:1;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t0)}
 .dpx{background:none;border:none;color:var(--t2);cursor:pointer;
-  font-size:16px;padding:2px 5px;border-radius:2px;line-height:1;transition:color .15s}
-.dpx:hover{color:var(--t0)}
-.dpbody{flex:1;overflow-y:auto;padding:14px}
-.dpbody::-webkit-scrollbar{width:3px}
-.dpbody::-webkit-scrollbar-thumb{background:var(--bd3)}
+  font-size:18px;padding:2px 6px;border-radius:4px;line-height:1;transition:all .15s}
+.dpx:hover{color:var(--t0);background:rgba(255,255,255,0.06)}
+.dpbody{flex:1;overflow-y:auto;padding:16px}
+.dpbody::-webkit-scrollbar{width:4px}
+.dpbody::-webkit-scrollbar-thumb{background:var(--bd3);border-radius:3px}
 .dpcoords{font-family:'JetBrains Mono',monospace;font-size:11px;
-  color:var(--bluel);background:var(--bg2);border:1px solid var(--bd2);
-  padding:6px 10px;border-radius:3px;margin-bottom:14px;
-  display:flex;justify-content:space-between;align-items:center}
-.dpf{margin-bottom:12px}
-.dplbl{font-size:9px;text-transform:uppercase;letter-spacing:.9px;
-  color:var(--t2);margin-bottom:3px;font-weight:600}
-.dpval{font-size:12px;color:var(--t0);line-height:1.5}
-.dpval a{color:var(--bluel);text-decoration:none}
+  color:var(--bluel);background:rgba(59,155,255,0.06);
+  border:1px solid rgba(59,155,255,0.15);
+  padding:8px 12px;border-radius:8px;margin-bottom:16px;
+  display:flex;justify-content:space-between;align-items:center;font-weight:500}
+.dpf{margin-bottom:14px}
+.dplbl{font-size:9px;text-transform:uppercase;letter-spacing:1px;
+  color:var(--t2);margin-bottom:4px;font-weight:600}
+.dpval{font-size:13px;color:var(--t0);line-height:1.6}
+.dpval a{color:var(--bluel);text-decoration:none;font-weight:500}
 .dpval a:hover{text-decoration:underline}
-.dpgauge{height:5px;background:var(--bg4);border-radius:3px;margin-top:5px;overflow:hidden}
-.dpgf{height:100%;border-radius:3px;transition:width .5s}
-.dpmag{font-family:'JetBrains Mono',monospace;font-size:40px;
-  font-weight:600;line-height:1;margin-bottom:4px}
-.dprow{display:flex;gap:12px}
+.dpgauge{height:6px;background:rgba(255,255,255,0.05);border-radius:4px;
+  margin-top:5px;overflow:hidden}
+.dpgf{height:100%;border-radius:4px;transition:width .5s}
+.dpmag{font-family:'JetBrains Mono',monospace;font-size:42px;
+  font-weight:700;line-height:1;margin-bottom:4px}
+.dprow{display:flex;gap:14px}
 .dprow .dpf{flex:1}
-.dpdiv{border:none;border-top:1px solid var(--bd1);margin:10px 0}
-.dpact{padding:10px 14px;border-top:1px solid var(--bd1);
-  display:flex;gap:6px;flex-shrink:0}
-.dpbtn{flex:1;padding:6px 12px;border-radius:3px;font-size:11px;
-  cursor:pointer;font-weight:500;border:1px solid var(--bd2);
-  background:var(--bg3);color:var(--t1);transition:all .15s;font-family:inherit}
-.dpbtn:hover{background:var(--bg4);color:var(--t0);border-color:var(--bd3)}
-.dpbtn.prim{background:rgba(43,141,248,.12);border-color:var(--blue);color:var(--bluel)}
-.dpbtn.prim:hover{background:rgba(43,141,248,.22)}
+.dpdiv{border:none;border-top:1px solid var(--bd1);margin:12px 0}
+.dpact{padding:12px 16px;border-top:1px solid var(--bd1);
+  display:flex;gap:8px;flex-shrink:0}
+.dpbtn{flex:1;padding:8px 14px;border-radius:6px;font-size:11px;
+  cursor:pointer;font-weight:600;border:1px solid var(--bd2);
+  background:rgba(255,255,255,0.03);color:var(--t1);
+  transition:all .15s;font-family:inherit}
+.dpbtn:hover{background:rgba(255,255,255,0.07);color:var(--t0);border-color:var(--bd3)}
+.dpbtn.prim{background:rgba(59,155,255,.12);border-color:rgba(59,155,255,.35);color:var(--bluel)}
+.dpbtn.prim:hover{background:rgba(59,155,255,.22)}
+.dp-flag{font-size:28px;line-height:1}
 
-/* STATUS BAR */
+/* ═══ STATUS BAR ═══ */
 #stbar{position:fixed;bottom:0;left:var(--sb);right:0;
-  height:var(--stb);background:var(--bg1);border-top:1px solid var(--bd1);
-  display:flex;align-items:center;padding:0 10px;gap:14px;
-  font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t2);z-index:100}
-.ss{display:flex;align-items:center;gap:4px}
-.ss b{color:var(--t1)}
+  height:var(--stb);
+  background:rgba(8,14,28,0.85);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-top:1px solid rgba(60,130,220,0.1);
+  display:flex;align-items:center;padding:0 14px;gap:18px;
+  font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t2);z-index:100;
+  font-weight:500}
+.ss{display:flex;align-items:center;gap:5px}
+.ss b{color:var(--bluel);font-weight:600}
+.ss-live{display:flex;align-items:center;gap:4px;color:var(--green);font-weight:600;
+  font-size:10px;letter-spacing:.5px}
+.ss-live::before{content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--green);box-shadow:0 0 6px var(--green);animation:bp 2s ease-in-out infinite}
 #curpos{margin-left:auto;color:var(--t3)}
 
-/* TOOLTIP */
-#tip{position:fixed;display:none;z-index:300;background:var(--bg2);
+/* ═══ TOOLTIP ═══ */
+#tip{position:fixed;display:none;z-index:300;
+  background:rgba(8,14,28,0.92);
+  backdrop-filter:blur(12px);
   border:1px solid var(--bd3);color:var(--t0);font-size:10px;
-  padding:4px 8px;border-radius:3px;pointer-events:none;
-  box-shadow:0 2px 10px rgba(0,0,0,.5);max-width:220px;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  padding:5px 10px;border-radius:6px;pointer-events:none;
+  box-shadow:0 4px 16px rgba(0,0,0,.6);max-width:240px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
 
-/* VISUAL MODES */
+/* ═══ VISUAL MODES ═══ */
 .nvg #map canvas{filter:brightness(.6) saturate(.15) sepia(.9) hue-rotate(95deg)}
 .flir #map canvas{filter:invert(1) sepia(.4) contrast(1.4) saturate(.25)}
 .crt #map canvas{filter:brightness(.7) contrast(1.3) sepia(.45) saturate(.7) hue-rotate(18deg)}
@@ -190,63 +282,114 @@ html,body{width:100vw;height:100vh;overflow:hidden;
   <div class="vdiv"></div>
   <div class="rpill">12°N–42°N · 32°E–63°E</div>
   <div class="chips">
-    <div class="chip" id="chip-ev"><span class="led" id="led-ev"></span>Events</div>
-    <div class="chip" id="chip-sat"><span class="led" id="led-sat"></span>Satellites</div>
-    <div class="chip" id="chip-fl"><span class="led" id="led-fl"></span>ADS-B</div>
+    <div class="chip" id="chip-ev"><span class="led" id="led-ev"></span>EVT</div>
+    <div class="chip" id="chip-sat"><span class="led" id="led-sat"></span>SAT</div>
+    <div class="chip" id="chip-fl"><span class="led" id="led-fl"></span>ADSB</div>
+    <div class="chip" id="chip-sh"><span class="led" id="led-sh"></span>AIS</div>
     <div class="vdiv"></div>
     <div id="clock">--:--:-- UTC</div>
   </div>
 </div>
 
 <div id="sb">
-  <div class="sbs">
-    <div class="sbh"><h3>Layers</h3><span class="sbn" id="total-n">0</span></div>
-    <div class="sbd">
-      <label class="lrow on" data-layer="events">
-        <div class="lchk"></div><div class="ldot" style="background:var(--orange)"></div>
-        <span class="lname">Intel Events</span><span class="lcnt" id="cnt-ev">0</span>
-      </label>
-      <label class="lrow on" data-layer="thermal">
-        <div class="lchk"></div><div class="ldot" style="background:var(--red)"></div>
-        <span class="lname">Thermal Anomalies</span><span class="lcnt" id="cnt-th">0</span>
-      </label>
-      <label class="lrow on" data-layer="seismic">
-        <div class="lchk"></div><div class="ldot" style="background:var(--purple)"></div>
-        <span class="lname">Seismic</span><span class="lcnt" id="cnt-se">0</span>
-      </label>
-      <label class="lrow on" data-layer="satellites">
-        <div class="lchk"></div><div class="ldot" style="background:var(--blue)"></div>
-        <span class="lname">Satellites</span><span class="lcnt" id="cnt-sat">0</span>
-      </label>
-      <label class="lrow on" data-layer="flights">
-        <div class="lchk"></div><div class="ldot" style="background:var(--green)"></div>
-        <span class="lname">Aircraft (ADS-B)</span><span class="lcnt" id="cnt-fl">0</span>
-      </label>
-      <label class="lrow" data-layer="heatmap">
-        <div class="lchk"></div><div class="ldot" style="background:linear-gradient(135deg,var(--red),var(--amber))"></div>
-        <span class="lname">Heat Density</span>
-      </label>
+  <!-- Stats Grid -->
+  <div class="stats-grid">
+    <div class="stat-card" style="--accent:var(--orange)">
+      <div class="stat-icon">⚠</div>
+      <div class="stat-val" id="stat-threats">0</div>
+      <div class="stat-lbl">Threats</div>
+    </div>
+    <div class="stat-card" style="--accent:var(--cyan)">
+      <div class="stat-icon">⚓</div>
+      <div class="stat-val" id="stat-ships">0</div>
+      <div class="stat-lbl">Ships</div>
+    </div>
+    <div class="stat-card" style="--accent:var(--green)">
+      <div class="stat-icon">✈</div>
+      <div class="stat-val" id="stat-aircraft">0</div>
+      <div class="stat-lbl">Aircraft</div>
+    </div>
+    <div class="stat-card" style="--accent:var(--blue)">
+      <div class="stat-icon">🛰</div>
+      <div class="stat-val" id="stat-sats">0</div>
+      <div class="stat-lbl">Satellites</div>
     </div>
   </div>
-  <div class="sbs">
-    <div class="sbh"><h3>Visual Mode</h3></div>
-    <div class="sbd">
-      <div class="mrow">
-        <button class="mbtn on" data-mode="default">STD</button>
-        <button class="mbtn" data-mode="nvg">NVG</button>
-        <button class="mbtn" data-mode="flir">FLIR</button>
-        <button class="mbtn" data-mode="crt">CRT</button>
+
+  <!-- Tab Bar -->
+  <div class="tab-bar">
+    <button class="tab active" data-tab="layers">Layers</button>
+    <button class="tab" data-tab="events">Events</button>
+    <button class="tab" data-tab="vessels">Vessels</button>
+  </div>
+
+  <!-- Layers Tab -->
+  <div class="tab-panel active" id="panel-layers">
+    <div class="sbs">
+      <div class="sbh"><h3>Map Layers</h3><span class="sbn" id="total-n">0</span></div>
+      <div class="sbd">
+        <label class="lrow on" data-layer="events">
+          <div class="lchk"></div><div class="ldot" style="background:var(--orange)"></div>
+          <span class="lname">Intel Events</span><span class="lcnt" id="cnt-ev">0</span>
+        </label>
+        <label class="lrow on" data-layer="thermal">
+          <div class="lchk"></div><div class="ldot" style="background:var(--red)"></div>
+          <span class="lname">Thermal Anomalies</span><span class="lcnt" id="cnt-th">0</span>
+        </label>
+        <label class="lrow on" data-layer="seismic">
+          <div class="lchk"></div><div class="ldot" style="background:var(--purple)"></div>
+          <span class="lname">Seismic</span><span class="lcnt" id="cnt-se">0</span>
+        </label>
+        <label class="lrow on" data-layer="satellites">
+          <div class="lchk"></div><div class="ldot" style="background:var(--blue)"></div>
+          <span class="lname">Satellites</span><span class="lcnt" id="cnt-sat">0</span>
+        </label>
+        <label class="lrow on" data-layer="flights">
+          <div class="lchk"></div><div class="ldot" style="background:var(--green)"></div>
+          <span class="lname">Aircraft (ADS-B)</span><span class="lcnt" id="cnt-fl">0</span>
+        </label>
+        <label class="lrow on" data-layer="ships">
+          <div class="lchk"></div><div class="ldot" style="background:var(--cyan)"></div>
+          <span class="lname">Ships (AIS)</span><span class="lcnt" id="cnt-sh">0</span>
+        </label>
+        <label class="lrow" data-layer="heatmap">
+          <div class="lchk"></div><div class="ldot" style="background:linear-gradient(135deg,var(--red),var(--amber))"></div>
+          <span class="lname">Heat Density</span>
+        </label>
       </div>
     </div>
+    <div class="sbs">
+      <div class="sbh"><h3>Visual Mode</h3></div>
+      <div class="sbd">
+        <div class="mrow">
+          <button class="mbtn on" data-mode="default">STD</button>
+          <button class="mbtn" data-mode="nvg">NVG</button>
+          <button class="mbtn" data-mode="flir">FLIR</button>
+          <button class="mbtn" data-mode="crt">CRT</button>
+        </div>
+      </div>
+    </div>
+    <div class="sbs" style="flex:1;overflow-y:auto">
+      <div class="sbh"><h3>Category Breakdown</h3></div>
+      <div class="sbd" id="catstats"></div>
+    </div>
   </div>
-  <div class="sbs">
-    <div class="sbh"><h3>Category Breakdown</h3></div>
-    <div class="sbd" id="catstats"></div>
+
+  <!-- Events Tab -->
+  <div class="tab-panel" id="panel-events">
+    <div class="swrap">
+      <input type="text" id="evsearch" placeholder="Search events…">
+    </div>
+    <div id="evlist"></div>
   </div>
-  <div class="swrap">
-    <input type="text" id="evsearch" placeholder="Filter events…">
+
+  <!-- Vessels Tab -->
+  <div class="tab-panel" id="panel-vessels">
+    <div class="swrap">
+      <input type="text" id="shipsearch" placeholder="Search ships…">
+    </div>
+    <div id="shiplist"></div>
   </div>
-  <div id="evlist"></div>
 </div>
 
 <div id="map"></div>
@@ -262,9 +405,11 @@ html,body{width:100vw;height:100vh;overflow:hidden;
 </div>
 
 <div id="stbar">
+  <div class="ss-live">LIVE</div>
   <div class="ss">Events <b id="st-ev">0</b></div>
   <div class="ss">Sats <b id="st-sat">0</b></div>
   <div class="ss">ADS-B <b id="st-fl">0</b></div>
+  <div class="ss">Ships <b id="st-sh">0</b></div>
   <div class="ss" id="st-upd" style="color:var(--t3)">—</div>
   <div id="curpos"></div>
 </div>
@@ -277,21 +422,35 @@ html,body{width:100vw;height:100vh;overflow:hidden;
 // ═══════ CONFIG ═══════
 const CATS = {
   conflict:       {color:'#ff4757',label:'Conflict'},
-  protest:        {color:'#ff8c00',label:'Protest'},
+  protest:        {color:'#ff9422',label:'Protest'},
   humanitarian:   {color:'#58a6ff',label:'Humanitarian'},
-  earthquake:     {color:'#9b72ff',label:'Seismic'},
-  thermal_anomaly:{color:'#ff3b3b',label:'Thermal'},
+  earthquake:     {color:'#a87fff',label:'Seismic'},
+  thermal_anomaly:{color:'#ff4455',label:'Thermal'},
   political:      {color:'#79c0ff',label:'Political'},
-  military:       {color:'#ff8c00',label:'Military'},
+  military:       {color:'#ff9422',label:'Military'},
   displacement:   {color:'#56d364',label:'Displacement'},
   other:          {color:'#6e8a9e',label:'Other'}
 };
 const SATG = {
-  military:{color:'#ff8c00',label:'Military'},
-  radar:   {color:'#ff3b3b',label:'Radar Cal'},
-  resource:{color:'#2b8df8',label:'Earth Obs'},
-  stations:{color:'#00cc7a',label:'Stations'},
+  military:{color:'#ff9422',label:'Military'},
+  radar:   {color:'#ff4455',label:'Radar Cal'},
+  resource:{color:'#3b9bff',label:'Earth Obs'},
+  stations:{color:'#00e88a',label:'Stations'},
   starlink:{color:'#5599bb',label:'Starlink'}
+};
+const SHIP_TYPES = {
+  Cargo:           {color:'#e8a838',label:'Cargo'},
+  Tanker:          {color:'#ff5555',label:'Tanker'},
+  Passenger:       {color:'#58a6ff',label:'Passenger'},
+  Fishing:         {color:'#56d364',label:'Fishing'},
+  Military:        {color:'#ff9422',label:'Military'},
+  Tug:             {color:'#a87fff',label:'Tug'},
+  Towing:          {color:'#a87fff',label:'Towing'},
+  'High Speed Craft':{color:'#00d4e8',label:'HSC'},
+  Pilot:           {color:'#ffc42e',label:'Pilot'},
+  SAR:             {color:'#ff4455',label:'SAR'},
+  Other:           {color:'#6e8a9e',label:'Other'},
+  Unknown:         {color:'#4d6e8a',label:'Unknown'}
 };
 const SAMPLES=[
   {id:'s1',source:'acled',category:'conflict',title:'Airstrike near Marib, Yemen',lat:15.47,lng:45.33,timestamp:'2025-12-01T08:00:00Z'},
@@ -322,8 +481,9 @@ const SAMPLES=[
 
 // ═══════ STATE ═══════
 let map,allEvents=[],satRecs=[],satById={},flightData=[],flightFetchT=0;
+let shipData=[],shipQuery='';
 let selId=null,selLng=null,selLat=null;
-let layers={events:true,thermal:true,seismic:true,satellites:true,flights:true,heatmap:false};
+let layers={events:true,thermal:true,seismic:true,satellites:true,flights:true,ships:true,heatmap:false};
 let mode='default',query='',pulsePhase=0;
 
 // ═══════ BOOT ═══════
@@ -333,6 +493,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   initLayers();
   initModes();
   initSearch();
+  initTabs();
   document.getElementById('dp-x').onclick=closeDP;
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDP();});
 });
@@ -341,6 +502,18 @@ function startClock(){
   const el=document.getElementById('clock');
   const t=()=>el.textContent=new Date().toISOString().slice(11,19)+' UTC';
   t();setInterval(t,1000);
+}
+
+// ═══════ TABS ═══════
+function initTabs(){
+  document.querySelectorAll('.tab').forEach(tab=>{
+    tab.onclick=()=>{
+      document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('panel-'+tab.dataset.tab).classList.add('active');
+    };
+  });
 }
 
 // ═══════ MAP ═══════
@@ -356,7 +529,6 @@ function initMap(){
     const el=document.getElementById('curpos');
     el.textContent=e.lngLat.lat.toFixed(3)+'°N  '+e.lngLat.lng.toFixed(3)+'°E';
   });
-  // ── CRITICAL: data loads AFTER map ready ──
   map.on('load',()=>{
     addSources();
     addLayers();
@@ -367,7 +539,7 @@ function initMap(){
 }
 
 function addSources(){
-  ['ev-src','heat-src','sat-src','fl-src','sel-src','track-src'].forEach(id=>{
+  ['ev-src','heat-src','sat-src','fl-src','ship-src','sel-src','track-src'].forEach(id=>{
     map.addSource(id,{type:'geojson',data:{type:'FeatureCollection',features:[]}});
   });
 }
@@ -387,12 +559,12 @@ function addLayers(){
   // Sat ground track
   map.addLayer({id:'track-l',type:'line',source:'track-src',
     layout:{visibility:'none'},
-    paint:{'line-color':'#5eaaff','line-width':2,'line-opacity':0.65,'line-dasharray':[6,3]}
+    paint:{'line-color':'#6eb8ff','line-width':2,'line-opacity':0.65,'line-dasharray':[6,3]}
   });
   // Selection ring
   map.addLayer({id:'sel-ring',type:'circle',source:'sel-src',
     paint:{'circle-radius':14,'circle-color':'transparent',
-      'circle-stroke-width':1.5,'circle-stroke-color':'#2b8df8',
+      'circle-stroke-width':1.5,'circle-stroke-color':'#3b9bff',
       'circle-stroke-opacity':0.85,'circle-opacity':0}
   });
   // Events (non-thermal, non-seismic)
@@ -400,7 +572,7 @@ function addLayers(){
     filter:['==',['get','lt'],'event'],
     paint:{'circle-radius':6,'circle-color':['get','color'],
       'circle-opacity':0.88,'circle-stroke-width':1.5,
-      'circle-stroke-color':'rgba(255,255,255,0.15)'}
+      'circle-stroke-color':'rgba(255,255,255,0.12)'}
   });
   // Thermal
   map.addLayer({id:'th-l',type:'circle',source:'ev-src',
@@ -416,9 +588,39 @@ function addLayers(){
     filter:['==',['get','lt'],'seismic'],
     paint:{
       'circle-radius':['interpolate',['linear'],['get','mag'],2,4,4,7,5,11,7,18],
-      'circle-color':'#9b72ff','circle-opacity':0.82,
-      'circle-stroke-width':2,'circle-stroke-color':'rgba(155,114,255,0.35)'
+      'circle-color':'#a87fff','circle-opacity':0.82,
+      'circle-stroke-width':2,'circle-stroke-color':'rgba(168,127,255,0.35)'
     }
+  });
+  // ── SHIPS: glow + dot + icon ──
+  map.addLayer({id:'ship-glow',type:'circle',source:'ship-src',
+    paint:{
+      'circle-radius':12,
+      'circle-color':['get','color'],
+      'circle-blur':1,
+      'circle-opacity':0.15
+    }
+  });
+  map.addLayer({id:'ship-dot',type:'circle',source:'ship-src',
+    paint:{
+      'circle-radius':4,
+      'circle-color':['get','color'],
+      'circle-opacity':0.9,
+      'circle-stroke-width':1,
+      'circle-stroke-color':'rgba(0,212,232,0.2)'
+    }
+  });
+  map.addLayer({id:'ship-icon',type:'symbol',source:'ship-src',
+    layout:{'text-field':'▾','text-size':18,
+      'text-rotate':['get','cog'],'text-rotation-alignment':'map',
+      'text-allow-overlap':true,'text-ignore-placement':true},
+    paint:{'text-color':['get','color'],'text-halo-color':'rgba(0,0,0,0.7)','text-halo-width':2}
+  });
+  map.addLayer({id:'ship-lbl',type:'symbol',source:'ship-src',minzoom:6,
+    layout:{'text-field':['get','name'],'text-size':9,
+      'text-offset':[0,1.4],'text-anchor':'top',
+      'text-allow-overlap':false,'text-optional':true},
+    paint:{'text-color':'#00d4e8','text-halo-color':'#060a12','text-halo-width':2}
   });
   // ── SATELLITES: 3-layer glow system ──
   map.addLayer({id:'sat-glow',type:'circle',source:'sat-src',
@@ -448,13 +650,13 @@ function addLayers(){
     layout:{'text-field':['get','name'],'text-size':9,
       'text-offset':[0,1.6],'text-anchor':'top',
       'text-allow-overlap':false,'text-optional':true},
-    paint:{'text-color':['get','color'],'text-halo-color':'#04090f','text-halo-width':2}
+    paint:{'text-color':['get','color'],'text-halo-color':'#060a12','text-halo-width':2}
   });
   // ── AIRCRAFT: glow + dot + heading ──
   map.addLayer({id:'fl-glow',type:'circle',source:'fl-src',
     paint:{
       'circle-radius':14,
-      'circle-color':'#00cc7a',
+      'circle-color':'#00e88a',
       'circle-blur':1,
       'circle-opacity':0.18
     }
@@ -465,7 +667,7 @@ function addLayers(){
       'circle-color':'#00ff8c',
       'circle-opacity':0.92,
       'circle-stroke-width':1,
-      'circle-stroke-color':'rgba(0,204,122,0.3)'
+      'circle-stroke-color':'rgba(0,232,138,0.25)'
     }
   });
   map.addLayer({id:'fl-l',type:'symbol',source:'fl-src',
@@ -478,13 +680,13 @@ function addLayers(){
     layout:{'text-field':['get','cs'],'text-size':10,
       'text-offset':[0,1.4],'text-anchor':'top',
       'text-allow-overlap':false,'text-optional':true},
-    paint:{'text-color':'#00ff8c','text-halo-color':'#04090f','text-halo-width':2}
+    paint:{'text-color':'#00ff8c','text-halo-color':'#060a12','text-halo-width':2}
   });
 }
 
 function addInteractions(){
   const tip=document.getElementById('tip');
-  const cls=['ev-l','th-l','se-l','sat-l','sat-mid','fl-l','fl-dot'];
+  const cls=['ev-l','th-l','se-l','sat-l','sat-mid','fl-l','fl-dot','ship-icon','ship-dot'];
   const showTip=(e,txt)=>{
     if(!txt)return;
     tip.textContent=txt;tip.style.display='block';
@@ -512,20 +714,21 @@ function addInteractions(){
 function startPulse(){
   const go=()=>{
     pulsePhase+=0.03;
-    // Selection ring pulse
     if(selLng!==null&&map.getLayer('sel-ring')){
       map.setPaintProperty('sel-ring','circle-radius',13+4*Math.sin(pulsePhase));
       map.setPaintProperty('sel-ring','circle-stroke-opacity',0.5+0.35*Math.sin(pulsePhase));
     }
-    // Satellite constellation breathing glow
     if(map.getLayer('sat-glow')){
       const s=Math.sin(pulsePhase*0.7);
       map.setPaintProperty('sat-glow','circle-opacity',0.1+0.07*s);
     }
-    // Aircraft radar-style pulse
     if(map.getLayer('fl-glow')){
       const s=Math.sin(pulsePhase*0.9);
       map.setPaintProperty('fl-glow','circle-opacity',0.15+0.1*s);
+    }
+    if(map.getLayer('ship-glow')){
+      const s=Math.sin(pulsePhase*0.6);
+      map.setPaintProperty('ship-glow','circle-opacity',0.12+0.08*s);
     }
     requestAnimationFrame(go);
   };
@@ -534,15 +737,15 @@ function startPulse(){
 
 // ═══════ DATA ═══════
 async function loadData(){
-  await Promise.all([loadEvents(),loadSats()]);
+  await Promise.all([loadEvents(),loadSats(),loadShips()]);
   loadFlights();setInterval(loadFlights,15000);
-  // Interpolate aircraft positions every 2s for smooth movement
   setInterval(()=>{if(flightData.length)pushFlightSrc();},2000);
+  setInterval(loadShips,60000);
 }
 
 async function loadEvents(){
   try{
-    const r=await fetch('data/combined.json');
+    const r=await fetch('data/combined.json?t='+Date.now());
     if(!r.ok)throw 0;
     const d=await r.json();
     allEvents=(d.events&&d.events.length>0)?d.events:SAMPLES;
@@ -554,7 +757,7 @@ async function loadEvents(){
 
 async function loadSats(){
   try{
-    const r=await fetch('data/satellites.json');
+    const r=await fetch('data/satellites.json?t='+Date.now());
     if(!r.ok)throw 0;
     const d=await r.json();
     satRecs=(d.satellites||[]).map(s=>{
@@ -565,6 +768,7 @@ async function loadSats(){
     setLed('sat','live');
     document.getElementById('cnt-sat').textContent=satRecs.length;
     document.getElementById('st-sat').textContent=satRecs.length;
+    animateCounter(document.getElementById('stat-sats'),satRecs.length);
     propSats();setInterval(propSats,3000);
   }catch(e){console.warn('Sats failed',e);setLed('sat','err');}
 }
@@ -579,8 +783,28 @@ async function loadFlights(){
     setLed('fl','live');
     document.getElementById('cnt-fl').textContent=flightData.length;
     document.getElementById('st-fl').textContent=flightData.length;
+    animateCounter(document.getElementById('stat-aircraft'),flightData.length);
     pushFlightSrc();
   }catch{if(!flightData.length)setLed('fl','stale');}
+}
+
+async function loadShips(){
+  try{
+    const r=await fetch('data/ships.json?t='+Date.now());
+    if(!r.ok)throw 0;
+    const d=await r.json();
+    shipData=d.vessels||[];
+    setLed('sh','live');
+    document.getElementById('cnt-sh').textContent=shipData.length;
+    document.getElementById('st-sh').textContent=shipData.length;
+    animateCounter(document.getElementById('stat-ships'),shipData.length);
+    pushShipSrc();
+    renderShipList();
+  }catch{
+    // No ship data yet — that's OK
+    shipData=[];
+    setLed('sh','stale');
+  }
 }
 
 // ═══════ MAP DATA PUSH ═══════
@@ -622,7 +846,8 @@ function propSats(){
       fts.push({type:'Feature',geometry:{type:'Point',coordinates:[lng,lat]},
         properties:{id:'sat-'+s.norad_id,name:s.name,norad_id:s.norad_id,
           group:s.group,grp:g.label,color:g.color,hi:!!s.highlight,
-          alt:Math.round(geo.height),type:'satellite'}});
+          alt:Math.round(geo.height),type:'satellite',
+          owner:s.owner_country||'',owner_flag:s.owner_flag||'',owner_code:s.owner_code||''}});
     }catch{}
   });
   map.getSource('sat-src').setData({type:'FeatureCollection',features:fts});
@@ -630,11 +855,10 @@ function propSats(){
 }
 
 function pushFlightSrc(){
-  const dt=(Date.now()-flightFetchT)/1000; // seconds since last API fetch
+  const dt=(Date.now()-flightFetchT)/1000;
   const fts=flightData.map(s=>{
     let lng=s[5],lat=s[6];
     const vel=s[9],hdg=s[10];
-    // Extrapolate position from velocity+heading between API refreshes
     if(dt>0&&vel&&hdg!=null&&!s[8]){
       const r=hdg*Math.PI/180;
       lat+=vel*Math.cos(r)*dt/111320;
@@ -649,6 +873,25 @@ function pushFlightSrc(){
     };
   });
   map.getSource('fl-src').setData({type:'FeatureCollection',features:fts});
+}
+
+function pushShipSrc(){
+  const fts=shipData.map(s=>{
+    const st=SHIP_TYPES[s.vessel_type]||SHIP_TYPES.Unknown;
+    return {type:'Feature',
+      geometry:{type:'Point',coordinates:[s.lng,s.lat]},
+      properties:{
+        id:'ship-'+s.mmsi,name:s.name||'',mmsi:s.mmsi,imo:s.imo||'',
+        flag_country:s.flag_country||'',flag_iso:s.flag_iso||'',
+        flag_emoji:s.flag_emoji||'',
+        vessel_type:s.vessel_type||'Unknown',destination:s.destination||'',
+        sog:s.sog!=null?s.sog:null,cog:s.cog!=null?s.cog:null,
+        heading:s.heading!=null?s.heading:null,
+        draught:s.draught||null,callsign:s.callsign||'',
+        color:st.color,type:'ship'}
+    };
+  });
+  map.getSource('ship-src').setData({type:'FeatureCollection',features:fts});
 }
 
 // ═══════ GROUND TRACK ═══════
@@ -694,6 +937,7 @@ function clearRing(){
 function onFeatureClick(p){
   if(p.type==='satellite') showSatDP(p);
   else if(p.type==='flight') showFlDP(p);
+  else if(p.type==='ship') showShipDP(p);
   else {const ev=allEvents.find(e=>e.id===p.id);if(ev)selectEv(ev);}
 }
 function selectEv(ev){
@@ -707,7 +951,7 @@ function setHdr(title,tag,color){
   document.getElementById('dp-title').textContent=title;
   const t=document.getElementById('dp-tag');
   t.textContent=tag;
-  t.style.cssText=`background:${color}22;color:${color};border:1px solid ${color}55`;
+  t.style.cssText=`background:${color}18;color:${color};border:1px solid ${color}44`;
 }
 function openDP(bodyHtml,actionsHtml){
   document.getElementById('dp-body').innerHTML=bodyHtml;
@@ -731,7 +975,7 @@ function showEvDP(ev){
   h+=fld('Time',fmtFull(ev.timestamp));
   if(ev.category==='earthquake'){
     const mag=ev.magnitude||0;
-    const mc=mag>=6?'#ff3b3b':mag>=5?'#ff8c00':mag>=4?'#ffb700':'#9b72ff';
+    const mc=mag>=6?'#ff4455':mag>=5?'#ff9422':mag>=4?'#ffc42e':'#a87fff';
     h+=`<div class="dpf"><div class="dplbl">Magnitude</div>
       <div class="dpmag" style="color:${mc}">M ${mag.toFixed(1)}</div>
       ${gauge(Math.min((mag-2)/6*100,100).toFixed(0),mc)}
@@ -749,7 +993,7 @@ function showEvDP(ev){
     const frp=ev.frp||0;
     h+=`<div class="dpf"><div class="dplbl">Fire Radiative Power</div>
       <div class="dpval">${frp.toFixed(1)}\u202fMW</div>
-      ${gauge(Math.min(frp/80*100,100).toFixed(0),'linear-gradient(90deg,#e05000,#ff3b3b)')}
+      ${gauge(Math.min(frp/80*100,100).toFixed(0),'linear-gradient(90deg,#e05000,#ff4455)')}
     </div>`;
     h+=`<div class="dprow">`;
     h+=fld('Brightness',ev.brightness?ev.brightness.toFixed(1)+'\u202fK':'—');
@@ -758,6 +1002,9 @@ function showEvDP(ev){
     h+=fld('Confidence',confB(ev.confidence));
     h+=fld('Sensor',esc(ev.satellite||ev.sat||'—'));
     h+=fld('Acquisition',ev.daynight==='D'?'Daytime':ev.daynight==='N'?'Nighttime':'—');
+  }
+  if(ev.url&&ev.category!=='earthquake'){
+    h+=fld('Source Link',`<a href="${esc(ev.url)}" target="_blank" rel="noopener">Open ↗</a>`);
   }
   const flyFn=`map.flyTo({center:[${ev.lng},${ev.lat}],zoom:Math.max(map.getZoom(),7),duration:700})`;
   openDP(h,`<button class="dpbtn prim" onclick="${flyFn}">Fly to Location</button>`);
@@ -769,9 +1016,13 @@ function showSatDP(p){
   const sr=satById[p.norad_id]||satById[+p.norad_id];
   let h='';
   h+=`<div class="dprow">`;
-  h+=fld('NORAD ID',`<span style="font-family:'JetBrains Mono',monospace">${p.norad_id}</span>`);
+  h+=fld('NORAD ID',`<span style="font-family:'JetBrains Mono',monospace;font-weight:600">${p.norad_id}</span>`);
   h+=fld('Group',g.label);
   h+=`</div>`;
+  // Country of origin
+  if(p.owner){
+    h+=fld('Country of Origin',`<span class="dp-flag">${p.owner_flag||''}</span> ${esc(p.owner)}`);
+  }
   h+=fld('Altitude',p.alt+'\u202fkm');
   if(sr&&sr.satrec){
     const s=sr.satrec;
@@ -787,7 +1038,6 @@ function showSatDP(p){
     h+=`<hr class="dpdiv">`;
     h+=`<div class="dpf"><div class="dplbl">Ground Track</div>
       <div class="dpval" style="color:var(--t1);font-size:11px">90-min orbital path shown on map</div></div>`;
-    // show track immediately
     const ff=map.querySourceFeatures('sat-src');
     const found=ff.find(f=>f.properties.norad_id==p.norad_id);
     if(found)setRing(found.geometry.coordinates[0],found.geometry.coordinates[1]);
@@ -798,31 +1048,31 @@ function showSatDP(p){
 }
 
 function showFlDP(p){
-  setHdr(p.cs||p.icao24||'—','ADS-B · OpenSky','#00cc7a');
+  setHdr(p.cs||p.icao24||'—','ADS-B','#00e88a');
   const hdg=p.hdg||0;
   const dirs=['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
   const dir=dirs[Math.round(hdg/22.5)%16];
   let h='';
   h+=`<div class="dprow">`;
-  h+=fld('ICAO24',`<span style="font-family:'JetBrains Mono',monospace">${p.icao24||'—'}</span>`);
-  h+=fld('Callsign',p.cs||'—');
+  h+=fld('ICAO24',`<span style="font-family:'JetBrains Mono',monospace;font-weight:600">${p.icao24||'—'}</span>`);
+  h+=fld('Callsign',`<span style="font-weight:600">${p.cs||'—'}</span>`);
   h+=`</div>`;
   h+=fld('Origin Country',esc(p.country||'—'));
   h+=`<hr class="dpdiv">`;
   h+=`<div class="dprow">`;
-  h+=fld('Altitude',p.alt!=null&&p.alt>100?p.alt+'\u202fm':p.ground?'On Ground':'—');
+  h+=fld('Altitude',p.alt!=null&&p.alt>100?p.alt.toLocaleString()+'\u202fm':p.ground?'On Ground':'—');
   h+=fld('Speed',p.vel!=null?p.vel+'\u202fm/s':'—');
   h+=`</div>`;
   h+=fld('Heading',hdg+'° '+dir);
   if(p.vel!=null)
     h+=`<div class="dpf" style="margin-top:6px">
       <div class="dplbl">Speed (ref 350 m/s)</div>
-      ${gauge(Math.min(p.vel/350*100,100).toFixed(0),'var(--green)')}
+      ${gauge(Math.min(p.vel/350*100,100).toFixed(0),'linear-gradient(90deg,#00e88a,#00d4e8)')}
     </div>`;
   if(p.alt!=null&&p.alt>100)
     h+=`<div class="dpf" style="margin-top:8px">
       <div class="dplbl">Altitude (ref 13 000 m)</div>
-      ${gauge(Math.min(p.alt/13000*100,100).toFixed(0),'var(--bluel)')}
+      ${gauge(Math.min(p.alt/13000*100,100).toFixed(0),'linear-gradient(90deg,#3b9bff,#6eb8ff)')}
     </div>`;
   const ff=map.querySourceFeatures('fl-src');
   const found=ff.find(f=>f.properties.id===p.id);
@@ -830,6 +1080,65 @@ function showFlDP(p){
   else clearRing();
   hideTrack();
   openDP(h,'');
+}
+
+function showShipDP(p){
+  const st=SHIP_TYPES[p.vessel_type]||SHIP_TYPES.Unknown;
+  setHdr(p.name||'MMSI '+p.mmsi,st.label+' '+(p.flag_emoji||''),st.color);
+  const cog=p.cog||0;
+  const dirs=['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
+  const dir=dirs[Math.round(cog/22.5)%16];
+  let h='';
+  // Flag display
+  if(p.flag_emoji){
+    h+=`<div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
+      <span style="font-size:36px;line-height:1">${p.flag_emoji}</span>
+      <div>
+        <div style="font-size:14px;font-weight:600;color:var(--t0)">${esc(p.flag_country||'—')}</div>
+        <div style="font-size:10px;color:var(--t2);margin-top:2px">Flag State</div>
+      </div>
+    </div>`;
+  }
+  h+=`<div class="dprow">`;
+  h+=fld('MMSI',`<span style="font-family:'JetBrains Mono',monospace;font-weight:600">${p.mmsi||'—'}</span>`);
+  h+=fld('IMO',`<span style="font-family:'JetBrains Mono',monospace;font-weight:600">${p.imo||'—'}</span>`);
+  h+=`</div>`;
+  h+=`<div class="dprow">`;
+  h+=fld('Callsign',p.callsign||'—');
+  h+=fld('Vessel Type',`<span style="color:${st.color};font-weight:600">${esc(p.vessel_type||'—')}</span>`);
+  h+=`</div>`;
+  h+=`<hr class="dpdiv">`;
+  if(p.destination){
+    h+=fld('Destination',`<span style="color:var(--cyan);font-weight:600;font-size:14px">${esc(p.destination)}</span>`);
+  }
+  h+=`<div class="dprow">`;
+  h+=fld('Speed',p.sog!=null?p.sog+'\u202fkn':'—');
+  h+=fld('Course',cog.toFixed(1)+'° '+dir);
+  h+=`</div>`;
+  if(p.heading!=null){
+    h+=fld('Heading',p.heading+'°');
+  }
+  if(p.sog!=null){
+    h+=`<div class="dpf" style="margin-top:6px">
+      <div class="dplbl">Speed (ref 25 kn)</div>
+      ${gauge(Math.min(p.sog/25*100,100).toFixed(0),'linear-gradient(90deg,#00d4e8,#3b9bff)')}
+    </div>`;
+  }
+  if(p.draught){
+    h+=`<div class="dpf" style="margin-top:8px">
+      <div class="dplbl">Draught (ref 20 m)</div>
+      <div class="dpval">${p.draught}\u202fm</div>
+      ${gauge(Math.min(p.draught/20*100,100).toFixed(0),'linear-gradient(90deg,#a87fff,#6eb8ff)')}
+    </div>`;
+  }
+  // Find vessel on map for ring
+  const ff=map.querySourceFeatures('ship-src');
+  const found=ff.find(f=>f.properties.id===p.id);
+  if(found)setRing(found.geometry.coordinates[0],found.geometry.coordinates[1]);
+  else clearRing();
+  hideTrack();
+  const flyFn=found?`map.flyTo({center:[${found.geometry.coordinates[0]},${found.geometry.coordinates[1]}],zoom:Math.max(map.getZoom(),8),duration:700})`:'';
+  openDP(h,flyFn?`<button class="dpbtn prim" onclick="${flyFn}">Fly to Vessel</button>`:'');
 }
 
 // ═══════ EVENT LIST ═══════
@@ -847,18 +1156,59 @@ function renderList(){
     const cat=CATS[ev.category]||CATS.other;
     const d=document.createElement('div');
     d.className='ei'+(selId===ev.id?' sel':'');
-    d.innerHTML=`<div class="eidot" style="background:${cat.color}"></div>
+    d.innerHTML=`<div class="eidot" style="background:${cat.color};color:${cat.color}"></div>
       <div class="eibody">
         <div class="eititle">${esc(ev.title)}</div>
         <div class="eimeta">
           <span class="eitag">${cat.label}</span>
           <span>${ev.source||''}</span>
-          <span>${fmtDate(ev.timestamp)}</span>
+          <span class="eitime">${timeAgo(ev.timestamp)}</span>
         </div>
       </div>`;
     d.onclick=()=>{
       selectEv(ev);
       map.flyTo({center:[ev.lng,ev.lat],zoom:Math.max(map.getZoom(),6.5),duration:600});
+    };
+    c.appendChild(d);
+  });
+}
+
+// ═══════ SHIP LIST ═══════
+function renderShipList(){
+  const c=document.getElementById('shiplist');
+  const q=shipQuery.toLowerCase();
+  c.innerHTML='';
+  shipData.filter(s=>{
+    if(!s.lat||!s.lng)return false;
+    if(q&&!(s.name||'').toLowerCase().includes(q)
+      &&!(s.destination||'').toLowerCase().includes(q)
+      &&!(s.flag_country||'').toLowerCase().includes(q)
+      &&!String(s.mmsi).includes(q))return false;
+    return true;
+  }).forEach(s=>{
+    const st=SHIP_TYPES[s.vessel_type]||SHIP_TYPES.Unknown;
+    const d=document.createElement('div');
+    d.className='si';
+    d.innerHTML=`<span class="si-flag">${s.flag_emoji||'🚢'}</span>
+      <div class="si-body">
+        <div class="si-name">${esc(s.name||'MMSI '+s.mmsi)}</div>
+        <div class="si-meta">
+          <span class="si-type" style="background:${st.color}18;color:${st.color}">${st.label}</span>
+          ${s.destination?`<span class="si-dest">→ ${esc(s.destination)}</span>`:''}
+        </div>
+      </div>`;
+    d.onclick=()=>{
+      const props={
+        id:'ship-'+s.mmsi,name:s.name||'',mmsi:s.mmsi,imo:s.imo||'',
+        flag_country:s.flag_country||'',flag_iso:s.flag_iso||'',
+        flag_emoji:s.flag_emoji||'',
+        vessel_type:s.vessel_type||'Unknown',destination:s.destination||'',
+        sog:s.sog,cog:s.cog,heading:s.heading,
+        draught:s.draught,callsign:s.callsign||'',
+        color:st.color,type:'ship'
+      };
+      showShipDP(props);
+      map.flyTo({center:[s.lng,s.lat],zoom:Math.max(map.getZoom(),8),duration:600});
     };
     c.appendChild(d);
   });
@@ -877,6 +1227,9 @@ function updateCounts(){
   document.getElementById('cnt-se').textContent=se;
   document.getElementById('total-n').textContent=allEvents.length;
   document.getElementById('st-ev').textContent=allEvents.length;
+  // Update stat cards
+  const threats=allEvents.filter(e=>e.category==='conflict'||e.category==='military'||e.category==='thermal_anomaly').length;
+  animateCounter(document.getElementById('stat-threats'),threats);
 }
 function renderStats(){
   const cnts={};
@@ -920,6 +1273,10 @@ function applyVis(){
   map.setLayoutProperty('fl-dot','visibility',v(layers.flights));
   map.setLayoutProperty('fl-l','visibility',v(layers.flights));
   map.setLayoutProperty('fl-lbl','visibility',v(layers.flights));
+  map.setLayoutProperty('ship-glow','visibility',v(layers.ships));
+  map.setLayoutProperty('ship-dot','visibility',v(layers.ships));
+  map.setLayoutProperty('ship-icon','visibility',v(layers.ships));
+  map.setLayoutProperty('ship-lbl','visibility',v(layers.ships));
   map.setLayoutProperty('heat-l','visibility',v(layers.heatmap));
 }
 
@@ -940,6 +1297,7 @@ function initModes(){
 // ═══════ SEARCH ═══════
 function initSearch(){
   document.getElementById('evsearch').oninput=e=>{query=e.target.value.trim();renderList();};
+  document.getElementById('shipsearch').oninput=e=>{shipQuery=e.target.value.trim();renderShipList();};
 }
 
 // ═══════ HELPERS ═══════
@@ -960,6 +1318,31 @@ function fmtDate(ts){
 }
 function fmtFull(ts){
   if(!ts)return'—';try{const d=new Date(ts);return isNaN(d)?ts:d.toISOString().replace('T',' ').slice(0,16)+' UTC';}catch{return ts;}
+}
+function timeAgo(ts){
+  if(!ts)return'';
+  try{
+    const d=new Date(ts);
+    if(isNaN(d))return ts;
+    const sec=Math.floor((Date.now()-d)/1000);
+    if(sec<0)return'now';
+    if(sec<60)return sec+'s';
+    if(sec<3600)return Math.floor(sec/60)+'m';
+    if(sec<86400)return Math.floor(sec/3600)+'h';
+    return Math.floor(sec/86400)+'d';
+  }catch{return ts;}
+}
+function animateCounter(el,target){
+  if(!el)return;
+  const start=parseInt(el.textContent)||0;
+  const diff=target-start;
+  if(diff===0)return;
+  const steps=25;let step=0;
+  const timer=setInterval(()=>{
+    step++;
+    el.textContent=Math.round(start+diff*(step/steps));
+    if(step>=steps){clearInterval(timer);el.textContent=target;}
+  },25);
 }
 </script>
 </body>
