@@ -18,7 +18,7 @@
     "Palestine": 1,
     "Qatar": 1
   },
-  "last_updated": "2026-03-18T05:54:39.694769Z",
+  "last_updated": "2026-03-18T06:21:28.182856Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -38,7 +38,7 @@
     },
     "reliefweb": {
       "count": 0,
-      "fetched_at": "2026-03-18T05:28:57.912038Z"
+      "fetched_at": "2026-03-18T06:19:02.330902Z"
     }
   }
 }
