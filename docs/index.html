@@ -738,7 +738,7 @@ function startPulse(){
 // ═══════ DATA ═══════
 async function loadData(){
   await Promise.all([loadEvents(),loadSats(),loadShips()]);
-  loadFlights();setInterval(loadFlights,15000);
+  loadFlights();setInterval(loadFlights,120000);
   setInterval(()=>{if(flightData.length)pushFlightSrc();},2000);
   setInterval(loadShips,60000);
 }
@@ -775,10 +775,15 @@ async function loadSats(){
 
 async function loadFlights(){
   try{
-    const r=await fetch('https://opensky-network.org/api/states/all?lamin=12&lomin=32&lamax=42&lomax=63');
+    const r=await fetch('data/aircraft.json?t='+Date.now());
     if(!r.ok)throw 0;
     const d=await r.json();
-    flightData=(d.states||[]).filter(s=>s[5]!=null&&s[6]!=null);
+    // Map object format to OpenSky array-index format expected by pushFlightSrc
+    flightData=(d.aircraft||[]).filter(a=>a.lng!=null&&a.lat!=null).map(a=>[
+      a.icao24,a.callsign,a.origin_country,a.time_position,a.last_contact,
+      a.lng,a.lat,a.baro_altitude,a.on_ground,a.velocity,a.heading,a.vertical_rate,
+      null,a.geo_altitude,a.squawk
+    ]);
     flightFetchT=Date.now();
     setLed('fl','live');
     document.getElementById('cnt-fl').textContent=flightData.length;
