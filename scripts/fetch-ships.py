@@ -195,12 +195,12 @@ async def collect_ships(api_key, duration=45):
     vessels = {}
     url = "wss://stream.aisstream.io/v0/stream"
 
-    # West Asia bounding box (expanded for maritime traffic)
+    # West Asia bounding box (expanded for maximum maritime traffic coverage)
     subscribe_msg = {
         "APIKey": api_key,
         "BoundingBoxes": [
-            [[10, 30], [44, 65]],   # Persian Gulf, Arabian Sea, Red Sea
-            [[10, 30], [30, 45]],   # Red Sea extension
+            [[8, 28], [32, 62]],    # Red Sea, Persian Gulf, Gulf of Oman, Arabian Sea
+            [[32, 28], [42, 50]],   # Eastern Mediterranean, Levant coast
         ],
         "FiltersShipMMSI": [],
         "FilterMessageTypes": ["PositionReport", "ShipStaticData"]
@@ -312,7 +312,7 @@ def main():
         print("Register free at https://aisstream.io and set AISSTREAM_KEY")
         sys.exit(1)
 
-    vessels = asyncio.run(collect_ships(api_key, duration=45))
+    vessels = asyncio.run(collect_ships(api_key, duration=180))
     print(f"Collected {len(vessels)} unique vessels")
 
     # Enrich with flag state and filter valid positions
