@@ -31,4 +31,4 @@ jobs:
           git config user.email "bot@sitpulse.dev"
           git add data/
           git diff --cached --quiet || git commit -m "✈️ Aircraft ADS-B update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push
+          git pull --rebase && git push
