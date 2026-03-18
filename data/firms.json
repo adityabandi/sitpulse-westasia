@@ -1,7 +1,68 @@
 {
   "source": "firms",
-  "fetched_at": "2026-03-18T01:57:40.868957Z",
+  "fetched_at": "2026-03-18T03:19:59.873274Z",
   "region": "west_asia",
-  "count": 0,
-  "events": []
+  "count": 4,
+  "events": [
+    {
+      "id": "firms-VIIRS_SNPP_NRT-37.3499-37.16158-2026-03-18-24",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 37.3499,
+      "lng": 37.16158,
+      "brightness": 295.84,
+      "frp": 1.11,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_SNPP_NRT",
+      "timestamp": "2026-03-18T00:24:00Z",
+      "daynight": "N"
+    },
+    {
+      "id": "firms-VIIRS_SNPP_NRT-31.18616-36.07281-2026-03-18-26",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 31.18616,
+      "lng": 36.07281,
+      "brightness": 297.71,
+      "frp": 1.08,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_SNPP_NRT",
+      "timestamp": "2026-03-18T00:26:00Z",
+      "daynight": "N"
+    },
+    {
+      "id": "firms-VIIRS_SNPP_NRT-31.91916-34.89608-2026-03-18-26",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 31.91916,
+      "lng": 34.89608,
+      "brightness": 300.08,
+      "frp": 0.69,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_SNPP_NRT",
+      "timestamp": "2026-03-18T00:26:00Z",
+      "daynight": "N"
+    },
+    {
+      "id": "firms-VIIRS_SNPP_NRT-34.91661-37.94488-2026-03-18-26",
+      "source": "firms",
+      "category": "thermal_anomaly",
+      "title": "Thermal hotspot (low intensity)",
+      "lat": 34.91661,
+      "lng": 37.94488,
+      "brightness": 299.17,
+      "frp": 0.97,
+      "confidence": "n",
+      "intensity": "low",
+      "satellite": "VIIRS_SNPP_NRT",
+      "timestamp": "2026-03-18T00:26:00Z",
+      "daynight": "N"
+    }
+  ]
 }
