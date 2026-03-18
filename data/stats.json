@@ -18,7 +18,7 @@
     "Israel": 9,
     "Beirut": 1
   },
-  "last_updated": "2026-03-18T07:30:13.375225Z",
+  "last_updated": "2026-03-18T07:52:25.078727Z",
   "feed_freshness": {
     "acled": {
       "count": 0,
@@ -30,7 +30,7 @@
     },
     "firms": {
       "count": 4,
-      "fetched_at": "2026-03-18T06:40:55.702322Z"
+      "fetched_at": "2026-03-18T07:37:58.081548Z"
     },
     "usgs": {
       "count": 5,
